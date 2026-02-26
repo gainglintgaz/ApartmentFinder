@@ -178,25 +178,26 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
             continue
 
         # Table header
-        lines.append("| Price | Beds | City | Phone | Title | Link | Directions |")
-        lines.append("|-------|------|------|-------|-------|------|------------|")
+        lines.append("| Price | Beds | Address | Phone | Listed | Title | Link | Directions |")
+        lines.append("|-------|------|---------|-------|--------|-------|------|------------|")
 
         for apt in group_listings:
             price = apt.price_display
             beds = apt.bedrooms or "?"
-            city = apt.city or "?"
+            address = apt.full_address or apt.address or apt.city or "?"
             phone = apt.phone or "-"
-            title = apt.title[:50] + "..." if len(apt.title) > 50 else apt.title
+            listed = apt.date_posted or "-"
+            title = apt.title[:40] + "..." if len(apt.title) > 40 else apt.title
             # Escape pipe characters in fields
             title = title.replace("|", "/")
             phone = phone.replace("|", "/")
-            city = city.replace("|", "/")
+            address = address.replace("|", "/")
 
             link = f"[View]({apt.url})" if apt.url else "-"
             directions = f"[Map]({apt.directions_url})" if apt.directions_url else "-"
             new_flag = " **NEW**" if apt.is_recent else ""
 
-            lines.append(f"| {price}{new_flag} | {beds} | {city} | {phone} | {title} | {link} | {directions} |")
+            lines.append(f"| {price}{new_flag} | {beds} | {address} | {phone} | {listed} | {title} | {link} | {directions} |")
 
         lines.append("")
 
