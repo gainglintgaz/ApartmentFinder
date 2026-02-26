@@ -16,9 +16,10 @@ class ApartmentsComScraper(BaseScraper):
     SOURCE_NAME = "apartments.com"
     BASE_URL = "https://www.apartments.com"
 
-    def _build_url(self, page: int = 1) -> str:
+    def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build the search URL for Apartments.com."""
-        city_slug = self.city.lower().replace(" ", "-")
+        search_city = city or self.city
+        city_slug = search_city.lower().replace(" ", "-")
         state_slug = self.state.lower()
         path = f"/{city_slug}-{state_slug}"
 
@@ -119,13 +120,13 @@ class ApartmentsComScraper(BaseScraper):
 
         return apt
 
-    def scrape(self) -> List[Apartment]:
-        """Scrape listing pages from Apartments.com."""
-        all_listings = []
+    def _scrape_city(self, city: str) -> List[Apartment]:
+        """Scrape listing pages for a single city."""
+        listings = []
 
         for page in range(1, self.max_pages + 1):
-            url = self._build_url(page)
-            print(f"  [{self.SOURCE_NAME}] Page {page}: {url}")
+            url = self._build_url(page, city=city)
+            print(f"  [{self.SOURCE_NAME}] {city} page {page}: {url}")
 
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
@@ -143,17 +144,27 @@ class ApartmentsComScraper(BaseScraper):
                 cards = soup.select("[data-listingid], [data-url]")
 
             if not cards:
-                print(f"  [{self.SOURCE_NAME}] No more listings found on page {page}")
+                print(f"  [{self.SOURCE_NAME}] No more listings in {city} on page {page}")
                 break
 
             for card in cards:
                 apt = self._parse_listing(card)
                 if apt.url or apt.title:
-                    all_listings.append(apt)
+                    listings.append(apt)
 
             # Check for next page
             next_link = soup.select_one("a.next, [data-testid='next-page'], a[title='Next']")
             if not next_link:
                 break
+
+        return listings
+
+    def scrape(self) -> List[Apartment]:
+        """Scrape listings from Apartments.com across multiple cities."""
+        all_listings = self._scrape_city(self.city)
+
+        # Also search preferred area cities (Midland, Concord, etc.)
+        for city in self.extra_cities:
+            all_listings.extend(self._scrape_city(city))
 
         return all_listings

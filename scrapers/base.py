@@ -28,6 +28,20 @@ class BaseScraper(ABC):
         return self.search.get("city", "")
 
     @property
+    def extra_cities(self) -> list:
+        """Additional cities to search beyond the primary city.
+
+        Pulled from the preferred locations in config. This lets scrapers
+        that don't support radius search still find listings in smaller
+        towns like Midland, Concord, Monroe, etc.
+        """
+        locations = self.config.get("locations", {})
+        preferred = locations.get("preferred", {}).get("areas", [])
+        # Don't duplicate the primary city
+        primary = self.city.lower().strip()
+        return [c for c in preferred if c.lower().strip() != primary]
+
+    @property
     def state(self) -> str:
         return self.search.get("state", "")
 

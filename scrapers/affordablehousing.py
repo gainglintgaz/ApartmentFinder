@@ -19,9 +19,10 @@ class AffordableHousingScraper(BaseScraper):
     SOURCE_NAME = "affordablehousing.com"
     BASE_URL = "https://affordablehousingonline.com"
 
-    def _build_url(self, page: int = 1) -> str:
+    def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build search URL for AffordableHousing."""
-        city_slug = self.city.lower().replace(" ", "-")
+        search_city = city or self.city
+        city_slug = search_city.lower().replace(" ", "-")
         state_slug = self.state.lower()
         path = f"/housing-search/{state_slug}/{city_slug}"
         params = []
@@ -30,9 +31,10 @@ class AffordableHousingScraper(BaseScraper):
         query = "?" + "&".join(params) if params else ""
         return self.BASE_URL + path + query
 
-    def _build_senior_url(self) -> str:
+    def _build_senior_url(self, city: str = None) -> str:
         """Build URL specifically for senior housing."""
-        city_slug = self.city.lower().replace(" ", "-")
+        search_city = city or self.city
+        city_slug = search_city.lower().replace(" ", "-")
         state_slug = self.state.lower()
         return f"{self.BASE_URL}/housing-search/{state_slug}/{city_slug}/senior-housing"
 
@@ -103,14 +105,14 @@ class AffordableHousingScraper(BaseScraper):
 
         return apt
 
-    def scrape(self) -> List[Apartment]:
-        """Scrape affordable housing listings."""
-        all_listings = []
+    def _scrape_city(self, city: str) -> List[Apartment]:
+        """Scrape affordable housing listings for a single city."""
+        listings = []
 
         # General affordable housing search
         for page in range(1, self.max_pages + 1):
-            url = self._build_url(page)
-            print(f"  [{self.SOURCE_NAME}] Page {page}: {url}")
+            url = self._build_url(page, city=city)
+            print(f"  [{self.SOURCE_NAME}] {city} page {page}: {url}")
 
             try:
                 resp = self._get(url)
@@ -135,14 +137,14 @@ class AffordableHousingScraper(BaseScraper):
                 for card in cards:
                     apt = self._parse_listing(card)
                     if apt.title or apt.url:
-                        all_listings.append(apt)
+                        listings.append(apt)
             except Exception as e:
-                print(f"  [{self.SOURCE_NAME}] Error on page {page}: {e}")
+                print(f"  [{self.SOURCE_NAME}] Error on {city} page {page}: {e}")
                 break
 
         # Senior-specific search
-        url = self._build_senior_url()
-        print(f"  [{self.SOURCE_NAME}] Senior housing: {url}")
+        url = self._build_senior_url(city=city)
+        print(f"  [{self.SOURCE_NAME}] {city} senior housing: {url}")
         try:
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
@@ -155,8 +157,18 @@ class AffordableHousingScraper(BaseScraper):
             for card in cards:
                 apt = self._parse_listing(card, is_senior=True)
                 if apt.title or apt.url:
-                    all_listings.append(apt)
+                    listings.append(apt)
         except Exception as e:
-            print(f"  [{self.SOURCE_NAME}] Senior search error: {e}")
+            print(f"  [{self.SOURCE_NAME}] {city} senior search error: {e}")
+
+        return listings
+
+    def scrape(self) -> List[Apartment]:
+        """Scrape affordable housing listings across multiple cities."""
+        all_listings = self._scrape_city(self.city)
+
+        # Also search preferred area cities
+        for city in self.extra_cities:
+            all_listings.extend(self._scrape_city(city))
 
         return all_listings

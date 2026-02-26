@@ -16,9 +16,10 @@ class RentComScraper(BaseScraper):
     SOURCE_NAME = "rent.com"
     BASE_URL = "https://www.rent.com"
 
-    def _build_url(self, page: int = 1) -> str:
+    def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build Rent.com search URL."""
-        city_slug = self.city.lower().replace(" ", "-")
+        search_city = city or self.city
+        city_slug = search_city.lower().replace(" ", "-")
         state_slug = self.state.lower()
         path = f"/north-carolina/{city_slug}/apartments_condos_townhouses"
 
@@ -224,13 +225,13 @@ class RentComScraper(BaseScraper):
 
         return apt
 
-    def scrape(self) -> List[Apartment]:
-        """Scrape Rent.com listings."""
-        all_listings = []
+    def _scrape_city(self, city: str) -> List[Apartment]:
+        """Scrape Rent.com listings for a single city."""
+        listings = []
 
         for page in range(1, self.max_pages + 1):
-            url = self._build_url(page)
-            print(f"  [{self.SOURCE_NAME}] Page {page}: {url}")
+            url = self._build_url(page, city=city)
+            print(f"  [{self.SOURCE_NAME}] {city} page {page}: {url}")
 
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
@@ -238,7 +239,7 @@ class RentComScraper(BaseScraper):
             # Try JSON extraction first
             json_listings = self._extract_from_json(soup)
             if json_listings:
-                all_listings.extend(json_listings)
+                listings.extend(json_listings)
             else:
                 # HTML fallback
                 cards = soup.select(
@@ -250,9 +251,19 @@ class RentComScraper(BaseScraper):
                 for card in cards:
                     apt = self._parse_html_listing(card)
                     if apt.url or apt.title:
-                        all_listings.append(apt)
+                        listings.append(apt)
 
             if not json_listings and not soup.select("[data-tid='property-card'], div.listing-card"):
                 break
+
+        return listings
+
+    def scrape(self) -> List[Apartment]:
+        """Scrape Rent.com listings across multiple cities."""
+        all_listings = self._scrape_city(self.city)
+
+        # Also search preferred area cities
+        for city in self.extra_cities:
+            all_listings.extend(self._scrape_city(city))
 
         return all_listings

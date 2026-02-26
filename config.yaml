@@ -23,6 +23,10 @@ search:
     - 1
     - 2
 
+  # Primary search city — scrapers search this city + 30 mile radius
+  # (covers Midland, Mint Hill, Indian Trail, Matthews, Monroe, etc.)
+  city: "Charlotte"
+
   # State restriction
   state: "NC"
   restrict_to_state: true

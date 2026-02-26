@@ -16,9 +16,10 @@ class ZillowScraper(BaseScraper):
     SOURCE_NAME = "zillow"
     BASE_URL = "https://www.zillow.com"
 
-    def _build_url(self, page: int = 1) -> str:
+    def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build the Zillow rental search URL."""
-        city_slug = self.city.lower().replace(" ", "-")
+        search_city = city or self.city
+        city_slug = search_city.lower().replace(" ", "-")
         state_slug = self.state.lower()
         path = f"/{city_slug}-{state_slug}/rentals"
 
@@ -216,13 +217,13 @@ class ZillowScraper(BaseScraper):
 
         return apt
 
-    def scrape(self) -> List[Apartment]:
-        """Scrape rental listings from Zillow."""
-        all_listings = []
+    def _scrape_city(self, city: str) -> List[Apartment]:
+        """Scrape rental listings for a single city."""
+        listings = []
 
         for page in range(1, self.max_pages + 1):
-            url = self._build_url(page)
-            print(f"  [{self.SOURCE_NAME}] Page {page}: {url}")
+            url = self._build_url(page, city=city)
+            print(f"  [{self.SOURCE_NAME}] {city} page {page}: {url}")
 
             headers = self._get_headers()
             headers["Referer"] = "https://www.zillow.com/"
@@ -232,7 +233,7 @@ class ZillowScraper(BaseScraper):
             # Try JSON extraction first (most reliable)
             json_listings = self._extract_from_script_data(soup)
             if json_listings:
-                all_listings.extend(json_listings)
+                listings.extend(json_listings)
             else:
                 # Fallback to HTML parsing
                 cards = soup.select(
@@ -244,9 +245,19 @@ class ZillowScraper(BaseScraper):
                 for card in cards:
                     apt = self._parse_html_listing(card)
                     if apt.url or apt.title:
-                        all_listings.append(apt)
+                        listings.append(apt)
 
             if not json_listings and not soup.select("article, div.list-card, li.ListItem"):
                 break
+
+        return listings
+
+    def scrape(self) -> List[Apartment]:
+        """Scrape rental listings from Zillow across multiple cities."""
+        all_listings = self._scrape_city(self.city)
+
+        # Also search preferred area cities
+        for city in self.extra_cities:
+            all_listings.extend(self._scrape_city(city))
 
         return all_listings
