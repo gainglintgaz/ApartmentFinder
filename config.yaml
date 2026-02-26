@@ -1,0 +1,66 @@
+# ============================================================
+# ApartmentFinder Configuration
+# ============================================================
+# Edit these parameters to customize your apartment search.
+# ============================================================
+
+search:
+  # City and state for the search
+  city: "Charlotte"
+  state: "NC"
+
+  # Search radius in miles from the city center
+  radius_miles: 30
+
+  # Restrict results to this state only
+  restrict_to_state: true
+
+  # Bedroom types to include: studio, 1, 2, 3, 4+
+  bedrooms:
+    - studio
+    - 1
+    - 2
+
+  # Monthly rent range (USD)
+  min_rent: 400
+  max_rent: 900
+
+  # Only include listings posted within this many days
+  max_listing_age_days: 7
+
+# Which scrapers to enable
+sources:
+  apartments_com: true
+  craigslist: true
+  zillow: true
+  rent_com: true
+
+# Output settings
+output:
+  # Directory for output files (created automatically)
+  directory: "output"
+
+  # Formats to generate
+  csv: true
+  json: true
+
+  # Include a timestamp in output filenames
+  timestamp_filenames: true
+
+# Scraping behavior
+scraping:
+  # Seconds to wait between requests to the same site
+  rate_limit_seconds: 2
+
+  # Request timeout in seconds
+  request_timeout: 30
+
+  # Maximum number of result pages to scrape per source
+  max_pages_per_source: 5
+
+  # User-Agent rotation (requests cycle through these)
+  user_agents:
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
