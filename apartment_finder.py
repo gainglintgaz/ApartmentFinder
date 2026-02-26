@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """
-ApartmentFinder — Scrape structured rental data from reputable sources.
+ApartmentFinder — Senior & Affordable Housing Search
+
+Searches government/subsidized sources first, then market rentals.
+Prioritizes Midland & East Charlotte, then Greater Charlotte area.
+Outputs to both CSV and JSON with Google Maps directions links.
 
 Usage:
-    python apartment_finder.py                   # Use config.yaml defaults
-    python apartment_finder.py --config my.yaml  # Use a custom config file
-    python apartment_finder.py --city "Raleigh" --state NC --max-rent 1200
+    python apartment_finder.py                   # Full search
+    python apartment_finder.py --subsidized-only  # Only government/senior housing
+    python apartment_finder.py --market-only      # Only market rentals
+    python apartment_finder.py --max-rent 700     # Override max rent
 """
 
 import argparse
@@ -16,8 +21,15 @@ from datetime import datetime
 import yaml
 
 from exporter import export_all, print_summary_table
-from models import Apartment
+from models import (
+    Apartment, classify_location, classify_recency, sort_key,
+    TYPE_SUBSIDIZED, TYPE_SENIOR, TYPE_SECTION8, TYPE_MARKET,
+)
 from scrapers import (
+    SocialServeScraper,
+    HUDScraper,
+    AffordableHousingScraper,
+    GoSection8Scraper,
     ApartmentsComScraper,
     CraigslistScraper,
     RentComScraper,
@@ -25,48 +37,44 @@ from scrapers import (
 )
 
 BANNER = """
-╔══════════════════════════════════════════════╗
-║           ApartmentFinder v1.0               ║
-║   Structured rental data from the web        ║
-╚══════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════╗
+║            ApartmentFinder v2.0                           ║
+║   Senior & Affordable Housing Search                      ║
+║   Charlotte NC / Midland / East Charlotte                 ║
+╚═══════════════════════════════════════════════════════════╝
 """
 
-# Map config keys to scraper classes
+# Map source config keys to scraper classes and their priority
 SCRAPER_MAP = {
-    "apartments_com": ApartmentsComScraper,
-    "craigslist": CraigslistScraper,
-    "zillow": ZillowScraper,
-    "rent_com": RentComScraper,
+    # Priority 1: Government / Subsidized / Senior
+    "socialserve":       (SocialServeScraper, 1),
+    "hud":               (HUDScraper, 1),
+    "affordablehousing": (AffordableHousingScraper, 1),
+    "gosection8":        (GoSection8Scraper, 1),
+    # Priority 2: Market Rentals
+    "apartments_com":    (ApartmentsComScraper, 2),
+    "craigslist":        (CraigslistScraper, 2),
+    "zillow":            (ZillowScraper, 2),
+    "rent_com":          (RentComScraper, 2),
 }
 
 
 def load_config(path: str) -> dict:
-    """Load and return the YAML config file."""
     if not os.path.isfile(path):
         print(f"Error: Config file not found: {path}")
         sys.exit(1)
-
     with open(path, "r") as f:
         return yaml.safe_load(f)
 
 
 def apply_cli_overrides(config: dict, args: argparse.Namespace) -> dict:
-    """Override config values with any CLI arguments provided."""
     search = config.setdefault("search", {})
-
-    if args.city:
-        search["city"] = args.city
-    if args.state:
-        search["state"] = args.state
-    if args.min_rent is not None:
-        search["min_rent"] = args.min_rent
     if args.max_rent is not None:
         search["max_rent"] = args.max_rent
+    if args.min_rent is not None:
+        search["min_rent"] = args.min_rent
     if args.bedrooms:
         search["bedrooms"] = args.bedrooms
-    if args.radius is not None:
-        search["radius_miles"] = args.radius
-
     return config
 
 
@@ -77,14 +85,12 @@ def deduplicate(listings: list) -> list:
     unique = []
 
     for apt in listings:
-        # Deduplicate by URL first
         if apt.url:
             url_clean = apt.url.rstrip("/").lower()
             if url_clean in seen_urls:
                 continue
             seen_urls.add(url_clean)
 
-        # Then by title + price combo
         key = (apt.title.lower().strip(), apt.price)
         if key in seen_keys and apt.title:
             continue
@@ -95,24 +101,41 @@ def deduplicate(listings: list) -> list:
     return unique
 
 
-def run_scrapers(config: dict) -> list:
-    """Run all enabled scrapers and return combined results."""
+def run_scrapers(config: dict, priority_filter: int = None) -> list:
+    """Run enabled scrapers, optionally filtering by priority."""
     sources = config.get("sources", {})
     all_listings = []
 
-    for name, scraper_cls in SCRAPER_MAP.items():
-        if sources.get(name, False):
-            scraper = scraper_cls(config)
-            listings = scraper.run()
-            all_listings.extend(listings)
+    # Sort by priority so Priority 1 runs first
+    ordered = sorted(SCRAPER_MAP.items(), key=lambda x: x[1][1])
+
+    for name, (scraper_cls, priority) in ordered:
+        source_cfg = sources.get(name, {})
+
+        # Handle both old-style (bool) and new-style (dict) config
+        if isinstance(source_cfg, bool):
+            enabled = source_cfg
+        elif isinstance(source_cfg, dict):
+            enabled = source_cfg.get("enabled", False)
         else:
-            print(f"  [{name}] Skipped (disabled in config)")
+            enabled = False
+
+        if not enabled:
+            print(f"  [{name}] Skipped (disabled)")
+            continue
+
+        if priority_filter is not None and priority != priority_filter:
+            continue
+
+        scraper = scraper_cls(config)
+        listings = scraper.run()
+        all_listings.extend(listings)
 
     return all_listings
 
 
 def filter_results(listings: list, config: dict) -> list:
-    """Apply search filters to the combined results."""
+    """Apply search filters to combined results."""
     search = config.get("search", {})
     min_rent = search.get("min_rent", 0)
     max_rent = search.get("max_rent", 99999)
@@ -121,21 +144,26 @@ def filter_results(listings: list, config: dict) -> list:
     restrict = search.get("restrict_to_state", False)
 
     # Normalize bedroom labels
-    br_labels = []
+    br_labels = set()
     for b in bedrooms:
         b_str = str(b).lower().strip()
         if b_str in ("0", "studio"):
-            br_labels.append("studio")
-            br_labels.append("0")
+            br_labels.add("studio")
+            br_labels.add("0")
         else:
-            br_labels.append(b_str)
+            br_labels.add(b_str)
 
     filtered = []
     for apt in listings:
-        # Price filter
-        if apt.price is not None:
-            if apt.price < min_rent or apt.price > max_rent:
+        # Subsidized/senior listings: relax price filter (some are income-based)
+        if apt.is_subsidized_or_senior:
+            if apt.price is not None and apt.price > max_rent * 1.5:
                 continue
+        else:
+            # Market listings: strict price filter
+            if apt.price is not None:
+                if apt.price < min_rent or apt.price > max_rent:
+                    continue
 
         # Bedroom filter
         if br_labels:
@@ -153,63 +181,105 @@ def filter_results(listings: list, config: dict) -> list:
     return filtered
 
 
+def classify_all(listings: list, config: dict):
+    """Classify location tier and recency for all listings."""
+    search = config.get("search", {})
+    recent_hours = search.get("highlight_recent_hours", 48)
+
+    for apt in listings:
+        apt.build_full_address()
+        classify_location(apt, config)
+        classify_recency(apt, recent_hours)
+
+
 def main():
     parser = argparse.ArgumentParser(
-        description="Scrape structured apartment rental data from reputable sources."
+        description="Senior & Affordable Housing Search — Charlotte NC area"
     )
-    parser.add_argument(
-        "--config", "-c",
-        default="config.yaml",
-        help="Path to the YAML config file (default: config.yaml)"
-    )
-    parser.add_argument("--city", help="Override search city")
-    parser.add_argument("--state", help="Override search state (2-letter code)")
+    parser.add_argument("--config", "-c", default="config.yaml",
+                        help="Path to YAML config file")
     parser.add_argument("--min-rent", type=int, help="Override minimum rent")
     parser.add_argument("--max-rent", type=int, help="Override maximum rent")
-    parser.add_argument(
-        "--bedrooms", nargs="+",
-        help="Override bedrooms (e.g., studio 1 2)"
-    )
-    parser.add_argument("--radius", type=int, help="Override search radius in miles")
+    parser.add_argument("--bedrooms", nargs="+",
+                        help="Override bedrooms (e.g., studio 1 2)")
+    parser.add_argument("--subsidized-only", action="store_true",
+                        help="Only search government/subsidized/senior sources")
+    parser.add_argument("--market-only", action="store_true",
+                        help="Only search market rental sources")
     args = parser.parse_args()
 
     print(BANNER)
 
-    # Load config
     config = load_config(args.config)
     config = apply_cli_overrides(config, args)
 
     search = config.get("search", {})
-    print(f"  Search: {search.get('city', '?')}, {search.get('state', '?')}")
-    print(f"  Rent:   ${search.get('min_rent', 0):,} – ${search.get('max_rent', 0):,}")
-    print(f"  Beds:   {', '.join(str(b) for b in search.get('bedrooms', []))}")
-    print(f"  Radius: {search.get('radius_miles', 'N/A')} miles")
+    resident = config.get("resident", {})
+
+    print(f"  Resident: {resident.get('name', 'N/A')}, age {resident.get('age', '?')}")
+    print(f"  Income:   ${resident.get('monthly_income', 0):,}/mo")
+    print(f"  Rent:     ${search.get('min_rent', 0):,} – ${search.get('max_rent', 0):,}")
+    print(f"  Beds:     {', '.join(str(b) for b in search.get('bedrooms', []))}")
+    print(f"  State:    {search.get('state', 'NC')} only")
     print()
 
-    # Scrape
-    print("Scraping sources...")
-    raw_listings = run_scrapers(config)
+    # Determine priority filter
+    priority_filter = None
+    if args.subsidized_only:
+        priority_filter = 1
+        print("  Mode: Subsidized/Senior sources only")
+    elif args.market_only:
+        priority_filter = 2
+        print("  Mode: Market rental sources only")
+    else:
+        print("  Mode: All sources (government first, then market)")
+    print()
 
-    # Filter
-    print("\nFiltering results...")
+    # ---- PHASE 1: Scrape ----
+    print("=" * 55)
+    print("  PHASE 1: Scraping sources...")
+    print("=" * 55)
+    raw_listings = run_scrapers(config, priority_filter)
+
+    # ---- PHASE 2: Filter ----
+    print("\n  Filtering results...")
     filtered = filter_results(raw_listings, config)
 
-    # Deduplicate
+    # ---- PHASE 3: Deduplicate ----
     results = deduplicate(filtered)
-    results.sort(key=lambda a: (a.price if a.price is not None else 99999))
 
-    # Display summary table
+    # ---- PHASE 4: Classify & Sort ----
+    classify_all(results, config)
+    results.sort(key=sort_key)
+
+    # ---- PHASE 5: Display ----
     print_summary_table(results)
 
-    # Export
+    # ---- PHASE 6: Export ----
     if results:
-        print("Exporting results...")
+        print("  Exporting results...")
         paths = export_all(results, config)
         for fmt, path in paths.items():
-            print(f"  {fmt.upper()}: {path}")
-        print("\nDone!")
+            print(f"    {fmt.upper()}: {path}")
+
+        print(f"\n  Total: {len(results)} listings")
+        subsidized_count = sum(1 for a in results if a.is_subsidized_or_senior)
+        if subsidized_count:
+            print(f"  Government/Subsidized/Senior: {subsidized_count}")
+        recent_count = sum(1 for a in results if a.is_recent)
+        if recent_count:
+            print(f"  Posted in last 48h: {recent_count}")
+
+        # Remind about monitor
+        monitor_cfg = config.get("monitor", {})
+        if monitor_cfg.get("enabled", False):
+            print("\n  To watch for NEW listings as they appear:")
+            print("    python monitor.py")
+            print("    python monitor.py --once   (check once and exit)")
+
+        print("\n  Done!")
     else:
-        print("No results to export.")
+        print("  No results to export.")
 
     return 0
 

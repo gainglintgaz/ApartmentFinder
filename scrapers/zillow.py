@@ -148,6 +148,12 @@ class ZillowScraper(BaseScraper):
             except (ValueError, TypeError):
                 pass
 
+        # Phone
+        phone = item.get("phone", "") or item.get("phoneNumber", "") or item.get("contactPhone", "")
+        if isinstance(phone, dict):
+            phone = phone.get("number", "")
+        apt.phone = str(phone) if phone else ""
+
         return apt
 
     def _parse_html_listing(self, card) -> Apartment:
@@ -197,6 +203,16 @@ class ZillowScraper(BaseScraper):
 
         apt.city = self.city
         apt.state = self.state
+
+        # Phone
+        phone_el = card.select_one("a[href^='tel:'], [data-test='property-card-phone']")
+        if phone_el:
+            if phone_el.get("href", "").startswith("tel:"):
+                apt.phone = phone_el["href"].replace("tel:", "").strip()
+            else:
+                apt.phone = self._extract_phone(phone_el.get_text())
+        if not apt.phone:
+            apt.phone = self._extract_phone(card.get_text())
 
         return apt
 

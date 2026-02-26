@@ -107,6 +107,16 @@ class ApartmentsComScraper(BaseScraper):
         if not apt.state:
             apt.state = self.state
 
+        # Phone number
+        phone_el = card.select_one(".property-phone, [data-testid='property-phone'], a[href^='tel:']")
+        if phone_el:
+            if phone_el.get("href", "").startswith("tel:"):
+                apt.phone = phone_el["href"].replace("tel:", "").strip()
+            else:
+                apt.phone = self._extract_phone(phone_el.get_text())
+        if not apt.phone:
+            apt.phone = self._extract_phone(card.get_text())
+
         return apt
 
     def scrape(self) -> List[Apartment]:

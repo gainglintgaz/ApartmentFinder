@@ -105,6 +105,9 @@ class CraigslistScraper(BaseScraper):
         apt.city = self.city
         apt.state = self.state
 
+        # Phone (Craigslist often hides phones, but sometimes visible in meta)
+        apt.phone = self._extract_phone(item.get_text())
+
         return apt
 
     def scrape(self) -> List[Apartment]:

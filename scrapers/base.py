@@ -1,5 +1,6 @@
 """Base scraper class with shared utilities."""
 
+import re
 import random
 import time
 from abc import ABC, abstractmethod
@@ -94,6 +95,12 @@ class BaseScraper(ABC):
             if val is not None:
                 result.append(val)
         return result
+
+    @staticmethod
+    def _extract_phone(text: str) -> str:
+        """Extract a US phone number from text."""
+        match = re.search(r'(\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4})', text)
+        return match.group(1).strip() if match else ""
 
     @abstractmethod
     def scrape(self) -> List[Apartment]:

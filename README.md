@@ -1,103 +1,122 @@
 # ApartmentFinder
 
-Scrape structured apartment rental data from reputable sources and export it to CSV and JSON. Configured for Charlotte, NC — easily customizable for any US city.
+Senior & affordable housing search tool for Charlotte, NC. Scrapes government/subsidized housing sources first, then market rentals. Prioritizes Midland & East Charlotte. Exports structured data to CSV and JSON with Google Maps directions, phone numbers, and original listing links.
 
-## Sources
+## Who this is for
 
-| Source | Type |
-|---|---|
-| Apartments.com | HTML scraping |
-| Craigslist | HTML scraping |
-| Zillow | Embedded JSON + HTML fallback |
-| Rent.com | Embedded JSON + HTML fallback |
+Configured for a 64-year-old woman on a $1,300/month pension looking for affordable housing ($0-$900/month) in the Charlotte, NC / Midland area. Studio through 2-bedroom units with room for a sleeper sofa.
+
+## Search Priority Order
+
+| Priority | What | Sources | Listing Age |
+|---|---|---|---|
+| 1st | Government / Subsidized / Senior housing | NC Housing Search, HUD, AffordableHousing, GoSection8 | Up to 90 days |
+| 2nd | Market rentals in Midland & East Charlotte | Apartments.com, Craigslist, Zillow, Rent.com | Last 48h first, up to 7 days |
+| 3rd | Market rentals in Greater Charlotte (30 min) | Same market sources | Last 48h first, up to 7 days |
 
 ## Quick Start
 
 ```bash
-# Install dependencies
 pip install -r requirements.txt
 
-# Run with default config (Charlotte, NC | Studios/1BR/2BR | $400-$900)
+# Full search (government + market, all areas)
 python apartment_finder.py
 
-# Run with a custom config file
-python apartment_finder.py --config my_config.yaml
+# Only government/subsidized/senior housing
+python apartment_finder.py --subsidized-only
 
-# Override specific parameters via CLI
-python apartment_finder.py --city "Raleigh" --state NC --max-rent 1200 --bedrooms studio 1 2
+# Only market rentals
+python apartment_finder.py --market-only
+
+# Override rent ceiling
+python apartment_finder.py --max-rent 700
 ```
 
-## Configuration
+## Monitor for New Listings
 
-All search parameters live in `config.yaml`:
+The monitor watches for new apartments and alerts you when they appear:
 
-```yaml
-search:
-  city: "Charlotte"
-  state: "NC"
-  radius_miles: 30
-  restrict_to_state: true
-  bedrooms: [studio, 1, 2]
-  min_rent: 400
-  max_rent: 900
-  max_listing_age_days: 7
+```bash
+# Run continuously (checks every 60 minutes by default)
+python monitor.py
+
+# Check once and exit
+python monitor.py --once
 ```
 
-### Key settings
+To get email alerts, fill in the `monitor.email` section in `config.yaml`.
 
-| Setting | Description |
-|---|---|
-| `search.city` | Target city name |
-| `search.state` | Two-letter state code |
-| `search.bedrooms` | List: `studio`, `1`, `2`, `3`, `4` |
-| `search.min_rent` / `max_rent` | Monthly rent range in USD |
-| `sources.*` | Enable/disable individual scrapers |
-| `scraping.rate_limit_seconds` | Delay between requests (be polite) |
-| `scraping.max_pages_per_source` | Cap pages scraped per source |
-| `output.csv` / `output.json` | Toggle output formats |
+## What Each Listing Includes
 
-## CLI Options
+Every listing in the output contains:
 
-```
---config, -c     Path to YAML config (default: config.yaml)
---city           Override search city
---state          Override search state
---min-rent       Override minimum rent
---max-rent       Override maximum rent
---bedrooms       Override bedrooms (e.g., studio 1 2)
---radius         Override search radius in miles
-```
+- **Title** — property name
+- **Type** — Subsidized / Senior / Section 8 / Market
+- **Price** — monthly rent (or "Call" / "Income-Based")
+- **Bedrooms / Bathrooms / Sq Ft**
+- **Full Address** — street, city, state, zip
+- **Google Maps Directions** — clickable link
+- **Phone Number** — when available
+- **Original Listing URL** — direct link to the source
+- **Source** — which website it came from
+- **Date Posted** — when available
+- **Location Tier** — Midland/East CLT, Greater Charlotte, or Other
+- **Recency Flag** — "NEW (48h)" for listings posted in the last 2 days
 
 ## Output
 
-Results are written to the `output/` directory:
+Results go to the `output/` directory:
 
-- **CSV** — Open directly in Excel or Google Sheets. Each row is one listing with columns for price, bedrooms, sqft, address, source, URL, etc.
-- **JSON** — Structured data with search metadata and a `listings` array. Ready for programmatic use.
+- **CSV** — Open in Excel or Google Sheets. Sorted by priority (subsidized first, then by location, then by date).
+- **JSON** — Grouped into `priority_1_subsidized_senior`, `priority_2_preferred_location`, `priority_3_greater_charlotte`, `priority_4_other`.
 
-A summary table is also printed to the terminal.
+## Sources
+
+### Priority 1: Government / Subsidized / Senior
+| Source | What it covers |
+|---|---|
+| nchousingsearch.org (SocialServe) | Official NC affordable housing locator |
+| hud.gov | Federal affordable housing directory |
+| affordablehousingonline.com | Subsidized & income-based listings |
+| gosection8.com | Section 8 / voucher-accepted rentals |
+
+### Priority 2: Market Rentals
+| Source | What it covers |
+|---|---|
+| Apartments.com | Major apartment listing site |
+| Craigslist | Charlotte-area classified rentals |
+| Zillow | Rental listings with embedded data |
+| Rent.com | Apartment & rental search |
+
+## Location Tiers
+
+**Preferred (Tier 1):** Midland, Mint Hill, Harrisburg, Concord, Albemarle, Locust, Stanfield, Oakboro, Indian Trail, Stallings, Matthews, Monroe
+
+**Expanded (Tier 2):** Charlotte, Huntersville, Cornelius, Davidson, Pineville, Gastonia, Kannapolis, Mooresville, Waxhaw, Belmont, Mount Holly
+
+## Configuration
+
+Edit `config.yaml` to change any search parameters: budget, bedrooms, locations, which sources to enable, monitor interval, email alerts, etc.
 
 ## Project Structure
 
 ```
 ApartmentFinder/
-├── apartment_finder.py      # Main CLI entry point
-├── config.yaml              # Search parameters
+├── apartment_finder.py      # Main CLI — run searches
+├── monitor.py               # Watch for new listings
+├── config.yaml              # All search parameters
 ├── models.py                # Apartment data model
-├── exporter.py              # CSV + JSON export
+├── exporter.py              # CSV + JSON export with grouping
 ├── scrapers/
-│   ├── base.py              # Base scraper with rate limiting
-│   ├── apartments_com.py    # Apartments.com scraper
-│   ├── craigslist.py        # Craigslist scraper
-│   ├── zillow.py            # Zillow scraper
-│   └── rent_com.py          # Rent.com scraper
+│   ├── base.py              # Base scraper (rate limiting, UA rotation)
+│   ├── socialserve.py       # NC Housing Search
+│   ├── hud.py               # HUD affordable housing
+│   ├── affordablehousing.py # AffordableHousing.com
+│   ├── gosection8.py        # GoSection8.com
+│   ├── apartments_com.py    # Apartments.com
+│   ├── craigslist.py        # Craigslist
+│   ├── zillow.py            # Zillow
+│   └── rent_com.py          # Rent.com
 ├── requirements.txt
 └── .gitignore
 ```
-
-## Notes
-
-- Scrapers use User-Agent rotation and rate limiting to be respectful.
-- Some sites may block or CAPTCHA automated requests — results will vary.
-- The tool filters, deduplicates, and sorts results by price before exporting.
-- All output files are gitignored. Only config and code are tracked.
