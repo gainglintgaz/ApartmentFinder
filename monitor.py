@@ -100,6 +100,9 @@ def format_alert_console(listings: List[Apartment]) -> str:
         lines.append(f"      Source:   {apt.source}")
 
     lines.append("")
+    lines.append("  Also check Facebook Marketplace (can't be auto-scraped):")
+    lines.append("  https://www.facebook.com/marketplace/Midland-NC/propertyrentals?minPrice=0&maxPrice=900&exact=false")
+    lines.append("")
     lines.append("=" * 70)
     return "\n".join(lines)
 
@@ -127,6 +130,10 @@ def format_alert_email(listings: List[Apartment]) -> str:
             lines.append(f"Directions: {apt.directions_url}")
         lines.append(f"Source:    {apt.source}")
         lines.append("")
+
+    lines.append("Also check Facebook Marketplace (can't be auto-scraped):")
+    lines.append("https://www.facebook.com/marketplace/Midland-NC/propertyrentals?minPrice=0&maxPrice=900&exact=false")
+    lines.append("")
 
     return "\n".join(lines)
 

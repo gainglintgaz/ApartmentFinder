@@ -25,6 +25,8 @@ from models import (
     Apartment, classify_location, classify_recency, sort_key,
     TYPE_SUBSIDIZED, TYPE_SENIOR, TYPE_SECTION8, TYPE_MARKET,
 )
+from urllib.parse import quote
+
 from scrapers import (
     SocialServeScraper,
     HUDScraper,
@@ -35,6 +37,33 @@ from scrapers import (
     RentComScraper,
     ZillowScraper,
 )
+
+def build_facebook_marketplace_url(config: dict) -> str:
+    """Build a pre-filtered Facebook Marketplace rentals URL."""
+    search = config.get("search", {})
+    locations = config.get("locations", {})
+
+    # Use the first preferred area or fall back to Charlotte
+    preferred_areas = locations.get("preferred", {}).get("areas", [])
+    expanded_areas = locations.get("expanded", {}).get("areas", [])
+    city = "Charlotte"
+    if preferred_areas:
+        city = preferred_areas[0]  # Midland
+    elif expanded_areas:
+        city = expanded_areas[0]
+
+    state = search.get("state", "NC")
+    min_rent = search.get("min_rent", 0)
+    max_rent = search.get("max_rent", 900)
+
+    # Facebook Marketplace URL format for property rentals
+    city_slug = quote(f"{city}, {state}")
+    return (
+        f"https://www.facebook.com/marketplace/{city}-{state}"
+        f"/propertyrentals"
+        f"?minPrice={min_rent}&maxPrice={max_rent}&exact=false"
+    )
+
 
 BANNER = """
 ╔═══════════════════════════════════════════════════════════╗
@@ -277,9 +306,19 @@ def main():
             print("    python monitor.py")
             print("    python monitor.py --once   (check once and exit)")
 
+        # Facebook Marketplace (can't be scraped, but link helps)
+        fb_url = build_facebook_marketplace_url(config)
+        print(f"\n  Also check Facebook Marketplace (not scrapable):")
+        print(f"    {fb_url}")
+
         print("\n  Done!")
     else:
         print("  No results to export.")
+
+        # Still show Facebook link even with no scraped results
+        fb_url = build_facebook_marketplace_url(config)
+        print(f"\n  Check Facebook Marketplace directly:")
+        print(f"    {fb_url}")
 
     return 0
 
