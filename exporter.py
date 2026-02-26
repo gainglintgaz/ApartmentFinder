@@ -122,6 +122,98 @@ def export_json(listings: List[Apartment], config: dict) -> str:
     return filepath
 
 
+def export_markdown(listings: List[Apartment], config: dict) -> str:
+    """Export listings to a RESULTS.md file readable on GitHub."""
+    search = config.get("search", {})
+    resident = config.get("resident", {})
+    now = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+
+    # Group listings
+    subsidized = [a for a in listings if a.is_subsidized_or_senior]
+    preferred_market = [a for a in listings
+                        if not a.is_subsidized_or_senior and a.location_tier == TIER_PREFERRED]
+    expanded_market = [a for a in listings
+                       if not a.is_subsidized_or_senior and a.location_tier == TIER_EXPANDED]
+    other_market = [a for a in listings
+                    if not a.is_subsidized_or_senior
+                    and a.location_tier not in (TIER_PREFERRED, TIER_EXPANDED)]
+
+    lines = []
+    lines.append("# Apartment Search Results")
+    lines.append("")
+    lines.append(f"**Last updated:** {now}")
+    lines.append("")
+    lines.append(f"**Search:** ${search.get('min_rent', 0)}-${search.get('max_rent', 900)}/mo "
+                 f"| {', '.join(str(b) for b in search.get('bedrooms', []))} bedroom(s) "
+                 f"| {search.get('state', 'NC')}")
+    lines.append("")
+    lines.append(f"**Total listings found:** {len(listings)}")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    # Facebook reminder at top
+    lines.append("> **Also check Facebook Marketplace** (can't be auto-searched):")
+    lines.append("> [Click here to search Facebook Marketplace]"
+                 "(https://www.facebook.com/marketplace/Midland-NC/propertyrentals"
+                 "?minPrice=0&maxPrice=900&exact=false)")
+    lines.append("")
+    lines.append("---")
+    lines.append("")
+
+    groups = [
+        ("Government / Subsidized / Senior Housing", subsidized),
+        ("Midland & East Charlotte (Market Rentals)", preferred_market),
+        ("Greater Charlotte (Market Rentals)", expanded_market),
+        ("Other Areas (Market Rentals)", other_market),
+    ]
+
+    for group_name, group_listings in groups:
+        lines.append(f"## {group_name} ({len(group_listings)})")
+        lines.append("")
+
+        if not group_listings:
+            lines.append("_No listings found in this category._")
+            lines.append("")
+            continue
+
+        # Table header
+        lines.append("| Price | Beds | City | Phone | Title | Link | Directions |")
+        lines.append("|-------|------|------|-------|-------|------|------------|")
+
+        for apt in group_listings:
+            price = apt.price_display
+            beds = apt.bedrooms or "?"
+            city = apt.city or "?"
+            phone = apt.phone or "-"
+            title = apt.title[:50] + "..." if len(apt.title) > 50 else apt.title
+            # Escape pipe characters in fields
+            title = title.replace("|", "/")
+            phone = phone.replace("|", "/")
+            city = city.replace("|", "/")
+
+            link = f"[View]({apt.url})" if apt.url else "-"
+            directions = f"[Map]({apt.directions_url})" if apt.directions_url else "-"
+            new_flag = " **NEW**" if apt.is_recent else ""
+
+            lines.append(f"| {price}{new_flag} | {beds} | {city} | {phone} | {title} | {link} | {directions} |")
+
+        lines.append("")
+
+    # Footer
+    lines.append("---")
+    lines.append("")
+    lines.append(f"_This page is automatically updated by GitHub Actions. "
+                 f"Results are refreshed every 6 hours._")
+    lines.append("")
+
+    filepath = "RESULTS.md"
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
+
+    return filepath
+
+
 def export_all(listings: List[Apartment], config: dict) -> dict:
     """Export to all enabled formats."""
     out_cfg = config.get("output", {})
@@ -130,6 +222,7 @@ def export_all(listings: List[Apartment], config: dict) -> dict:
         paths["csv"] = export_csv(listings, config)
     if out_cfg.get("json", True):
         paths["json"] = export_json(listings, config)
+    paths["markdown"] = export_markdown(listings, config)
     return paths
 
 
