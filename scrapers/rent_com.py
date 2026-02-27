@@ -20,7 +20,6 @@ class RentComScraper(BaseScraper):
         """Build Rent.com search URL."""
         search_city = city or self.city
         city_slug = search_city.lower().replace(" ", "-")
-        state_slug = self.state.lower()
         path = f"/north-carolina/{city_slug}/apartments_condos_townhouses"
 
         params = []
@@ -52,6 +51,22 @@ class RentComScraper(BaseScraper):
             except (json.JSONDecodeError, TypeError):
                 continue
 
+        return listings
+
+    def _extract_from_jsonld(self, soup: BeautifulSoup) -> List[Apartment]:
+        """Extract listings from JSON-LD structured data."""
+        listings = []
+        for item in self._extract_jsonld(soup):
+            if "@graph" in item:
+                for node in item["@graph"]:
+                    if isinstance(node, dict) and node.get("address"):
+                        apt = self._apt_from_jsonld(node)
+                        if apt.title or apt.url:
+                            listings.append(apt)
+            elif item.get("address") or item.get("name"):
+                apt = self._apt_from_jsonld(item)
+                if apt.title or apt.url:
+                    listings.append(apt)
         return listings
 
     def _find_listings(self, data, depth=0) -> list:
@@ -170,7 +185,10 @@ class RentComScraper(BaseScraper):
         apt = Apartment(source=self.SOURCE_NAME)
 
         # Title and URL
-        link = card.select_one("a[href*='/apartments/'], a._3ouMn, a.property-link")
+        link = card.select_one(
+            "a[href*='/apartments/'], a._3ouMn, a.property-link, "
+            "a[href*='/rent/'], a[data-testid='property-link'], a[href]"
+        )
         if link:
             href = link.get("href", "")
             if href.startswith("/"):
@@ -179,7 +197,10 @@ class RentComScraper(BaseScraper):
             apt.title = link.get_text(strip=True)
 
         # Price
-        price_el = card.select_one("[data-tid='price'], .price, ._1KxV6, .rent-price")
+        price_el = card.select_one(
+            "[data-tid='price'], .price, ._1KxV6, .rent-price, "
+            "[class*='price'], [class*='rent']"
+        )
         if price_el:
             price_text = price_el.get_text(strip=True)
             match = re.search(r'\$[\d,]+', price_text)
@@ -187,7 +208,10 @@ class RentComScraper(BaseScraper):
                 apt.price = int(match.group().replace("$", "").replace(",", ""))
 
         # Beds/Bath/Sqft
-        details = card.select("[data-tid='bed'], [data-tid='bath'], [data-tid='sqft'], .detail-item, ._1bZMX span")
+        details = card.select(
+            "[data-tid='bed'], [data-tid='bath'], [data-tid='sqft'], "
+            ".detail-item, ._1bZMX span, [class*='bed'], [class*='bath']"
+        )
         for detail in details:
             text = detail.get_text(strip=True).lower()
             if "bed" in text or "br" in text:
@@ -206,7 +230,10 @@ class RentComScraper(BaseScraper):
                     apt.sqft = int(match.group().replace(",", ""))
 
         # Address
-        addr_el = card.select_one("[data-tid='address'], .property-address, ._1dhrl")
+        addr_el = card.select_one(
+            "[data-tid='address'], .property-address, ._1dhrl, "
+            "[class*='address']"
+        )
         if addr_el:
             apt.address = addr_el.get_text(strip=True)
 
@@ -223,6 +250,9 @@ class RentComScraper(BaseScraper):
         if not apt.phone:
             apt.phone = self._extract_phone(card.get_text())
 
+        # Regex fallback for missing fields
+        self._enrich_from_text(apt, card.get_text())
+
         return apt
 
     def _scrape_city(self, city: str) -> List[Apartment]:
@@ -236,24 +266,37 @@ class RentComScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            # Try JSON extraction first
-            json_listings = self._extract_from_json(soup)
-            if json_listings:
-                listings.extend(json_listings)
-            else:
-                # HTML fallback
+            page_listings = []
+
+            # Strategy 1: JSON-LD (most reliable for SEO-focused sites)
+            jsonld_listings = self._extract_from_jsonld(soup)
+            if jsonld_listings:
+                page_listings.extend(jsonld_listings)
+
+            # Strategy 2: JSON extraction from script tags
+            if not page_listings:
+                json_listings = self._extract_from_json(soup)
+                if json_listings:
+                    page_listings.extend(json_listings)
+
+            # Strategy 3: HTML fallback
+            if not page_listings:
                 cards = soup.select(
                     "[data-tid='property-card'], "
                     "div._1y05u, "
                     "div.listing-card, "
-                    "article.property-card"
+                    "article.property-card, "
+                    "[data-testid='property-card'], "
+                    "div[class*='listing'], div[class*='property']"
                 )
                 for card in cards:
                     apt = self._parse_html_listing(card)
                     if apt.url or apt.title:
-                        listings.append(apt)
+                        page_listings.append(apt)
 
-            if not json_listings and not soup.select("[data-tid='property-card'], div.listing-card"):
+            listings.extend(page_listings)
+
+            if not page_listings:
                 break
 
         return listings
