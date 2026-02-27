@@ -115,19 +115,38 @@ def classify_location(apt: Apartment, config: dict):
     city_lower = apt.city.lower().strip()
     zip_code = apt.zip_code.strip()
 
+    # If zip_code is empty, try to extract it from address/full_address text
+    if not zip_code:
+        import re
+        for text in (apt.full_address, apt.address):
+            if text:
+                zip_match = re.search(r'\b(\d{5})(?:-\d{4})?\b', text)
+                if zip_match:
+                    zip_code = zip_match.group(1)
+                    apt.zip_code = zip_code
+                    break
+
+    # Check preferred: city name OR zip code match
     if city_lower in pref_areas or zip_code in pref_zips:
         apt.location_tier = TIER_PREFERRED
         return
-    if city_lower in exp_areas:
-        apt.location_tier = TIER_EXPANDED
-        return
 
-    # Fuzzy: check if any area name appears in address/neighborhood
+    # Check expanded: city name match (but prefer zip-based preferred over city-based expanded)
+    # Don't short-circuit here — check fuzzy/address matching for preferred first
+    is_expanded_city = city_lower in exp_areas
+
+    # Fuzzy: check if any preferred area name appears in address/neighborhood
     addr_lower = (apt.address + " " + apt.neighborhood + " " + apt.full_address).lower()
     for area in pref_areas:
+        # Use word boundary matching to avoid false positives
         if area in addr_lower:
             apt.location_tier = TIER_PREFERRED
             return
+
+    if is_expanded_city:
+        apt.location_tier = TIER_EXPANDED
+        return
+
     for area in exp_areas:
         if area in addr_lower:
             apt.location_tier = TIER_EXPANDED

@@ -293,6 +293,29 @@ class BaseScraper(ABC):
             if date_match:
                 apt.date_posted = date_match.group(1)
 
+    @staticmethod
+    def _tag_search_city(listings: List[Apartment], search_city: str, primary_city: str):
+        """Tag listings with the searched city when they defaulted to the primary city.
+
+        When searching for a smaller city like "Midland" on a site that returns
+        results under the metro area "Charlotte", the listing city will be
+        "Charlotte" even though the user searched for "Midland". This tags
+        those listings with the searched city in the neighborhood field so
+        classify_location() can use the fuzzy address matching to categorize
+        them correctly.
+        """
+        if search_city.lower().strip() == primary_city.lower().strip():
+            return
+        for apt in listings:
+            city_lower = apt.city.lower().strip()
+            if city_lower == primary_city.lower().strip() or not apt.city:
+                # This listing was from a search for search_city but got
+                # labeled as primary_city — store search_city for classification
+                if not apt.neighborhood:
+                    apt.neighborhood = search_city
+                elif search_city.lower() not in apt.neighborhood.lower():
+                    apt.neighborhood += f", {search_city}"
+
     @abstractmethod
     def scrape(self) -> List[Apartment]:
         """Scrape listings and return normalized Apartment objects."""
@@ -304,6 +327,8 @@ class BaseScraper(ABC):
         try:
             listings = self.scrape()
             print(f"  [{self.SOURCE_NAME}] Found {len(listings)} listing(s)")
+            if not listings:
+                print(f"  [{self.SOURCE_NAME}] WARNING: 0 listings — site may have changed or is blocking requests")
             return listings
         except requests.exceptions.HTTPError as e:
             print(f"  [{self.SOURCE_NAME}] HTTP error: {e}")

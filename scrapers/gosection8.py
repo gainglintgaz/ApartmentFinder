@@ -136,27 +136,41 @@ class GoSection8Scraper(BaseScraper):
                 resp = self._get(url)
                 soup = BeautifulSoup(resp.text, "lxml")
 
-                cards = soup.select(
-                    ".listing, .search-result, .property-card, .rental-listing, "
-                    "div[class*='listing'], div[class*='result'], "
-                    "tr[class*='listing'], article"
-                )
+                page_listings = []
 
-                if not cards:
-                    for container in soup.select("div, tr, li"):
-                        t = container.get_text()
-                        if re.search(r'\$\d+', t) and re.search(r'(?:bed|br|studio)', t, re.I):
-                            if len(t.strip()) > 30:
-                                cards.append(container)
+                # Strategy 1: JSON-LD structured data
+                from models import TYPE_SECTION8
+                for item in self._extract_jsonld(soup):
+                    apt = self._apt_from_jsonld(item)
+                    apt.housing_type = TYPE_SECTION8
+                    if apt.title or apt.url:
+                        page_listings.append(apt)
 
-                if not cards:
+                # Strategy 2: HTML card parsing
+                if not page_listings:
+                    cards = soup.select(
+                        ".listing, .search-result, .property-card, .rental-listing, "
+                        "div[class*='listing'], div[class*='result'], "
+                        "tr[class*='listing'], article, .card"
+                    )
+
+                    if not cards:
+                        for container in soup.select("div, tr, li"):
+                            t = container.get_text()
+                            if re.search(r'\$\d+', t) and re.search(r'(?:bed|br|studio|section)', t, re.I):
+                                if len(t.strip()) > 30:
+                                    cards.append(container)
+
+                    for card in cards:
+                        apt = self._parse_listing(card)
+                        if apt.title or apt.url:
+                            page_listings.append(apt)
+
+                if not page_listings:
                     print(f"  [{self.SOURCE_NAME}] No listings on page {page}")
                     break
 
-                for card in cards:
-                    apt = self._parse_listing(card)
-                    if apt.title or apt.url:
-                        all_listings.append(apt)
+                all_listings.extend(page_listings)
 
             except Exception as e:
                 print(f"  [{self.SOURCE_NAME}] Error on page {page}: {e}")

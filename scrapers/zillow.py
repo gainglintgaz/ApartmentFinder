@@ -348,6 +348,8 @@ class ZillowScraper(BaseScraper):
 
         # Also search preferred area cities
         for city in self.extra_cities:
-            all_listings.extend(self._scrape_city(city))
+            city_listings = self._scrape_city(city)
+            self._tag_search_city(city_listings, city, self.city)
+            all_listings.extend(city_listings)
 
         return all_listings
