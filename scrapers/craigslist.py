@@ -108,6 +108,9 @@ class CraigslistScraper(BaseScraper):
         # Phone (Craigslist often hides phones, but sometimes visible in meta)
         apt.phone = self._extract_phone(item.get_text())
 
+        # Regex fallback for missing fields
+        self._enrich_from_text(apt, item.get_text())
+
         return apt
 
     def scrape(self) -> List[Apartment]:

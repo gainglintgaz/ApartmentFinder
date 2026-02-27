@@ -45,7 +45,8 @@ class SocialServeScraper(BaseScraper):
         # Title / property name
         title_el = card.select_one(
             ".listing-title, .property-name, h2 a, h3 a, "
-            ".listing-result-title, a[href*='listing']"
+            ".listing-result-title, a[href*='listing'], "
+            "a[href*='detail'], .name, strong a, b a"
         )
         if title_el:
             apt.title = title_el.get_text(strip=True)
@@ -57,12 +58,15 @@ class SocialServeScraper(BaseScraper):
 
         # If no URL from title, try any link
         if not apt.url:
-            link = card.select_one("a[href*='listing'], a[href*='detail']")
+            link = card.select_one("a[href*='listing'], a[href*='detail'], a[href]")
             if link:
                 href = link.get("href", "")
-                if not href.startswith("http"):
-                    href = self.BASE_URL + "/" + href.lstrip("/")
-                apt.url = href
+                if href and not href.startswith(("#", "javascript")):
+                    if not href.startswith("http"):
+                        href = self.BASE_URL + "/" + href.lstrip("/")
+                    apt.url = href
+                    if not apt.title:
+                        apt.title = link.get_text(strip=True)
 
         # Check if senior housing
         text_lower = card.get_text().lower()
@@ -70,16 +74,24 @@ class SocialServeScraper(BaseScraper):
             apt.housing_type = TYPE_SENIOR
 
         # Price / rent
-        price_el = card.select_one(".rent, .price, .listing-rent")
+        price_el = card.select_one(".rent, .price, .listing-rent, [class*='rent'], [class*='price']")
         if price_el:
             price_text = price_el.get_text(strip=True)
         else:
-            price_text = text_lower
+            price_text = card.get_text()
 
-        prices = re.findall(r'\$[\d,]+', price_text if price_el else card.get_text())
+        prices = re.findall(r'\$[\d,]+', price_text)
         if prices:
             nums = [int(p.replace("$", "").replace(",", "")) for p in prices]
-            apt.price = min(nums)
+            reasonable = [n for n in nums if 0 < n <= 2000]
+            if reasonable:
+                apt.price = min(reasonable)
+
+        # Look for income-based indicators
+        if apt.price is None and re.search(
+            r'(?:income[- ]based|30%\s*of\s*income|based on income|call for)', text_lower
+        ):
+            apt.price = 0  # Will display as "Income-Based"
 
         # Bedrooms
         br_match = re.search(r'(\d+)\s*(?:bed|br|bedroom)', text_lower)
@@ -88,8 +100,19 @@ class SocialServeScraper(BaseScraper):
         elif "studio" in text_lower or "efficiency" in text_lower:
             apt.bedrooms = "Studio"
 
+        # Bathrooms
+        ba_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:bath|ba\b)', text_lower)
+        if ba_match:
+            try:
+                apt.bathrooms = float(ba_match.group(1))
+            except ValueError:
+                pass
+
         # Address
-        addr_el = card.select_one(".address, .listing-address, .property-address")
+        addr_el = card.select_one(
+            ".address, .listing-address, .property-address, "
+            "[class*='address'], address"
+        )
         if addr_el:
             apt.address = addr_el.get_text(strip=True)
 
@@ -133,26 +156,45 @@ class SocialServeScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
+            page_listings = []
+
+            # Strategy 1: HTML card parsing (has richer data for affordable housing)
             cards = soup.select(
                 ".listing-result, .search-result, .property-listing, "
                 "div.result, tr.listing-row, .listing-item, "
-                "div[class*='listing'], div[class*='result']"
+                "div[class*='listing'], div[class*='result'], "
+                "div[class*='property'], article, .card"
             )
 
             if not cards:
                 # Broader fallback: any container with rent/price info
                 for container in soup.select("div, tr, li, article"):
                     text = container.get_text()
-                    if re.search(r'\$\d+', text) and re.search(r'(?:bed|br|studio)', text, re.I):
+                    if len(text.strip()) < 30:
+                        continue
+                    if re.search(r'\$\d+', text) and re.search(r'(?:bed|br|studio|apartment|housing)', text, re.I):
                         cards.append(container)
-
-            if not cards:
-                print(f"  [{self.SOURCE_NAME}] No listings found on page {page}")
-                break
 
             for card in cards:
                 apt = self._parse_listing(card)
                 if apt.url or apt.title:
-                    all_listings.append(apt)
+                    page_listings.append(apt)
+
+            # Strategy 2: JSON-LD fallback
+            if not page_listings:
+                for item in self._extract_jsonld(soup):
+                    apt = self._apt_from_jsonld(item)
+                    apt.housing_type = TYPE_SUBSIDIZED
+                    combined = (item.get("name", "") + item.get("description", "")).lower()
+                    if any(kw in combined for kw in ("senior", "elderly", "62+", "55+")):
+                        apt.housing_type = TYPE_SENIOR
+                    if apt.title or apt.url:
+                        page_listings.append(apt)
+
+            if not page_listings:
+                print(f"  [{self.SOURCE_NAME}] No listings found on page {page}")
+                break
+
+            all_listings.extend(page_listings)
 
         return all_listings

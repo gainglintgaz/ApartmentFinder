@@ -20,7 +20,6 @@ class RentComScraper(BaseScraper):
         """Build Rent.com search URL."""
         search_city = city or self.city
         city_slug = search_city.lower().replace(" ", "-")
-        state_slug = self.state.lower()
         path = f"/north-carolina/{city_slug}/apartments_condos_townhouses"
 
         params = []
@@ -52,6 +51,22 @@ class RentComScraper(BaseScraper):
             except (json.JSONDecodeError, TypeError):
                 continue
 
+        return listings
+
+    def _extract_from_jsonld(self, soup: BeautifulSoup) -> List[Apartment]:
+        """Extract listings from JSON-LD structured data."""
+        listings = []
+        for item in self._extract_jsonld(soup):
+            if "@graph" in item:
+                for node in item["@graph"]:
+                    if isinstance(node, dict) and node.get("address"):
+                        apt = self._apt_from_jsonld(node)
+                        if apt.title or apt.url:
+                            listings.append(apt)
+            elif item.get("address") or item.get("name"):
+                apt = self._apt_from_jsonld(item)
+                if apt.title or apt.url:
+                    listings.append(apt)
         return listings
 
     def _find_listings(self, data, depth=0) -> list:
@@ -170,7 +185,10 @@ class RentComScraper(BaseScraper):
         apt = Apartment(source=self.SOURCE_NAME)
 
         # Title and URL
-        link = card.select_one("a[href*='/apartments/'], a._3ouMn, a.property-link")
+        link = card.select_one(
+            "a[href*='/apartments/'], a._3ouMn, a.property-link, "
+            "a[href*='/rent/'], a[data-testid='property-link'], a[href]"
+        )
         if link:
             href = link.get("href", "")
             if href.startswith("/"):
@@ -179,7 +197,10 @@ class RentComScraper(BaseScraper):
             apt.title = link.get_text(strip=True)
 
         # Price
-        price_el = card.select_one("[data-tid='price'], .price, ._1KxV6, .rent-price")
+        price_el = card.select_one(
+            "[data-tid='price'], .price, ._1KxV6, .rent-price, "
+            "[class*='price'], [class*='rent']"
+        )
         if price_el:
             price_text = price_el.get_text(strip=True)
             match = re.search(r'\$[\d,]+', price_text)
@@ -187,7 +208,10 @@ class RentComScraper(BaseScraper):
                 apt.price = int(match.group().replace("$", "").replace(",", ""))
 
         # Beds/Bath/Sqft
-        details = card.select("[data-tid='bed'], [data-tid='bath'], [data-tid='sqft'], .detail-item, ._1bZMX span")
+        details = card.select(
+            "[data-tid='bed'], [data-tid='bath'], [data-tid='sqft'], "
+            ".detail-item, ._1bZMX span, [class*='bed'], [class*='bath']"
+        )
         for detail in details:
             text = detail.get_text(strip=True).lower()
             if "bed" in text or "br" in text:
@@ -206,7 +230,10 @@ class RentComScraper(BaseScraper):
                     apt.sqft = int(match.group().replace(",", ""))
 
         # Address
-        addr_el = card.select_one("[data-tid='address'], .property-address, ._1dhrl")
+        addr_el = card.select_one(
+            "[data-tid='address'], .property-address, ._1dhrl, "
+            "[class*='address']"
+        )
         if addr_el:
             apt.address = addr_el.get_text(strip=True)
 
@@ -223,7 +250,19 @@ class RentComScraper(BaseScraper):
         if not apt.phone:
             apt.phone = self._extract_phone(card.get_text())
 
+        # Regex fallback for missing fields
+        self._enrich_from_text(apt, card.get_text())
+
         return apt
+
+    @staticmethod
+    def _data_quality(listings: list) -> tuple:
+        """Score a list of listings by data completeness (priced count, total)."""
+        if not listings:
+            return (0, 0)
+        priced = sum(1 for a in listings if a.price is not None)
+        bedded = sum(1 for a in listings if a.bedrooms)
+        return (priced, bedded, len(listings))
 
     def _scrape_city(self, city: str) -> List[Apartment]:
         """Scrape Rent.com listings for a single city."""
@@ -236,24 +275,46 @@ class RentComScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            # Try JSON extraction first
+            # Run ALL strategies and pick the one with the richest data
+            candidates = {}
+
+            # Strategy 1: JSON from script tags (richest data)
             json_listings = self._extract_from_json(soup)
             if json_listings:
-                listings.extend(json_listings)
-            else:
-                # HTML fallback
-                cards = soup.select(
-                    "[data-tid='property-card'], "
-                    "div._1y05u, "
-                    "div.listing-card, "
-                    "article.property-card"
-                )
-                for card in cards:
-                    apt = self._parse_html_listing(card)
-                    if apt.url or apt.title:
-                        listings.append(apt)
+                candidates['json'] = json_listings
 
-            if not json_listings and not soup.select("[data-tid='property-card'], div.listing-card"):
+            # Strategy 2: JSON-LD structured data
+            jsonld_listings = self._extract_from_jsonld(soup)
+            if jsonld_listings:
+                candidates['jsonld'] = jsonld_listings
+
+            # Strategy 3: HTML fallback
+            cards = soup.select(
+                "[data-tid='property-card'], "
+                "div._1y05u, "
+                "div.listing-card, "
+                "article.property-card, "
+                "[data-testid='property-card'], "
+                "div[class*='listing'], div[class*='property']"
+            )
+            html_listings = []
+            for card in cards:
+                apt = self._parse_html_listing(card)
+                if apt.url or apt.title:
+                    html_listings.append(apt)
+            if html_listings:
+                candidates['html'] = html_listings
+
+            # Pick the strategy with the best data quality
+            if candidates:
+                best_key = max(candidates, key=lambda k: self._data_quality(candidates[k]))
+                page_listings = candidates[best_key]
+            else:
+                page_listings = []
+
+            listings.extend(page_listings)
+
+            if not page_listings:
                 break
 
         return listings
@@ -264,6 +325,8 @@ class RentComScraper(BaseScraper):
 
         # Also search preferred area cities
         for city in self.extra_cities:
-            all_listings.extend(self._scrape_city(city))
+            city_listings = self._scrape_city(city)
+            self._tag_search_city(city_listings, city, self.city)
+            all_listings.extend(city_listings)
 
         return all_listings

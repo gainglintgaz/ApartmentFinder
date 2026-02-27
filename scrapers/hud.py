@@ -108,17 +108,30 @@ class HUDScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            items = soup.select(
-                ".resource-result, .listing, .result-item, "
-                "div[class*='result'], tr, li.resource"
-            )
+            # Strategy 1: JSON-LD
+            for item in self._extract_jsonld(soup):
+                apt = self._apt_from_jsonld(item)
+                apt.housing_type = TYPE_SUBSIDIZED
+                combined = (item.get("name", "") + item.get("description", "")).lower()
+                if any(kw in combined for kw in ("senior", "elderly", "62+", "55+")):
+                    apt.housing_type = TYPE_SENIOR
+                if apt.title or apt.url:
+                    all_listings.append(apt)
 
-            for item in items:
-                text = item.get_text().lower()
-                if any(kw in text for kw in ("housing", "apartment", "rental", "senior", "subsidiz")):
-                    apt = self._parse_resource(item)
-                    if apt.title or apt.url:
-                        all_listings.append(apt)
+            # Strategy 2: HTML parsing
+            if not all_listings:
+                items = soup.select(
+                    ".resource-result, .listing, .result-item, "
+                    "div[class*='result'], tr, li.resource, "
+                    "article, .card, div[class*='listing']"
+                )
+
+                for item in items:
+                    text = item.get_text().lower()
+                    if any(kw in text for kw in ("housing", "apartment", "rental", "senior", "subsidiz")):
+                        apt = self._parse_resource(item)
+                        if apt.title or apt.url:
+                            all_listings.append(apt)
         except Exception as e:
             print(f"  [{self.SOURCE_NAME}] Resource locator error: {e}")
 
@@ -130,8 +143,17 @@ class HUDScraper(BaseScraper):
                 resp = self._get(url)
                 soup = BeautifulSoup(resp.text, "lxml")
 
+                # Try JSON-LD first
+                for item in self._extract_jsonld(soup):
+                    apt = self._apt_from_jsonld(item)
+                    apt.housing_type = TYPE_SUBSIDIZED
+                    if apt.title or apt.url:
+                        all_listings.append(apt)
+
+                # HTML fallback
                 items = soup.select(
-                    "table tr, .property, .listing, div[class*='result']"
+                    "table tr, .property, .listing, div[class*='result'], "
+                    "article, .card"
                 )
 
                 for item in items:
