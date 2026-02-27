@@ -1,19 +1,19 @@
 # Apartment Search Results
 
-**Last updated:** February 27, 2026 at 03:37 PM
+**Last updated:** February 27, 2026 at 06:53 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 458
+**Total listings found:** 438
 
-**By source:** rent.com: 458
+**By source:** rent.com: 438
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
 - [Midland & East Charlotte (Market Rentals) (0)](#midland--east-charlotte-market-rentals)
-- [Greater Charlotte (Market Rentals) (458)](#greater-charlotte-market-rentals)
+- [Greater Charlotte (Market Rentals) (438)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
 ---
@@ -48,7 +48,7 @@ _No listings found in this category._
 
 _No listings found in this category._
 
-## Greater Charlotte (Market Rentals) (458)
+## Greater Charlotte (Market Rentals) (438)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -442,7 +442,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3710 Aldeburgh Rd SW, Charlotte, NC | - | - | Market | 3710 Aldeburgh Rd SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3710+Aldeburgh+Rd+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8568 Forest Point Rd NW, Charlotte, NC | - | - | Market | 8568 Forest Point Rd NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8568+Forest+Point+Rd+NW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9240 Walnut Hl Rd NW, Charlotte, NC | - | - | Market | 9240 Walnut Hl Rd NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9240+Walnut+Hl+Rd+NW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1606 Respect St NW, Charlotte, NC | - | - | Market | 1606 Respect St NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1606+Respect+St+NW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1654 Respect St NW, Charlotte, NC | - | - | Market | 1654 Respect St NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1654+Respect+St+NW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1230 Virginia Pine Dr NW unit 1230_VIRGINIA PINE DR, Charlotte, NC | - | - | Market | 1230 Virginia Pine Dr NW unit 1230_VIRGINIA P... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1230+Virginia+Pine+Dr+NW+unit+1230_VIRGINIA+PINE+DR%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 49 Corban Ave SW #6, Charlotte, NC | - | - | Market | 49 Corban Ave SW #6 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=49+Corban+Ave+SW+%236%2C+Charlotte%2C+NC) |
@@ -450,8 +449,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 409 Church St N, Charlotte, NC | - | - | Market | 409 Church St N | - | [Map](https://www.google.com/maps/dir/?api=1&destination=409+Church+St+N%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 407 Church St N, Charlotte, NC | - | - | Market | 407 Church St N | - | [Map](https://www.google.com/maps/dir/?api=1&destination=407+Church+St+N%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 747 Lock Haven Dr NW, Charlotte, NC | - | - | Market | 747 Lock Haven Dr NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=747+Lock+Haven+Dr+NW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 385 Church St N unit 1, Charlotte, NC | - | - | Market | 385 Church St N unit 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=385+Church+St+N+unit+1%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 159 Brookwood Ave NE unit 22, Charlotte, NC | - | - | Market | 159 Brookwood Ave NE unit 22 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=159+Brookwood+Ave+NE+unit+22%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 157 Pounds Ave SW, Charlotte, NC | - | - | Market | 157 Pounds Ave SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=157+Pounds+Ave+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 340 Halton Crossing Dr SW, Charlotte, NC | - | - | Market | 340 Halton Crossing Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=340+Halton+Crossing+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11104 J. C. Murray Dr NW, Charlotte, NC | - | - | Market | 11104 J. C. Murray Dr NW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11104+J.+C.+Murray+Dr+NW%2C+Charlotte%2C+NC) |
@@ -459,14 +456,14 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 284 Hillandale St NE unit k, Charlotte, NC | - | - | Market | 284 Hillandale St NE unit k | - | [Map](https://www.google.com/maps/dir/?api=1&destination=284+Hillandale+St+NE+unit+k%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 87 American Ave NE unit 87, Charlotte, NC | - | - | Market | 87 American Ave NE unit 87 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=87+American+Ave+NE+unit+87%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 83 American Ave NE unit 83, Charlotte, NC | - | - | Market | 83 American Ave NE unit 83 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=83+American+Ave+NE+unit+83%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5110, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5110 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5110%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5306, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5306%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5110, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5110 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5110%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 1218, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 1218 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+1218%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 320 Hamilton Dr NE unit 320hami-Unit F, Charlotte, NC | - | - | Market | 320 Hamilton Dr NE unit 320hami-Unit F | - | [Map](https://www.google.com/maps/dir/?api=1&destination=320+Hamilton+Dr+NE+unit+320hami-Unit+F%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 307-Melrose-307 K, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 307-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+307-Melrose-307+K%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 301-Melrose-301 A, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 301-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+301-Melrose-301+A%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 14 Union St S unit 202, Charlotte, NC | - | - | Market | 14 Union St S unit 202 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14+Union+St+S+unit+202%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 14 Union St S unit 309, Charlotte, NC | - | - | Market | 14 Union St S unit 309 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14+Union+St+S+unit+309%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 14 Union St S unit 202, Charlotte, NC | - | - | Market | 14 Union St S unit 202 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14+Union+St+S+unit+202%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 261 Linden Ave SW, Charlotte, NC | - | - | Market | 261 Linden Ave SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=261+Linden+Ave+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3683 Backwater St, Charlotte, NC | - | - | Market | 3683 Backwater St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3683+Backwater+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3667 Ascott Commons Ln SW, Charlotte, NC | - | - | Market | 3667 Ascott Commons Ln SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3667+Ascott+Commons+Ln+SW%2C+Charlotte%2C+NC) |
@@ -493,23 +490,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 146 S Dorsett St, Charlotte, NC | - | - | Market | 146 S Dorsett St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=146+S+Dorsett+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3800 York Aly, Charlotte, NC | - | - | Market | 3800 York Aly | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3800+York+Aly%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6029 Creft Cir, Charlotte, NC | - | - | Market | 6029 Creft Cir | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6029+Creft+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4036 Holly Villa Cir, Charlotte, NC | - | - | Market | 4036 Holly Villa Cir | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4036+Holly+Villa+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 252 Abington St, Charlotte, NC | - | - | Market | 252 Abington St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=252+Abington+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6303 Margaret Ct, Charlotte, NC | - | - | Market | 6303 Margaret Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6303+Margaret+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6107 Margaret Ct, Charlotte, NC | - | - | Market | 6107 Margaret Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6107+Margaret+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5046 Grain Orchard Rd, Charlotte, NC | - | - | Market | 5046 Grain Orchard Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5046+Grain+Orchard+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 144 Briana Marie Way unit 144, Charlotte, NC | - | - | Market | 144 Briana Marie Way unit 144 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=144+Briana+Marie+Way+unit+144%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2405 Bonterra Blvd, Charlotte, NC | - | - | Market | 2405 Bonterra Blvd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2405+Bonterra+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1101 Flagstone Ln, Charlotte, NC | - | - | Market | 1101 Flagstone Lane | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3810 York Aly, Charlotte, NC | - | - | Market | 3810 York Aly | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3810+York+Aly%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5032 Grain Orchard Rd, Charlotte, NC | - | - | Market | 5032 Grain Orchard Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5032+Grain+Orchard+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 193 Audra Faye Ln, Charlotte, NC | - | - | Market | 193 Audra Faye Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=193+Audra+Faye+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 144 Briana Marie Way, Charlotte, NC | - | - | Market | 144 Briana Marie Way | - | [Map](https://www.google.com/maps/dir/?api=1&destination=144+Briana+Marie+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 202 Audra Faye Ln unit 202, Charlotte, NC | - | - | Market | 202 Audra Faye Ln unit 202 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=202+Audra+Faye+Ln+unit+202%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1101 Flagstone Ln unit 01-306, Charlotte, NC | - | - | Market | 1101 Flagstone Ln unit 01-306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln+unit+01-306%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2525 Woodbrook Ln, Charlotte, NC | - | - | Market | Woodbrook Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2525+Woodbrook+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
