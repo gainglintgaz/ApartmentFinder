@@ -325,6 +325,15 @@ class ApartmentsComScraper(BaseScraper):
 
         return apt
 
+    @staticmethod
+    def _data_quality(listings: list) -> tuple:
+        """Score a list of listings by data completeness (priced count, total)."""
+        if not listings:
+            return (0, 0)
+        priced = sum(1 for a in listings if a.price is not None)
+        bedded = sum(1 for a in listings if a.bedrooms)
+        return (priced, bedded, len(listings))
+
     def _scrape_city(self, city: str) -> List[Apartment]:
         """Scrape listing pages for a single city."""
         listings = []
@@ -336,45 +345,51 @@ class ApartmentsComScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            page_listings = []
+            # Run ALL strategies and pick the one with the richest data
+            candidates = {}
 
-            # Strategy 1: JSON-LD structured data (most reliable)
+            # Strategy 1: Embedded script JSON data (richest data)
+            script_listings = self._extract_from_scripts(soup)
+            if script_listings:
+                candidates['script'] = script_listings
+
+            # Strategy 2: JSON-LD structured data
             jsonld_listings = self._extract_from_jsonld(soup)
             if jsonld_listings:
-                page_listings.extend(jsonld_listings)
+                candidates['jsonld'] = jsonld_listings
 
-            # Strategy 2: Embedded script JSON data
-            if not page_listings:
-                script_listings = self._extract_from_scripts(soup)
-                if script_listings:
-                    page_listings.extend(script_listings)
-
-            # Strategy 3: HTML card parsing (fallback)
-            if not page_listings:
+            # Strategy 3: HTML card parsing
+            cards = soup.select(
+                "li.mortar-wrapper, "
+                "article[data-testid='property-card'], "
+                "div.placard, "
+                "section.placard-content"
+            )
+            if not cards:
                 cards = soup.select(
-                    "li.mortar-wrapper, "
-                    "article[data-testid='property-card'], "
-                    "div.placard, "
-                    "section.placard-content"
+                    "[data-listingid], [data-url], "
+                    "[data-listing-id], [data-property-id], "
+                    "article[class*='placard'], div[class*='placard']"
                 )
+            html_listings = []
+            for card in cards:
+                apt = self._parse_listing(card)
+                if apt.url or apt.title:
+                    html_listings.append(apt)
+            if html_listings:
+                candidates['html'] = html_listings
 
-                if not cards:
-                    cards = soup.select(
-                        "[data-listingid], [data-url], "
-                        "[data-listing-id], [data-property-id], "
-                        "article[class*='placard'], div[class*='placard']"
-                    )
-
-                if not cards:
-                    print(f"  [{self.SOURCE_NAME}] No more listings in {city} on page {page}")
-                    break
-
-                for card in cards:
-                    apt = self._parse_listing(card)
-                    if apt.url or apt.title:
-                        page_listings.append(apt)
+            # Pick the strategy with the best data quality
+            if candidates:
+                best_key = max(candidates, key=lambda k: self._data_quality(candidates[k]))
+                page_listings = candidates[best_key]
+            else:
+                page_listings = []
 
             listings.extend(page_listings)
+
+            if not page_listings:
+                break
 
             # Check for next page
             next_link = soup.select_one(

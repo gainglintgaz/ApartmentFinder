@@ -295,6 +295,15 @@ class ZillowScraper(BaseScraper):
 
         return apt
 
+    @staticmethod
+    def _data_quality(listings: list) -> tuple:
+        """Score a list of listings by data completeness (priced count, total)."""
+        if not listings:
+            return (0, 0)
+        priced = sum(1 for a in listings if a.price is not None)
+        bedded = sum(1 for a in listings if a.bedrooms)
+        return (priced, bedded, len(listings))
+
     def _scrape_city(self, city: str) -> List[Apartment]:
         """Scrape rental listings for a single city."""
         listings = []
@@ -308,32 +317,41 @@ class ZillowScraper(BaseScraper):
             resp = self._get(url, headers=headers)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            page_listings = []
+            # Run ALL strategies and pick the one with the richest data
+            candidates = {}
 
-            # Strategy 1: JSON-LD (most reliable for SEO)
+            # Strategy 1: JSON from scripts (richest data — prices, beds, sqft)
+            json_listings = self._extract_from_script_data(soup)
+            if json_listings:
+                candidates['json'] = json_listings
+
+            # Strategy 2: JSON-LD structured data
             jsonld_listings = self._extract_from_jsonld(soup)
             if jsonld_listings:
-                page_listings.extend(jsonld_listings)
+                candidates['jsonld'] = jsonld_listings
 
-            # Strategy 2: JSON extraction from scripts (most reliable for data)
-            if not page_listings:
-                json_listings = self._extract_from_script_data(soup)
-                if json_listings:
-                    page_listings.extend(json_listings)
+            # Strategy 3: HTML card parsing
+            cards = soup.select(
+                "article[data-test='property-card'], "
+                "div.list-card, "
+                "li.ListItem, "
+                "[data-testid='search-result-list-item'], "
+                "[class*='property-card'], [class*='ListItem']"
+            )
+            html_listings = []
+            for card in cards:
+                apt = self._parse_html_listing(card)
+                if apt.url or apt.title:
+                    html_listings.append(apt)
+            if html_listings:
+                candidates['html'] = html_listings
 
-            # Strategy 3: Fallback to HTML parsing
-            if not page_listings:
-                cards = soup.select(
-                    "article[data-test='property-card'], "
-                    "div.list-card, "
-                    "li.ListItem, "
-                    "[data-testid='search-result-list-item'], "
-                    "[class*='property-card'], [class*='ListItem']"
-                )
-                for card in cards:
-                    apt = self._parse_html_listing(card)
-                    if apt.url or apt.title:
-                        page_listings.append(apt)
+            # Pick the strategy with the best data quality
+            if candidates:
+                best_key = max(candidates, key=lambda k: self._data_quality(candidates[k]))
+                page_listings = candidates[best_key]
+            else:
+                page_listings = []
 
             listings.extend(page_listings)
 

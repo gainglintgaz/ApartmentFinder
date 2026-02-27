@@ -63,8 +63,10 @@ class Apartment:
     @property
     def price_display(self) -> str:
         if self.price is not None:
+            if self.price == 0 and self.is_subsidized_or_senior:
+                return "Income-Based"
             return f"${self.price:,}"
-        return "Call"
+        return "N/A"
 
     @property
     def type_label(self) -> str:

@@ -33,15 +33,30 @@ class BaseScraper(ABC):
     def extra_cities(self) -> list:
         """Additional cities to search beyond the primary city.
 
-        Pulled from the preferred locations in config. This lets scrapers
-        that don't support radius search still find listings in smaller
-        towns like Midland, Concord, Monroe, etc.
+        Includes all preferred cities (Midland, Concord, etc.) and
+        larger expanded cities (Gastonia, Huntersville, Kannapolis, etc.).
+        Skips tiny suburbs that would be covered by the metro search.
         """
         locations = self.config.get("locations", {})
         preferred = locations.get("preferred", {}).get("areas", [])
+        expanded = locations.get("expanded", {}).get("areas", [])
         # Don't duplicate the primary city
         primary = self.city.lower().strip()
-        return [c for c in preferred if c.lower().strip() != primary]
+        seen = {primary}
+        cities = []
+        # All preferred cities (highest priority — user's target area)
+        for c in preferred:
+            key = c.lower().strip()
+            if key not in seen:
+                seen.add(key)
+                cities.append(c)
+        # Only larger expanded cities (small suburbs are covered by metro search)
+        for c in expanded:
+            key = c.lower().strip()
+            if key not in seen:
+                seen.add(key)
+                cities.append(c)
+        return cities
 
     @property
     def state(self) -> str:

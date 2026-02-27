@@ -158,38 +158,37 @@ class SocialServeScraper(BaseScraper):
 
             page_listings = []
 
-            # Strategy 1: JSON-LD structured data
-            for item in self._extract_jsonld(soup):
-                apt = self._apt_from_jsonld(item)
-                apt.housing_type = TYPE_SUBSIDIZED
-                # Check for senior keywords in name/description
-                combined = (item.get("name", "") + item.get("description", "")).lower()
-                if any(kw in combined for kw in ("senior", "elderly", "62+", "55+")):
-                    apt.housing_type = TYPE_SENIOR
-                if apt.title or apt.url:
+            # Strategy 1: HTML card parsing (has richer data for affordable housing)
+            cards = soup.select(
+                ".listing-result, .search-result, .property-listing, "
+                "div.result, tr.listing-row, .listing-item, "
+                "div[class*='listing'], div[class*='result'], "
+                "div[class*='property'], article, .card"
+            )
+
+            if not cards:
+                # Broader fallback: any container with rent/price info
+                for container in soup.select("div, tr, li, article"):
+                    text = container.get_text()
+                    if len(text.strip()) < 30:
+                        continue
+                    if re.search(r'\$\d+', text) and re.search(r'(?:bed|br|studio|apartment|housing)', text, re.I):
+                        cards.append(container)
+
+            for card in cards:
+                apt = self._parse_listing(card)
+                if apt.url or apt.title:
                     page_listings.append(apt)
 
-            # Strategy 2: HTML card parsing
+            # Strategy 2: JSON-LD fallback
             if not page_listings:
-                cards = soup.select(
-                    ".listing-result, .search-result, .property-listing, "
-                    "div.result, tr.listing-row, .listing-item, "
-                    "div[class*='listing'], div[class*='result'], "
-                    "div[class*='property'], article, .card"
-                )
-
-                if not cards:
-                    # Broader fallback: any container with rent/price info
-                    for container in soup.select("div, tr, li, article"):
-                        text = container.get_text()
-                        if len(text.strip()) < 30:
-                            continue
-                        if re.search(r'\$\d+', text) and re.search(r'(?:bed|br|studio|apartment|housing)', text, re.I):
-                            cards.append(container)
-
-                for card in cards:
-                    apt = self._parse_listing(card)
-                    if apt.url or apt.title:
+                for item in self._extract_jsonld(soup):
+                    apt = self._apt_from_jsonld(item)
+                    apt.housing_type = TYPE_SUBSIDIZED
+                    combined = (item.get("name", "") + item.get("description", "")).lower()
+                    if any(kw in combined for kw in ("senior", "elderly", "62+", "55+")):
+                        apt.housing_type = TYPE_SENIOR
+                    if apt.title or apt.url:
                         page_listings.append(apt)
 
             if not page_listings:

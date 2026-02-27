@@ -134,30 +134,30 @@ class AffordableHousingScraper(BaseScraper):
 
                 page_listings = []
 
-                # Strategy 1: JSON-LD
-                jsonld = self._extract_jsonld_listings(soup)
-                if jsonld:
-                    page_listings.extend(jsonld)
+                # Strategy 1: HTML parsing (richer data for affordable sites)
+                cards = soup.select(
+                    ".property-listing, .search-result, .listing-card, "
+                    "div[class*='property'], div[class*='listing'], "
+                    "article, .result-card, .card"
+                )
 
-                # Strategy 2: HTML parsing
+                if not cards:
+                    for container in soup.select("div, section"):
+                        t = container.get_text().lower()
+                        if ("apartment" in t or "housing" in t) and re.search(r'(?:nc|north carolina)', t, re.I):
+                            if len(container.get_text().strip()) > 30:
+                                cards.append(container)
+
+                for card in cards:
+                    apt = self._parse_listing(card)
+                    if apt.title or apt.url:
+                        page_listings.append(apt)
+
+                # Strategy 2: JSON-LD fallback
                 if not page_listings:
-                    cards = soup.select(
-                        ".property-listing, .search-result, .listing-card, "
-                        "div[class*='property'], div[class*='listing'], "
-                        "article, .result-card, .card"
-                    )
-
-                    if not cards:
-                        for container in soup.select("div, section"):
-                            t = container.get_text().lower()
-                            if ("apartment" in t or "housing" in t) and re.search(r'(?:nc|north carolina)', t, re.I):
-                                if len(container.get_text().strip()) > 30:
-                                    cards.append(container)
-
-                    for card in cards:
-                        apt = self._parse_listing(card)
-                        if apt.title or apt.url:
-                            page_listings.append(apt)
+                    jsonld = self._extract_jsonld_listings(soup)
+                    if jsonld:
+                        page_listings.extend(jsonld)
 
                 if not page_listings:
                     break
@@ -174,19 +174,24 @@ class AffordableHousingScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
-            # Try JSON-LD first
-            jsonld = self._extract_jsonld_listings(soup, is_senior=True)
-            if jsonld:
-                listings.extend(jsonld)
-            else:
-                cards = soup.select(
-                    ".property-listing, .search-result, .listing-card, "
-                    "div[class*='property'], div[class*='listing'], article, .card"
-                )
-                for card in cards:
-                    apt = self._parse_listing(card, is_senior=True)
-                    if apt.title or apt.url:
-                        listings.append(apt)
+            # Try HTML first (richer data)
+            cards = soup.select(
+                ".property-listing, .search-result, .listing-card, "
+                "div[class*='property'], div[class*='listing'], article, .card"
+            )
+            senior_found = []
+            for card in cards:
+                apt = self._parse_listing(card, is_senior=True)
+                if apt.title or apt.url:
+                    senior_found.append(apt)
+
+            # JSON-LD fallback
+            if not senior_found:
+                jsonld = self._extract_jsonld_listings(soup, is_senior=True)
+                if jsonld:
+                    senior_found.extend(jsonld)
+
+            listings.extend(senior_found)
         except Exception as e:
             print(f"  [{self.SOURCE_NAME}] {city} senior search error: {e}")
 
