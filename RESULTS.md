@@ -1,19 +1,19 @@
 # Apartment Search Results
 
-**Last updated:** February 27, 2026 at 06:53 PM
+**Last updated:** February 27, 2026 at 09:00 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 438
+**Total listings found:** 437
 
-**By source:** rent.com: 438
+**By source:** rent.com: 437
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
 - [Midland & East Charlotte (Market Rentals) (0)](#midland--east-charlotte-market-rentals)
-- [Greater Charlotte (Market Rentals) (438)](#greater-charlotte-market-rentals)
+- [Greater Charlotte (Market Rentals) (437)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
 ---
@@ -48,7 +48,7 @@ _No listings found in this category._
 
 _No listings found in this category._
 
-## Greater Charlotte (Market Rentals) (438)
+## Greater Charlotte (Market Rentals) (437)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -456,9 +456,9 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 284 Hillandale St NE unit k, Charlotte, NC | - | - | Market | 284 Hillandale St NE unit k | - | [Map](https://www.google.com/maps/dir/?api=1&destination=284+Hillandale+St+NE+unit+k%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 87 American Ave NE unit 87, Charlotte, NC | - | - | Market | 87 American Ave NE unit 87 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=87+American+Ave+NE+unit+87%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 83 American Ave NE unit 83, Charlotte, NC | - | - | Market | 83 American Ave NE unit 83 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=83+American+Ave+NE+unit+83%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5306, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5306%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5110, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5110 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5110%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 1218, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 1218 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+1218%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5306, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5306%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 320 Hamilton Dr NE unit 320hami-Unit F, Charlotte, NC | - | - | Market | 320 Hamilton Dr NE unit 320hami-Unit F | - | [Map](https://www.google.com/maps/dir/?api=1&destination=320+Hamilton+Dr+NE+unit+320hami-Unit+F%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 307-Melrose-307 K, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 307-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+307-Melrose-307+K%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 301-Melrose-301 A, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 301-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+301-Melrose-301+A%2C+Charlotte%2C+NC) |
@@ -489,7 +489,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 146 S Dorsett St, Charlotte, NC | - | - | Market | 146 S Dorsett St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=146+S+Dorsett+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
