@@ -6,7 +6,8 @@ import os
 from datetime import datetime
 from typing import List
 
-from models import Apartment, TYPE_MARKET, TIER_PREFERRED, TIER_EXPANDED
+from models import (Apartment, TYPE_MARKET, TYPE_SUBSIDIZED, TYPE_SENIOR,
+                     TYPE_SECTION8, TIER_PREFERRED, TIER_EXPANDED)
 
 # Column order for CSV — most important fields first
 CSV_COLUMNS = [
@@ -122,6 +123,77 @@ def export_json(listings: List[Apartment], config: dict) -> str:
     return filepath
 
 
+def _format_price(apt: Apartment) -> str:
+    """Format price with income-based handling."""
+    if apt.price is not None:
+        if apt.price == 0 and apt.is_subsidized_or_senior:
+            return "Income-Based"
+        return f"${apt.price:,}"
+    return "Call"
+
+
+def _format_phone(phone: str) -> str:
+    """Format phone as clickable tel: link for mobile users."""
+    if not phone or phone == "-":
+        return "-"
+    # Strip non-digit chars for the tel: link
+    digits = "".join(c for c in phone if c.isdigit())
+    if len(digits) >= 10:
+        return f"[{phone}](tel:{digits})"
+    return phone
+
+
+def _format_category(apt: Apartment) -> str:
+    """Return a short category label."""
+    labels = {
+        TYPE_SUBSIDIZED: "Subsidized",
+        TYPE_SENIOR: "Senior",
+        TYPE_SECTION8: "Section 8",
+        TYPE_MARKET: "Market",
+    }
+    return labels.get(apt.housing_type, "Market")
+
+
+def _escape_pipe(text: str) -> str:
+    """Escape pipe characters for markdown tables."""
+    return text.replace("|", "/") if text else ""
+
+
+def _md_table_row(apt: Apartment) -> str:
+    """Build one markdown table row for a listing."""
+    price = _format_price(apt)
+    new_flag = " **NEW**" if apt.is_recent else ""
+
+    beds = apt.bedrooms or "?"
+    if apt.bathrooms:
+        beds_baths = f"{beds}bd/{apt.bathrooms:g}ba"
+    else:
+        beds_baths = f"{beds}bd"
+
+    city = _escape_pipe(apt.city or "?")
+    address = _escape_pipe(apt.full_address or apt.address or apt.city or "?")
+    phone = _escape_pipe(apt.phone or "")
+    phone_cell = _format_phone(phone) if phone else "-"
+    listed = apt.date_posted or "-"
+    source = apt.source or "?"
+    category = _format_category(apt)
+
+    title = apt.title[:45] + "..." if len(apt.title) > 45 else apt.title
+    title = _escape_pipe(title)
+
+    # Link to original listing with source name visible
+    if apt.url:
+        link = f"[{source}]({apt.url})"
+    else:
+        link = "-"
+
+    directions = f"[Map]({apt.directions_url})" if apt.directions_url else "-"
+
+    return (f"| {price}{new_flag} | {beds_baths} | {city} | {address} "
+            f"| {phone_cell} | {listed} | {category} | {title} "
+            f"| {link} | {directions} |")
+
+
 def export_markdown(listings: List[Apartment], config: dict) -> str:
     """Export listings to a RESULTS.md file readable on GitHub."""
     search = config.get("search", {})
@@ -149,10 +221,37 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
     lines.append("")
     lines.append(f"**Total listings found:** {len(listings)}")
     lines.append("")
+
+    # Quick stats
+    source_counts = {}
+    for a in listings:
+        s = a.source or "unknown"
+        source_counts[s] = source_counts.get(s, 0) + 1
+    if source_counts:
+        stats = " | ".join(f"{name}: {count}" for name, count in sorted(source_counts.items()))
+        lines.append(f"**By source:** {stats}")
+        lines.append("")
+
     lines.append("---")
     lines.append("")
 
-    # Facebook reminder at top
+    # Table of Contents for quick jump
+    groups = [
+        ("government--subsidized--senior-housing", "Government / Subsidized / Senior Housing", subsidized),
+        ("midland--east-charlotte-market-rentals", "Midland & East Charlotte (Market Rentals)", preferred_market),
+        ("greater-charlotte-market-rentals", "Greater Charlotte (Market Rentals)", expanded_market),
+        ("other-areas-market-rentals", "Other Areas (Market Rentals)", other_market),
+    ]
+
+    lines.append("**Jump to:**")
+    for anchor, label, group_list in groups:
+        lines.append(f"- [{label} ({len(group_list)})](#{anchor})")
+    lines.append("")
+
+    lines.append("---")
+    lines.append("")
+
+    # Facebook reminder
     lines.append("> **Also check Facebook Marketplace** (can't be auto-searched):")
     lines.append("> [Click here to search Facebook Marketplace]"
                  "(https://www.facebook.com/marketplace/Midland-NC/propertyrentals"
@@ -161,14 +260,30 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
     lines.append("---")
     lines.append("")
 
-    groups = [
-        ("Government / Subsidized / Senior Housing", subsidized),
-        ("Midland & East Charlotte (Market Rentals)", preferred_market),
-        ("Greater Charlotte (Market Rentals)", expanded_market),
-        ("Other Areas (Market Rentals)", other_market),
-    ]
+    # Column legend
+    lines.append("<details><summary><strong>Column guide (click to expand)</strong></summary>")
+    lines.append("")
+    lines.append("| Column | What it means |")
+    lines.append("|--------|--------------|")
+    lines.append("| **Price** | Monthly rent. \"Income-Based\" = sliding scale. \"Call\" = not listed. **NEW** = posted in last 48h |")
+    lines.append("| **Beds/Baths** | Bedroom and bathroom count (e.g. 2bd/1ba) |")
+    lines.append("| **City** | City where the apartment is located |")
+    lines.append("| **Address** | Full street address |")
+    lines.append("| **Phone** | Click to call (on mobile). \"-\" = not available |")
+    lines.append("| **Listed** | Date the listing was posted. \"-\" = unknown |")
+    lines.append("| **Type** | Subsidized, Senior, Section 8, or Market |")
+    lines.append("| **Title** | Apartment/complex name |")
+    lines.append("| **Source** | Click to see the original listing on that website |")
+    lines.append("| **Directions** | Click \"Map\" to get Google Maps driving directions |")
+    lines.append("")
+    lines.append("</details>")
+    lines.append("")
 
-    for group_name, group_listings in groups:
+    # Table header used for every section
+    table_header = "| Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |"
+    table_sep =    "|-------|-----------|------|---------|-------|--------|------|-------|--------|------------|"
+
+    for anchor, group_name, group_listings in groups:
         lines.append(f"## {group_name} ({len(group_listings)})")
         lines.append("")
 
@@ -177,35 +292,19 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
             lines.append("")
             continue
 
-        # Table header
-        lines.append("| Price | Beds | Address | Phone | Listed | Title | Link | Directions |")
-        lines.append("|-------|------|---------|-------|--------|-------|------|------------|")
+        lines.append(table_header)
+        lines.append(table_sep)
 
         for apt in group_listings:
-            price = apt.price_display
-            beds = apt.bedrooms or "?"
-            address = apt.full_address or apt.address or apt.city or "?"
-            phone = apt.phone or "-"
-            listed = apt.date_posted or "-"
-            title = apt.title[:40] + "..." if len(apt.title) > 40 else apt.title
-            # Escape pipe characters in fields
-            title = title.replace("|", "/")
-            phone = phone.replace("|", "/")
-            address = address.replace("|", "/")
-
-            link = f"[View]({apt.url})" if apt.url else "-"
-            directions = f"[Map]({apt.directions_url})" if apt.directions_url else "-"
-            new_flag = " **NEW**" if apt.is_recent else ""
-
-            lines.append(f"| {price}{new_flag} | {beds} | {address} | {phone} | {listed} | {title} | {link} | {directions} |")
+            lines.append(_md_table_row(apt))
 
         lines.append("")
 
     # Footer
     lines.append("---")
     lines.append("")
-    lines.append(f"_This page is automatically updated by GitHub Actions. "
-                 f"Results are refreshed every 6 hours._")
+    lines.append("_This page is automatically updated by GitHub Actions. "
+                 "Results are refreshed every 6 hours._")
     lines.append("")
 
     filepath = "RESULTS.md"
