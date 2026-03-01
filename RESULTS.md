@@ -1,19 +1,19 @@
 # Apartment Search Results
 
-**Last updated:** February 28, 2026 at 06:41 PM
+**Last updated:** March 01, 2026 at 02:39 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 468
+**Total listings found:** 466
 
-**By source:** rent.com: 468
+**By source:** rent.com: 466
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
 - [Midland & East Charlotte (Market Rentals) (0)](#midland--east-charlotte-market-rentals)
-- [Greater Charlotte (Market Rentals) (468)](#greater-charlotte-market-rentals)
+- [Greater Charlotte (Market Rentals) (466)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
 ---
@@ -48,7 +48,7 @@ _No listings found in this category._
 
 _No listings found in this category._
 
-## Greater Charlotte (Market Rentals) (468)
+## Greater Charlotte (Market Rentals) (466)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -456,8 +456,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 87 American Ave NE unit 87, Charlotte, NC | - | - | Market | 87 American Ave NE unit 87 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=87+American+Ave+NE+unit+87%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 83 American Ave NE unit 83, Charlotte, NC | - | - | Market | 83 American Ave NE unit 83 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=83+American+Ave+NE+unit+83%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 552 Brownlee Dr SW unit 552, Charlotte, NC | - | - | Market | 552 Brownlee Dr SW unit 552 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=552+Brownlee+Dr+SW+unit+552%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5306, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5306%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5110, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5110 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5110%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1400 Oak Pond Pl NW unit 5306, Charlotte, NC | - | - | Market | 1400 Oak Pond Pl NW unit 5306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Oak+Pond+Pl+NW+unit+5306%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 320 Hamilton Dr NE unit 320hami-Unit F, Charlotte, NC | - | - | Market | 320 Hamilton Dr NE unit 320hami-Unit F | - | [Map](https://www.google.com/maps/dir/?api=1&destination=320+Hamilton+Dr+NE+unit+320hami-Unit+F%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 307-Melrose-307 K, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 307-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+307-Melrose-307+K%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 309 Country Club Dr NE unit Melrose 301-Melrose-301 A, Charlotte, NC | - | - | Market | 309 Country Club Dr NE unit Melrose 301-Melro... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=309+Country+Club+Dr+NE+unit+Melrose+301-Melrose-301+A%2C+Charlotte%2C+NC) |
@@ -493,8 +493,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5661 Comiskey Aly, Charlotte, NC | - | - | Market | 5661 Comiskey Aly | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5661+Comiskey+Aly%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11307 Breezehill Ln, Charlotte, NC | - | - | Market | 11307 Breezehill Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11307+Breezehill+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9015 Kings Grant Dr unit 8304-303, Charlotte, NC | - | - | Market | 9015 Kings Grant Dr unit 8304-303 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9015+Kings+Grant+Dr+unit+8304-303%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9015 Kings Grant Dr, Charlotte, NC | - | - | Market | 9015 Kings Grant Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9015+Kings+Grant+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9015 Kings Grant Dr unit 8303-304, Charlotte, NC | - | - | Market | 9015 Kings Grant Dr unit 8303-304 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9015+Kings+Grant+Dr+unit+8303-304%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9015 Kings Grant Dr, Charlotte, NC | - | - | Market | 9015 Kings Grant Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9015+Kings+Grant+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3123 Golden Dale Ln, Charlotte, NC | - | - | Market | 3123 Golden Dale Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3123+Golden+Dale+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11005 Woodland Crk Wy unit 1, Charlotte, NC | - | - | Market | 11005 Woodland Crk Wy unit 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11005+Woodland+Crk+Wy+unit+1%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11016 Woodland Crk Wy, Charlotte, NC | - | - | Market | 11016 Woodland Crk Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11016+Woodland+Crk+Wy%2C+Charlotte%2C+NC) |
@@ -514,8 +514,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 310 S Wadesboro Blvd unit 310 S. WADESBORO BLVD APT #9, Charlotte, NC | - | - | Market | 310 S Wadesboro Blvd unit 310 S. WADESBORO BL... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=310+S+Wadesboro+Blvd+unit+310+S.+WADESBORO+BLVD+APT+%239%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 428 W Main St unit 428 W. MAIN ST APT #34, Charlotte, NC | - | - | Market | 428 W Main St unit 428 W. MAIN ST APT #34 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=428+W+Main+St+unit+428+W.+MAIN+ST+APT+%2334%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 146 S Dorsett St, Charlotte, NC | - | - | Market | 146 S Dorsett St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=146+S+Dorsett+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 100 Laurel Pointe Cir, Charlotte, NC | - | - | Market | Laurel Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Laurel+Pointe+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 200 Castlewood Dr, Charlotte, NC | - | - | Market | Salisbury Village at Castlewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=200+Castlewood+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 103 N 1st St, Charlotte, NC | - | - | Market |  | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+N+1st+St%2C+Charlotte%2C+NC) |
