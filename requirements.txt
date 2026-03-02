@@ -3,3 +3,13 @@ beautifulsoup4>=4.12.0
 lxml>=4.9.0
 pyyaml>=6.0
 schedule>=1.2.0
+
+# Optional: Install Playwright for MUCH better results from Zillow,
+# Apartments.com, and Rent.com (extracts real prices, bedrooms, sqft).
+# Without it, these sites block most data.
+#
+# To install:
+#   pip install playwright
+#   playwright install chromium
+#
+# playwright>=1.40.0

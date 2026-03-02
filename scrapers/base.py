@@ -13,10 +13,75 @@ from bs4 import BeautifulSoup
 from models import Apartment
 
 
+# ---------------------------------------------------------------------------
+# Optional headless browser support (Playwright)
+# Needed because Zillow, Apartments.com, Rent.com block non-browser requests
+# and only serve building names without prices/bedrooms/sqft.
+# Install: pip install playwright && playwright install chromium
+# ---------------------------------------------------------------------------
+try:
+    from playwright.sync_api import sync_playwright
+    HAS_PLAYWRIGHT = True
+except ImportError:
+    HAS_PLAYWRIGHT = False
+
+
+class BrowserResponse:
+    """Minimal response-like wrapper so scrapers can use the same interface."""
+
+    def __init__(self, html: str, url: str):
+        self.text = html
+        self.url = url
+        self.status_code = 200
+
+    def raise_for_status(self):
+        pass
+
+
+_pw_instance = None
+_browser = None
+
+
+def get_shared_browser():
+    """Return a shared Playwright browser instance (launched once, reused)."""
+    global _pw_instance, _browser
+    if not HAS_PLAYWRIGHT:
+        return None
+    if _browser:
+        return _browser
+    try:
+        _pw_instance = sync_playwright().start()
+        _browser = _pw_instance.chromium.launch(headless=True)
+        return _browser
+    except Exception as e:
+        print(f"  [browser] Failed to launch: {e}")
+        return None
+
+
+def close_shared_browser():
+    """Shut down the shared browser (call at the end of the program)."""
+    global _pw_instance, _browser
+    if _browser:
+        try:
+            _browser.close()
+        except Exception:
+            pass
+        _browser = None
+    if _pw_instance:
+        try:
+            _pw_instance.stop()
+        except Exception:
+            pass
+        _pw_instance = None
+
+
 class BaseScraper(ABC):
     """Base class all scrapers inherit from."""
 
     SOURCE_NAME = "unknown"
+    # Scrapers that need JavaScript rendering to get prices/details
+    # should set this to True (Zillow, Apartments.com, Rent.com).
+    PREFER_BROWSER = False
 
     def __init__(self, config: dict):
         self.config = config
@@ -109,9 +174,37 @@ class BaseScraper(ABC):
             time.sleep(self.rate_limit + jitter)
         self._request_count += 1
 
-    def _get(self, url: str, params: dict = None, headers: dict = None) -> requests.Response:
-        """Make a rate-limited GET request."""
+    def _get(self, url: str, params: dict = None, headers: dict = None):
+        """Make a rate-limited GET request.
+
+        For scrapers with PREFER_BROWSER=True, uses a headless browser
+        (Playwright) when available so that JavaScript-rendered content
+        (prices, bedrooms, sqft) is present in the HTML.
+        """
         self._rate_limit_wait()
+
+        # Try headless browser for sites that block non-browser requests
+        if self.PREFER_BROWSER:
+            browser = get_shared_browser()
+            if browser:
+                try:
+                    ctx = browser.new_context(
+                        user_agent=(
+                            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 (KHTML, like Gecko) "
+                            "Chrome/120.0.0.0 Safari/537.36"
+                        )
+                    )
+                    page = ctx.new_page()
+                    page.goto(url, wait_until="networkidle", timeout=30000)
+                    html = page.content()
+                    page.close()
+                    ctx.close()
+                    return BrowserResponse(html, url)
+                except Exception as e:
+                    print(f"  [{self.SOURCE_NAME}] Browser fetch failed, falling back to requests: {e}")
+
+        # Standard requests fallback
         hdrs = headers or self._get_headers()
         resp = self.session.get(url, params=params, headers=hdrs, timeout=self.timeout)
         resp.raise_for_status()

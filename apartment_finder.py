@@ -250,6 +250,14 @@ def main():
     print(f"  Rent:     ${search.get('min_rent', 0):,} – ${search.get('max_rent', 0):,}")
     print(f"  Beds:     {', '.join(str(b) for b in search.get('bedrooms', []))}")
     print(f"  State:    {search.get('state', 'NC')} only")
+
+    # Check for headless browser support
+    from scrapers.base import HAS_PLAYWRIGHT
+    if HAS_PLAYWRIGHT:
+        print(f"  Browser:  Playwright (headless Chrome) -- prices will be extracted")
+    else:
+        print(f"  Browser:  Not installed -- Zillow/Apartments.com/Rent.com will have limited data")
+        print(f"            Install for full data: pip install playwright && playwright install chromium")
     print()
 
     # Determine priority filter
@@ -319,6 +327,10 @@ def main():
         fb_url = build_facebook_marketplace_url(config)
         print(f"\n  Check Facebook Marketplace directly:")
         print(f"    {fb_url}")
+
+    # Clean up headless browser if it was used
+    from scrapers.base import close_shared_browser
+    close_shared_browser()
 
     return 0
 

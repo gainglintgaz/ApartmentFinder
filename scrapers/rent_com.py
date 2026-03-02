@@ -15,6 +15,7 @@ class RentComScraper(BaseScraper):
 
     SOURCE_NAME = "rent.com"
     BASE_URL = "https://www.rent.com"
+    PREFER_BROWSER = True
 
     def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build Rent.com search URL."""

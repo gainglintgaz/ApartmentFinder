@@ -15,6 +15,7 @@ class ApartmentsComScraper(BaseScraper):
 
     SOURCE_NAME = "apartments.com"
     BASE_URL = "https://www.apartments.com"
+    PREFER_BROWSER = True
 
     def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build the search URL for Apartments.com."""

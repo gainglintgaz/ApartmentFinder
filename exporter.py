@@ -314,6 +314,48 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
     return filepath
 
 
+def export_html_viewer(listings: List[Apartment], config: dict) -> str:
+    """Generate a self-contained HTML viewer with embedded data.
+
+    The viewer has search, filter, and sort — just open it in a browser.
+    """
+    search = config.get("search", {})
+    now = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+
+    # Build the listings data as JSON for embedding
+    data = []
+    for apt in listings:
+        d = apt.to_dict()
+        # price_display is a property, not in to_dict
+        d["price_display"] = apt.price_display
+        data.append(d)
+
+    data_json = json.dumps(data, ensure_ascii=False)
+
+    subtitle = (
+        f"Last updated: {now} | "
+        f"${search.get('min_rent', 0)}-${search.get('max_rent', 900)}/mo | "
+        f"{', '.join(str(b) for b in search.get('bedrooms', []))} bedrooms | "
+        f"{search.get('state', 'NC')}"
+    )
+
+    # Read the template
+    template_path = os.path.join(os.path.dirname(__file__), "viewer_template.html")
+    with open(template_path, "r", encoding="utf-8") as f:
+        html = f.read()
+
+    # Inject data and metadata
+    html = html.replace("/*DATA_PLACEHOLDER*/[]", data_json)
+    html = html.replace("<!--SUBTITLE-->", subtitle)
+
+    # Write to output
+    filepath = "apartments_viewer.html"
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    return filepath
+
+
 def export_all(listings: List[Apartment], config: dict) -> dict:
     """Export to all enabled formats."""
     out_cfg = config.get("output", {})
@@ -323,6 +365,7 @@ def export_all(listings: List[Apartment], config: dict) -> dict:
     if out_cfg.get("json", True):
         paths["json"] = export_json(listings, config)
     paths["markdown"] = export_markdown(listings, config)
+    paths["html_viewer"] = export_html_viewer(listings, config)
     return paths
 
 

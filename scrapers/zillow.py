@@ -15,6 +15,7 @@ class ZillowScraper(BaseScraper):
 
     SOURCE_NAME = "zillow"
     BASE_URL = "https://www.zillow.com"
+    PREFER_BROWSER = True
 
     def _build_url(self, page: int = 1, city: str = None) -> str:
         """Build the Zillow rental search URL."""
