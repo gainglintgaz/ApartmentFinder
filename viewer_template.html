@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartment Search Results</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #333; }
+
+  .header { background: linear-gradient(135deg, #1a73e8, #0d47a1); color: white; padding: 24px 20px; }
+  .header h1 { font-size: 24px; margin-bottom: 4px; }
+  .header .subtitle { opacity: 0.85; font-size: 14px; }
+
+  .stats-bar { display: flex; gap: 16px; flex-wrap: wrap; padding: 16px 20px; background: white; border-bottom: 1px solid #ddd; }
+  .stat { text-align: center; padding: 8px 16px; background: #f0f4ff; border-radius: 8px; min-width: 100px; }
+  .stat .num { font-size: 22px; font-weight: 700; color: #1a73e8; }
+  .stat .label { font-size: 11px; color: #666; text-transform: uppercase; }
+
+  .filters { display: flex; gap: 12px; flex-wrap: wrap; padding: 16px 20px; background: white; border-bottom: 1px solid #ddd; align-items: flex-end; }
+  .filter-group { display: flex; flex-direction: column; gap: 4px; }
+  .filter-group label { font-size: 11px; font-weight: 600; color: #666; text-transform: uppercase; }
+  .filter-group input, .filter-group select { padding: 8px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; }
+  .filter-group input:focus, .filter-group select:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(26,115,232,0.2); }
+  #searchBox { min-width: 240px; }
+  .reset-btn { padding: 8px 16px; background: #eee; border: 1px solid #ccc; border-radius: 6px; cursor: pointer; font-size: 14px; }
+  .reset-btn:hover { background: #ddd; }
+
+  .results-count { padding: 12px 20px; font-size: 13px; color: #666; background: #fafafa; border-bottom: 1px solid #eee; }
+
+  .table-wrap { overflow-x: auto; padding: 0 20px 20px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  thead { background: #f8f9fa; }
+  th { padding: 10px 12px; text-align: left; font-size: 12px; font-weight: 600; color: #555; text-transform: uppercase; cursor: pointer; white-space: nowrap; border-bottom: 2px solid #e0e0e0; user-select: none; }
+  th:hover { background: #e8eaed; }
+  th.sorted-asc::after { content: ' \25B2'; font-size: 10px; }
+  th.sorted-desc::after { content: ' \25BC'; font-size: 10px; }
+  td { padding: 10px 12px; font-size: 13px; border-bottom: 1px solid #f0f0f0; }
+  tr:hover { background: #f0f7ff; }
+
+  .price-cell { font-weight: 700; color: #1a73e8; white-space: nowrap; }
+  .price-na { color: #999; font-weight: normal; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 600; }
+  .tag-subsidized { background: #e8f5e9; color: #2e7d32; }
+  .tag-senior { background: #fff3e0; color: #e65100; }
+  .tag-section8 { background: #e3f2fd; color: #1565c0; }
+  .tag-market { background: #f3e5f5; color: #7b1fa2; }
+  .tag-new { background: #fce4ec; color: #c62828; font-weight: 700; }
+  .tag-preferred { background: #e8f5e9; color: #2e7d32; }
+  .tag-expanded { background: #fff8e1; color: #f57f17; }
+  a.listing-link { color: #1a73e8; text-decoration: none; font-weight: 500; }
+  a.listing-link:hover { text-decoration: underline; }
+  a.map-link { color: #0d652d; font-size: 12px; text-decoration: none; }
+  a.map-link:hover { text-decoration: underline; }
+  .phone-link { color: #333; text-decoration: none; white-space: nowrap; }
+
+  .no-results { text-align: center; padding: 40px; color: #999; }
+  .fb-banner { background: #e3f2fd; padding: 12px 20px; border-bottom: 1px solid #bbdefb; font-size: 13px; }
+  .fb-banner a { color: #1565c0; font-weight: 600; }
+
+  @media (max-width: 768px) {
+    .filters { flex-direction: column; }
+    .filter-group input, .filter-group select { width: 100%; }
+    td, th { padding: 6px 8px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Apartment Search Results</h1>
+  <div class="subtitle"><!--SUBTITLE--></div>
+</div>
+
+<div class="fb-banner">
+  Also check: <a href="https://www.facebook.com/marketplace/Midland-NC/propertyrentals?minPrice=0&maxPrice=900&exact=false" target="_blank">Facebook Marketplace</a> (can't be auto-searched)
+</div>
+
+<div class="stats-bar" id="statsBar"></div>
+
+<div class="filters">
+  <div class="filter-group">
+    <label>Search</label>
+    <input type="text" id="searchBox" placeholder="Search name, address, city...">
+  </div>
+  <div class="filter-group">
+    <label>Source</label>
+    <select id="filterSource"><option value="">All Sources</option></select>
+  </div>
+  <div class="filter-group">
+    <label>Type</label>
+    <select id="filterType">
+      <option value="">All Types</option>
+      <option value="subsidized">Subsidized</option>
+      <option value="senior">Senior</option>
+      <option value="section8">Section 8</option>
+      <option value="market">Market</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>City</label>
+    <select id="filterCity"><option value="">All Cities</option></select>
+  </div>
+  <div class="filter-group">
+    <label>Bedrooms</label>
+    <select id="filterBeds">
+      <option value="">Any</option>
+      <option value="Studio">Studio</option>
+      <option value="1">1 BR</option>
+      <option value="2">2 BR</option>
+    </select>
+  </div>
+  <div class="filter-group">
+    <label>Max Price</label>
+    <input type="number" id="filterMaxPrice" placeholder="e.g. 900" style="width:100px">
+  </div>
+  <button class="reset-btn" onclick="resetFilters()">Reset</button>
+</div>
+
+<div class="results-count" id="resultsCount"></div>
+
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th data-col="price" data-type="num">Price</th>
+        <th data-col="bedrooms">Beds</th>
+        <th data-col="city">City</th>
+        <th data-col="title">Name</th>
+        <th data-col="housing_type">Type</th>
+        <th data-col="address">Address</th>
+        <th data-col="phone">Phone</th>
+        <th data-col="source">Source</th>
+        <th data-col="date_posted">Listed</th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <div class="no-results" id="noResults" style="display:none">No listings match your filters.</div>
+</div>
+
+<script>
+// Listing data is embedded by the exporter
+const LISTINGS = /*DATA_PLACEHOLDER*/[];
+
+// State
+let sortCol = 'price';
+let sortAsc = true;
+let filtered = [...LISTINGS];
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+  populateFilterOptions();
+  applyFilters();
+  document.getElementById('searchBox').addEventListener('input', applyFilters);
+  document.getElementById('filterSource').addEventListener('change', applyFilters);
+  document.getElementById('filterType').addEventListener('change', applyFilters);
+  document.getElementById('filterCity').addEventListener('change', applyFilters);
+  document.getElementById('filterBeds').addEventListener('change', applyFilters);
+  document.getElementById('filterMaxPrice').addEventListener('input', applyFilters);
+  document.querySelectorAll('th[data-col]').forEach(th => {
+    th.addEventListener('click', () => sortBy(th.dataset.col, th.dataset.type));
+  });
+});
+
+function populateFilterOptions() {
+  const sources = [...new Set(LISTINGS.map(l => l.source).filter(Boolean))].sort();
+  const cities = [...new Set(LISTINGS.map(l => l.city).filter(Boolean))].sort();
+  const srcSel = document.getElementById('filterSource');
+  sources.forEach(s => { const o = document.createElement('option'); o.value = s; o.textContent = s; srcSel.appendChild(o); });
+  const citySel = document.getElementById('filterCity');
+  cities.forEach(c => { const o = document.createElement('option'); o.value = c; o.textContent = c; citySel.appendChild(o); });
+}
+
+function applyFilters() {
+  const q = document.getElementById('searchBox').value.toLowerCase();
+  const src = document.getElementById('filterSource').value;
+  const type = document.getElementById('filterType').value;
+  const city = document.getElementById('filterCity').value;
+  const beds = document.getElementById('filterBeds').value;
+  const maxP = parseInt(document.getElementById('filterMaxPrice').value) || null;
+
+  filtered = LISTINGS.filter(l => {
+    if (q && !(l.title||'').toLowerCase().includes(q) && !(l.address||'').toLowerCase().includes(q)
+        && !(l.city||'').toLowerCase().includes(q) && !(l.full_address||'').toLowerCase().includes(q)
+        && !(l.neighborhood||'').toLowerCase().includes(q)) return false;
+    if (src && l.source !== src) return false;
+    if (type && l.housing_type !== type) return false;
+    if (city && l.city !== city) return false;
+    if (beds) {
+      const b = (l.bedrooms||'').toLowerCase();
+      if (beds === 'Studio' && b !== 'studio' && b !== '0') return false;
+      if (beds !== 'Studio' && b !== beds) return false;
+    }
+    if (maxP && l.price !== null && l.price > maxP) return false;
+    return true;
+  });
+
+  doSort();
+  renderTable();
+  renderStats();
+}
+
+function sortBy(col, type) {
+  if (sortCol === col) { sortAsc = !sortAsc; }
+  else { sortCol = col; sortAsc = true; }
+  document.querySelectorAll('th').forEach(th => th.classList.remove('sorted-asc','sorted-desc'));
+  const th = document.querySelector(`th[data-col="${col}"]`);
+  if (th) th.classList.add(sortAsc ? 'sorted-asc' : 'sorted-desc');
+  doSort();
+  renderTable();
+}
+
+function doSort() {
+  filtered.sort((a, b) => {
+    let va = a[sortCol], vb = b[sortCol];
+    if (sortCol === 'price') {
+      va = va === null ? 99999 : va;
+      vb = vb === null ? 99999 : vb;
+      return sortAsc ? va - vb : vb - va;
+    }
+    va = (va || '').toString().toLowerCase();
+    vb = (vb || '').toString().toLowerCase();
+    return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+  });
+}
+
+function renderStats() {
+  const total = filtered.length;
+  const withPrice = filtered.filter(l => l.price !== null).length;
+  const subsidized = filtered.filter(l => ['subsidized','senior','section8'].includes(l.housing_type)).length;
+  const sources = new Set(filtered.map(l => l.source)).size;
+  const cities = new Set(filtered.map(l => l.city).filter(Boolean)).size;
+
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat"><div class="num">${total}</div><div class="label">Listings</div></div>
+    <div class="stat"><div class="num">${withPrice}</div><div class="label">With Price</div></div>
+    <div class="stat"><div class="num">${subsidized}</div><div class="label">Subsidized/Senior</div></div>
+    <div class="stat"><div class="num">${sources}</div><div class="label">Sources</div></div>
+    <div class="stat"><div class="num">${cities}</div><div class="label">Cities</div></div>
+  `;
+  document.getElementById('resultsCount').textContent = `Showing ${total} of ${LISTINGS.length} listings`;
+}
+
+function fmtPrice(l) {
+  if (l.price === null || l.price === undefined) return '<span class="price-na">N/A</span>';
+  if (l.price === 0 && ['subsidized','senior','section8'].includes(l.housing_type)) return 'Income-Based';
+  return '$' + l.price.toLocaleString();
+}
+
+function typeTag(t) {
+  const map = { subsidized: 'Subsidized', senior: 'Senior', section8: 'Section 8', market: 'Market' };
+  const cls = { subsidized: 'tag-subsidized', senior: 'tag-senior', section8: 'tag-section8', market: 'tag-market' };
+  return `<span class="tag ${cls[t]||'tag-market'}">${map[t]||'Market'}</span>`;
+}
+
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+
+function renderTable() {
+  const tbody = document.getElementById('tableBody');
+  const noRes = document.getElementById('noResults');
+
+  if (!filtered.length) {
+    tbody.innerHTML = '';
+    noRes.style.display = 'block';
+    return;
+  }
+  noRes.style.display = 'none';
+
+  tbody.innerHTML = filtered.map(l => {
+    const beds = l.bedrooms || '?';
+    const baths = l.bathrooms ? `/${l.bathrooms}ba` : '';
+    const newTag = l.is_recent ? ' <span class="tag tag-new">NEW</span>' : '';
+    const phone = l.phone ? `<a class="phone-link" href="tel:${l.phone.replace(/[^0-9]/g,'')}">${esc(l.phone)}</a>` : '-';
+    const links = [];
+    if (l.url) links.push(`<a class="listing-link" href="${esc(l.url)}" target="_blank">View</a>`);
+    if (l.directions_url) links.push(`<a class="map-link" href="${esc(l.directions_url)}" target="_blank">Map</a>`);
+
+    return `<tr>
+      <td class="price-cell">${fmtPrice(l)}${newTag}</td>
+      <td>${esc(beds)}${baths}</td>
+      <td>${esc(l.city)}</td>
+      <td>${l.url ? `<a class="listing-link" href="${esc(l.url)}" target="_blank">${esc(l.title)}</a>` : esc(l.title)}</td>
+      <td>${typeTag(l.housing_type)}</td>
+      <td>${esc(l.address || l.full_address || '')}</td>
+      <td>${phone}</td>
+      <td>${esc(l.source)}</td>
+      <td>${esc(l.date_posted || '-')}</td>
+      <td>${links.join(' ')}</td>
+    </tr>`;
+  }).join('');
+}
+
+function resetFilters() {
+  document.getElementById('searchBox').value = '';
+  document.getElementById('filterSource').value = '';
+  document.getElementById('filterType').value = '';
+  document.getElementById('filterCity').value = '';
+  document.getElementById('filterBeds').value = '';
+  document.getElementById('filterMaxPrice').value = '';
+  applyFilters();
+}
+</script>
+</body>
+</html>

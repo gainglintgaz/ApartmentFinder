@@ -105,6 +105,20 @@ class AffordableHousingScraper(BaseScraper):
 
         return apt
 
+    def _extract_jsonld_listings(self, soup: BeautifulSoup, is_senior: bool = False) -> list:
+        """Extract affordable housing listings from JSON-LD data."""
+        listings = []
+        htype = TYPE_SENIOR if is_senior else TYPE_SUBSIDIZED
+        for item in self._extract_jsonld(soup):
+            apt = self._apt_from_jsonld(item)
+            apt.housing_type = htype
+            combined = (item.get("name", "") + item.get("description", "")).lower()
+            if any(kw in combined for kw in ("senior", "elderly", "62+", "55+")):
+                apt.housing_type = TYPE_SENIOR
+            if apt.title or apt.url:
+                listings.append(apt)
+        return listings
+
     def _scrape_city(self, city: str) -> List[Apartment]:
         """Scrape affordable housing listings for a single city."""
         listings = []
@@ -118,10 +132,13 @@ class AffordableHousingScraper(BaseScraper):
                 resp = self._get(url)
                 soup = BeautifulSoup(resp.text, "lxml")
 
+                page_listings = []
+
+                # Strategy 1: HTML parsing (richer data for affordable sites)
                 cards = soup.select(
                     ".property-listing, .search-result, .listing-card, "
                     "div[class*='property'], div[class*='listing'], "
-                    "article, .result-card"
+                    "article, .result-card, .card"
                 )
 
                 if not cards:
@@ -131,13 +148,21 @@ class AffordableHousingScraper(BaseScraper):
                             if len(container.get_text().strip()) > 30:
                                 cards.append(container)
 
-                if not cards:
-                    break
-
                 for card in cards:
                     apt = self._parse_listing(card)
                     if apt.title or apt.url:
-                        listings.append(apt)
+                        page_listings.append(apt)
+
+                # Strategy 2: JSON-LD fallback
+                if not page_listings:
+                    jsonld = self._extract_jsonld_listings(soup)
+                    if jsonld:
+                        page_listings.extend(jsonld)
+
+                if not page_listings:
+                    break
+
+                listings.extend(page_listings)
             except Exception as e:
                 print(f"  [{self.SOURCE_NAME}] Error on {city} page {page}: {e}")
                 break
@@ -149,15 +174,24 @@ class AffordableHousingScraper(BaseScraper):
             resp = self._get(url)
             soup = BeautifulSoup(resp.text, "lxml")
 
+            # Try HTML first (richer data)
             cards = soup.select(
                 ".property-listing, .search-result, .listing-card, "
-                "div[class*='property'], div[class*='listing'], article"
+                "div[class*='property'], div[class*='listing'], article, .card"
             )
-
+            senior_found = []
             for card in cards:
                 apt = self._parse_listing(card, is_senior=True)
                 if apt.title or apt.url:
-                    listings.append(apt)
+                    senior_found.append(apt)
+
+            # JSON-LD fallback
+            if not senior_found:
+                jsonld = self._extract_jsonld_listings(soup, is_senior=True)
+                if jsonld:
+                    senior_found.extend(jsonld)
+
+            listings.extend(senior_found)
         except Exception as e:
             print(f"  [{self.SOURCE_NAME}] {city} senior search error: {e}")
 
