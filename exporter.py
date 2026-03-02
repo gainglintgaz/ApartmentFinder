@@ -317,7 +317,9 @@ def export_markdown(listings: List[Apartment], config: dict) -> str:
 def export_html_viewer(listings: List[Apartment], config: dict) -> str:
     """Generate a self-contained HTML viewer with embedded data.
 
-    The viewer has search, filter, and sort — just open it in a browser.
+    Writes to docs/index.html for GitHub Pages hosting AND
+    apartments_viewer.html for local viewing. Dark theme, mobile-first
+    card layout, desktop table, search/filter/sort.
     """
     search = config.get("search", {})
     now = datetime.now().strftime("%B %d, %Y at %I:%M %p")
@@ -326,7 +328,6 @@ def export_html_viewer(listings: List[Apartment], config: dict) -> str:
     data = []
     for apt in listings:
         d = apt.to_dict()
-        # price_display is a property, not in to_dict
         d["price_display"] = apt.price_display
         data.append(d)
 
@@ -339,8 +340,12 @@ def export_html_viewer(listings: List[Apartment], config: dict) -> str:
         f"{search.get('state', 'NC')}"
     )
 
-    # Read the template
-    template_path = os.path.join(os.path.dirname(__file__), "viewer_template.html")
+    # Read the GitHub Pages template (docs/index.html is the source template)
+    template_path = os.path.join(os.path.dirname(__file__), "docs", "index.html")
+    if not os.path.isfile(template_path):
+        # Fallback to viewer_template.html
+        template_path = os.path.join(os.path.dirname(__file__), "viewer_template.html")
+
     with open(template_path, "r", encoding="utf-8") as f:
         html = f.read()
 
@@ -348,12 +353,19 @@ def export_html_viewer(listings: List[Apartment], config: dict) -> str:
     html = html.replace("/*DATA_PLACEHOLDER*/[]", data_json)
     html = html.replace("<!--SUBTITLE-->", subtitle)
 
-    # Write to output
-    filepath = "apartments_viewer.html"
-    with open(filepath, "w", encoding="utf-8") as f:
+    # Write to docs/index.html (GitHub Pages)
+    docs_dir = os.path.join(os.path.dirname(__file__), "docs")
+    os.makedirs(docs_dir, exist_ok=True)
+    docs_path = os.path.join(docs_dir, "index.html")
+    with open(docs_path, "w", encoding="utf-8") as f:
         f.write(html)
 
-    return filepath
+    # Also write a local copy
+    local_path = "apartments_viewer.html"
+    with open(local_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
+    return docs_path
 
 
 def export_all(listings: List[Apartment], config: dict) -> dict:
