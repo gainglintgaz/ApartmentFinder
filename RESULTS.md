@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** March 09, 2026 at 02:37 AM
+**Last updated:** March 09, 2026 at 07:15 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 180
+**Total listings found:** 186
 
-**By source:** rent.com: 180
+**By source:** rent.com: 186
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (31)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (37)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (31)
+## Midland & East Charlotte (Market Rentals) (37)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -59,6 +59,12 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11051 Lawyers Rd, Charlotte, NC | - | - | Market | 11051 Lawyers Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11051+Lawyers+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8025 Wilson Woods Dr, Charlotte, NC | - | - | Market | 8025 Wilson Woods Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8025+Wilson+Woods+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1400 Ventura Way Dr, Charlotte, NC | - | - | Market | Somerset Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Ventura+Way+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 640-656 Wilson St, Charlotte, NC | - | - | Market | 647 Wilson Street | - | [Map](https://www.google.com/maps/dir/?api=1&destination=640-656+Wilson+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3201 Windshire Ln, Charlotte, NC | - | - | Market | Gramercy Square at Ayrsley | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3201+Windshire+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4301 Forestridge Ln, Charlotte, NC | - | - | Market | The Ridges | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4301+Forestridge+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 200 Castlewood Dr, Charlotte, NC | - | - | Market | Salisbury Village at Castlewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=200+Castlewood+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1010 W Trade St, Charlotte, NC | - | - | Market | Centric Gateway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1010+W+Trade+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3005 Chestnut Grove Ln, Charlotte, NC | - | - | Market | Chestnut Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3005+Chestnut+Grove+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1811 Lookout Ln, Charlotte, NC | - | - | Market | Bradford Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1811+Lookout+Ln%2C+Charlotte%2C+NC) |
