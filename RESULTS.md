@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** March 21, 2026 at 01:02 PM
+**Last updated:** March 21, 2026 at 06:47 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 162
+**Total listings found:** 163
 
-**By source:** rent.com: 162
+**By source:** rent.com: 163
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (13)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (14)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,12 +44,13 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (13)
+## Midland & East Charlotte (Market Rentals) (14)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3983 Wagon Wy, Charlotte, NC | - | - | Market | 3983 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3983+Wagon+Wy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3985 Wagon Wy, Charlotte, NC | - | - | Market | 3985 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3985+Wagon+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7023 Brighton Park Dr, Charlotte, NC | - | - | Market | 7023 Brighton Park Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7023+Brighton+Park+Dr%2C+Charlotte%2C+NC) |
@@ -133,11 +134,12 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 9200 Willow Ridge Rd, Charlotte, NC | - | - | Market | Willow Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9200+Willow+Ridge+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6200 Birkdale Valley Dr, Charlotte, NC | - | - | Market | The Fairways at Piper Glen Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6200+Birkdale+Valley+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 10015 Parthenon Ct, Charlotte, NC | - | - | Market | Bellamy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10015+Parthenon+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10510 Waterford Creek Ln, Charlotte, NC | - | - | Market | Waterford Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10510+Waterford+Creek+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 10510 Waterford Creek Ln, Charlotte, NC | - | - | Market | Waterford Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10510+Waterford+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 203 Monarch Creek Ln, Charlotte, NC | - | - | Market | Crossings At Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=203+Monarch+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4076 Enderly Towns Ln, Charlotte, NC | - | - | Market | Enderly Towns | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4076+Enderly+Towns+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6134 Wilora Lake Rd, Charlotte, NC | - | - | Market | Towns at Eastland | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6134+Wilora+Lake+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1816 N Brevard St, Charlotte, NC | - | - | Market | The Joinery Bldg 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1816+N+Brevard+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2208 Yager Creek Dr, Charlotte, NC | - | - | Market | Coffey Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2208+Yager+Creek+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1816 N Brevard St, Charlotte, NC | - | - | Market | Joinery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1816+N+Brevard+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 Limelight Ln, Charlotte, NC | - | - | Market | Avery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+Limelight+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 345 Sharon Township Ln, Charlotte, NC | - | - | Market | Inspire | - | [Map](https://www.google.com/maps/dir/?api=1&destination=345+Sharon+Township+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 925 W Mallard Creek Church Rd, Charlotte, NC | - | - | Market | Alexan Overlook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=925+W+Mallard+Creek+Church+Rd%2C+Charlotte%2C+NC) |
@@ -214,7 +216,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2104 Cascade Pointe Blvd, Charlotte, NC | - | - | Market | LakePointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2104+Cascade+Pointe+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 719 Gesco St, Charlotte, NC | - | - | Market | The Perch | - | [Map](https://www.google.com/maps/dir/?api=1&destination=719+Gesco+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 10500 Midway Park Dr, Charlotte, NC | - | - | Market | Laurent | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10500+Midway+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4401 Barclay Downs Dr, Charlotte, NC | - | - | Market | Hazel Southpark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4401+Barclay+Downs+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
