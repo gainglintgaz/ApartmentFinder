@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** March 23, 2026 at 01:21 PM
+**Last updated:** March 23, 2026 at 07:06 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 163
+**Total listings found:** 164
 
-**By source:** rent.com: 163
+**By source:** rent.com: 164
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (14)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (15)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (14)
+## Midland & East Charlotte (Market Rentals) (15)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -58,6 +58,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7201 Cedarfield Rd, Charlotte, NC | - | - | Market | 7201 Cedarfield Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7201+Cedarfield+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11051 Lawyers Rd, Charlotte, NC | - | - | Market | 11051 Lawyers Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11051+Lawyers+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8025 Wilson Woods Dr, Charlotte, NC | - | - | Market | 8025 Wilson Woods Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8025+Wilson+Woods+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
