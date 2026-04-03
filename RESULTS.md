@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 02, 2026 at 07:10 PM
+**Last updated:** April 03, 2026 at 02:43 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 178
+**Total listings found:** 166
 
-**By source:** rent.com: 178
+**By source:** rent.com: 166
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (29)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (29)
+## Midland & East Charlotte (Market Rentals) (17)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -63,20 +63,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13931 Thompson Rd, Charlotte, NC | - | - | Market | 13931 Thompson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13931+Thompson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1701 Gander Cove Ln, Charlotte, NC | - | - | Market | Brookside 17 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Gander+Cove+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10315 Monrovia Dr, Charlotte, NC | - | - | Market | The Address Galleria | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10315+Monrovia+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 905 Matthews Commons Dr, Charlotte, NC | - | - | Market | MAA Matthews Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=905+Matthews+Commons+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4101 Glenloch Cir, Charlotte, NC | - | - | Market | Inspire Royal Park - 55+ Active Adult Communi... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4101+Glenloch+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4011 Rothwood Ln, Charlotte, NC | - | - | Market | 4011 Rothwood Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4011+Rothwood+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4147 Black Ct unit 1, Charlotte, NC | - | - | Market | 4147 Black Ct unit 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4147+Black+Ct+unit+1%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4107 Black Ct, Charlotte, NC | - | - | Market | 4107 Black Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4107+Black+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3971 Fadden St, Charlotte, NC | - | - | Market | 3971 Fadden St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3971+Fadden+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8817 Arrington Hall, Charlotte, NC | - | - | Market | 8817 Arrington Hall | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8817+Arrington+Hall%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4957 Sunburst Ln, Charlotte, NC | - | - | Market | 4957 Sunburst Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4957+Sunburst+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5725 Gulch Pl, Charlotte, NC | - | - | Market | 5725 Gulch Pl | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5725+Gulch+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6102 Vermillion Cedar Way, Charlotte, NC | - | - | Market | Redwood Kannapolis Davidson | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6102+Vermillion+Cedar+Way%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
