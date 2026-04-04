@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 04, 2026 at 01:09 PM
+**Last updated:** April 04, 2026 at 06:55 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 161
+**Total listings found:** 166
 
-**By source:** rent.com: 161
+**By source:** rent.com: 166
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (12)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (12)
+## Midland & East Charlotte (Market Rentals) (17)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -53,6 +53,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3983 Wagon Wy, Charlotte, NC | - | - | Market | 3983 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3983+Wagon+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7023 Brighton Park Dr, Charlotte, NC | - | - | Market | 7023 Brighton Park Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7023+Brighton+Park+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7201 Cedarfield Rd, Charlotte, NC | - | - | Market | 7201 Cedarfield Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7201+Cedarfield+Rd%2C+Charlotte%2C+NC) |
@@ -60,6 +61,10 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1701 Gander Cove Ln, Charlotte, NC | - | - | Market | Brookside 17 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Gander+Cove+Ln%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
