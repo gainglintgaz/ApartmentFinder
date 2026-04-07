@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 06, 2026 at 07:13 PM
+**Last updated:** April 07, 2026 at 02:47 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 174
+**Total listings found:** 163
 
-**By source:** rent.com: 174
+**By source:** rent.com: 163
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (25)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (14)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (25)
+## Midland & East Charlotte (Market Rentals) (14)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -62,17 +62,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3005 Chestnut Grove Ln, Charlotte, NC | - | - | Market | Chestnut Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3005+Chestnut+Grove+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1965 Stallings Rd, Charlotte, NC | - | - | Market | 1965 Stallings Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1965+Stallings+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 318 Willow Wood Ct, Charlotte, NC | - | - | Market | 318 Willow Wood Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=318+Willow+Wood+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3309 Timber Ml Dr, Charlotte, NC | - | - | Market | 3309 Timber Ml Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3309+Timber+Ml+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8100 Sapwood Ct, Charlotte, NC | - | - | Market | 8100 Sapwood Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8100+Sapwood+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4703 Potter Rd unit Unit B, Charlotte, NC | - | - | Market | 4703 Potter Rd unit Unit B | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4703+Potter+Rd+unit+Unit+B%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3201 Timber Ml Dr, Charlotte, NC | - | - | Market | 3201 Timber Ml Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3201+Timber+Ml+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 15120 Idlewild Rd, Charlotte, NC | - | - | Market | 15120 Idlewild Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=15120+Idlewild+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1965 Stallings Rd unit 1, Charlotte, NC | - | - | Market | 1965 Stallings Rd unit 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1965+Stallings+Rd+unit+1%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1701 Gander Cove Ln, Charlotte, NC | - | - | Market | Brookside 17 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Gander+Cove+Ln%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
