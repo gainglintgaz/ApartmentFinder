@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** April 07, 2026 at 01:31 PM
+**Last updated:** April 07, 2026 at 07:15 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -163,6 +163,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6110 Forest Glen Rd, Charlotte, NC | - | - | Market | Ashby Woods | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6110+Forest+Glen+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1526 Flat River Dr, Charlotte, NC | - | - | Market | Worthington Apartments and Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1526+Flat+River+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1015 Deep Rock Cir, Charlotte, NC | - | - | Market | Granite Pointe Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1015+Deep+Rock+Cir%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Queens Rd, Charlotte, NC | - | - | Market | Queens at Granville | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Queens+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7000 Fernwood Dr, Charlotte, NC | - | - | Market | Stonehaven East | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7000+Fernwood+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5128 Berkey Ln, Charlotte, NC | - | - | Market | Mint and Mill Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5128+Berkey+Ln%2C+Charlotte%2C+NC) |
@@ -215,7 +216,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6110A Gladiolus Ln, Charlotte, NC | - | - | Market | Redwood Charlotte Ridge Road | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6110A+Gladiolus+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7740 Liberty Row Dr, Charlotte, NC | - | - | Market | Modera Liberty Row | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7740+Liberty+Row+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8810 Legacy Park Dr, Charlotte, NC | - | - | Market | MAA Legacy Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8810+Legacy+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1510 Scott Ave, Charlotte, NC | - | - | Market | Camden Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1510+Scott+Ave%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
