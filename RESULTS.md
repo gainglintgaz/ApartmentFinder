@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 09, 2026 at 01:55 PM
+**Last updated:** April 09, 2026 at 07:20 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 162
+**Total listings found:** 163
 
-**By source:** rent.com: 162
+**By source:** rent.com: 163
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (13)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (14)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,12 +44,13 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (13)
+## Midland & East Charlotte (Market Rentals) (14)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13917 Clayborn St, Charlotte, NC | - | - | Market | 13917 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13917+Clayborn+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 14145 Clayborn St, Charlotte, NC | - | - | Market | 14145 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14145+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3983 Wagon Wy, Charlotte, NC | - | - | Market | 3983 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3983+Wagon+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
@@ -89,7 +90,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6316 Cameron Forest Ln, Charlotte, NC | - | - | Market | Cameron South Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6316+Cameron+Forest+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4540 Tantilla Cir, Charlotte, NC | - | - | Market | The Grove Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4540+Tantilla+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1700 Charleston Place Ln, Charlotte, NC | - | - | Market | The Pines | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Charleston+Place+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6147 Winged Elm Ct, Charlotte, NC | - | - | Market | Woodland Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6147+Winged+Elm+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2201 Yorkhills Dr, Charlotte, NC | - | - | Market | Timberstone | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2201+Yorkhills+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 500 Solano Dr, Charlotte, NC | - | - | Market | Cortland Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=500+Solano+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3421 N Sharon Amity Rd, Charlotte, NC | - | - | Market | Ashby Point | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3421+N+Sharon+Amity+Rd%2C+Charlotte%2C+NC) |
@@ -179,7 +179,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7000 Fernwood Dr, Charlotte, NC | - | - | Market | Stonehaven East | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7000+Fernwood+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2307 Ridgemont Ave, Charlotte, NC | - | - | Market | Allora Ashley Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2307+Ridgemont+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7011 Star Oaks Ln, Charlotte, NC | - | - | Market | Oak Tree Apartments & Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7011+Star+Oaks+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10019 Plum Creek Ln, Charlotte, NC | - | - | Market | Park at Caterina | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10019+Plum+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3501 E Independence Blvd, Charlotte, NC | - | - | Market | The Residences at Windsor | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3501+E+Independence+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 704 W Tremont Ave, Charlotte, NC | - | - | Market | 704 at the Quarter | - | [Map](https://www.google.com/maps/dir/?api=1&destination=704+W+Tremont+Ave%2C+Charlotte%2C+NC) |
@@ -215,6 +214,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 425 W 5th St, Charlotte, NC | - | - | Market | The Kensington | - | [Map](https://www.google.com/maps/dir/?api=1&destination=425+W+5th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12506 Atkins Circle Dr, Charlotte, NC | - | - | Market | Atkins Circle Apartments and Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12506+Atkins+Circle+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3570 Toringdon Way, Charlotte, NC | - | - | Market | Berkshire Ballantyne | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3570+Toringdon+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 200 E Cama St, Charlotte, NC | - | - | Market | Artizia at LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=200+E+Cama+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6134 Wilora Lake Rd, Charlotte, NC | - | - | Market | Towns at Eastland | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6134+Wilora+Lake+Rd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
