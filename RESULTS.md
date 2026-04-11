@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 10, 2026 at 07:08 PM
+**Last updated:** April 11, 2026 at 02:39 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 172
+**Total listings found:** 174
 
-**By source:** rent.com: 172
+**By source:** rent.com: 174
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (23)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (25)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (23)
+## Midland & East Charlotte (Market Rentals) (25)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -69,6 +69,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1101 Flagstone Ln, Charlotte, NC | - | - | Market | The Kendall | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Crescent Ln, Charlotte, NC | - | - | Market | MAA Fifty-One | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Crescent+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4101 Glenloch Cir, Charlotte, NC | - | - | Market | Inspire Royal Park - 55+ Active Adult Communi... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4101+Glenloch+Cir%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4418 Oat Grass Cir, Charlotte, NC | - | - | Market | Sablewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4418+Oat+Grass+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5005 Forest Acres Ln, Charlotte, NC | - | - | Market | Springstone Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5005+Forest+Acres+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6134 Wilora Lake Rd, Charlotte, NC | - | - | Market | Towns at Eastland | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6134+Wilora+Lake+Rd%2C+Charlotte%2C+NC) |
 
@@ -166,6 +168,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 639 Archdale Dr, Charlotte, NC | - | - | Market | The Highlands Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=639+Archdale+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3501 E Independence Blvd, Charlotte, NC | - | - | Market | The Residences at Windsor | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3501+E+Independence+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6205 Dove Tree Ln, Charlotte, NC | - | - | Market | Woodland Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Dove+Tree+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 314 Clarence St, Charlotte, NC | - | - | Market | Thompson Place Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=314+Clarence+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 905 Pineville Point Ave, Charlotte, NC | - | - | Market | Ashford Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=905+Pineville+Point+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2222 N Tryon St, Charlotte, NC | - | - | Market | Cavella | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2222+N+Tryon+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2341 Jons Creek Ln, Charlotte, NC | - | - | Market | Newell Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2341+Jons+Creek+Ln%2C+Charlotte%2C+NC) |
@@ -180,6 +183,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1441 Ashcraft Ln, Charlotte, NC | - | - | Market | Park Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1441+Ashcraft+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3010 Ardisia Dr, Charlotte, NC | - | - | Market | Bainbridge Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3010+Ardisia+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2200 Dunavant St, Charlotte, NC | - | - | Market | Hawkins Press | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2200+Dunavant+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4310 Park Rd, Charlotte, NC | - | - | Market | Park at Drexel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4310+Park+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1130 N College St, Charlotte, NC | - | - | Market | J Optimist Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1130+N+College+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2024 Millerton Ave, Charlotte, NC | - | - | Market | ARIUM FreeMoreWest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2024+Millerton+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5626 Sharon Pointe Rd, Charlotte, NC | - | - | Market | Sharon Pointe Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5626+Sharon+Pointe+Rd%2C+Charlotte%2C+NC) |
@@ -223,8 +227,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 205 S Kings Dr, Charlotte, NC | - | - | Market | Midtown 205 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=205+S+Kings+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3035 N Tryon St, Charlotte, NC | - | - | Market | Contour at NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3035+N+Tryon+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 425 W 5th St, Charlotte, NC | - | - | Market | The Kensington | - | [Map](https://www.google.com/maps/dir/?api=1&destination=425+W+5th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4418 Oat Grass Cir, Charlotte, NC | - | - | Market | Sablewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4418+Oat+Grass+Cir%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
