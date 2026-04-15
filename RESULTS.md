@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** April 15, 2026 at 02:08 PM
+**Last updated:** April 15, 2026 at 07:29 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -142,6 +142,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 606 N Carolina Music Factory Blvd, Charlotte, NC | - | - | Market | Cadence Music Factory | - | [Map](https://www.google.com/maps/dir/?api=1&destination=606+N+Carolina+Music+Factory+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13001 Yorkridge Dr, Charlotte, NC | - | - | Market | Avenues at Steele Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13001+Yorkridge+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3934 Raleigh St, Charlotte, NC | - | - | Market | Artifact NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3934+Raleigh+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 10015 Madison Square Pl, Charlotte, NC | - | - | Market | The District | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10015+Madison+Square+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Queens Rd, Charlotte, NC | - | - | Market | Queens at Granville | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Queens+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 203 Monarch Creek Ln, Charlotte, NC | - | - | Market | Crossings At Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=203+Monarch+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2109 Arrowcreek Dr, Charlotte, NC | - | - | Market | Rise Sunridge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2109+Arrowcreek+Dr%2C+Charlotte%2C+NC) |
@@ -216,7 +217,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 640 N Church St, Charlotte, NC | - | - | Market | The Ascher | - | [Map](https://www.google.com/maps/dir/?api=1&destination=640+N+Church+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 205 S Kings Dr, Charlotte, NC | - | - | Market | Midtown 205 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=205+S+Kings+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7407 Dominion Park Ln, Charlotte, NC | - | - | Market | The Palmer | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7407+Dominion+Park+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5005 Forest Acres Ln, Charlotte, NC | - | - | Market | Springstone Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5005+Forest+Acres+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
