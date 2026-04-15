@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 14, 2026 at 07:29 PM
+**Last updated:** April 15, 2026 at 02:53 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 165
+**Total listings found:** 164
 
-**By source:** rent.com: 165
+**By source:** rent.com: 164
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (16)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (15)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (16)
+## Midland & East Charlotte (Market Rentals) (15)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -63,7 +63,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Concord Chase Cir, Charlotte, NC | - | - | Market | Concord Chase Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Concord+Chase+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
