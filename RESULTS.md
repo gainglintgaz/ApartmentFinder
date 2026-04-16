@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** April 16, 2026 at 02:00 PM
+**Last updated:** April 16, 2026 at 07:27 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -118,6 +118,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7601 Holliswood Ct, Charlotte, NC | - | - | Market | Hollis 7601 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7601+Holliswood+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6940 Hidden Forest Dr, Charlotte, NC | - | - | Market | Crossroads Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6940+Hidden+Forest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6215 Forest Way Dr, Charlotte, NC | - | - | Market | M Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6215+Forest+Way+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8340 N Tryon St, Charlotte, NC | - | - | Market | The Spoke at McCullough Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8340+N+Tryon+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1510 Scott Ave, Charlotte, NC | - | - | Market | Camden Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1510+Scott+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9200 Willow Ridge Rd, Charlotte, NC | - | - | Market | Willow Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9200+Willow+Ridge+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6316 Cameron Forest Ln, Charlotte, NC | - | - | Market | Cameron South Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6316+Cameron+Forest+Ln%2C+Charlotte%2C+NC) |
@@ -190,7 +191,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5128 Berkey Ln, Charlotte, NC | - | - | Market | Mint and Mill Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5128+Berkey+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6006 Intertwine St, Charlotte, NC | - | - | Market | NOVEL River District By Crescent Communities | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6006+Intertwine+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 255 W Bland St, Charlotte, NC | - | - | Market | The Paces South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=255+W+Bland+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3010 Festivus Ct, Charlotte, NC | - | - | Market | The Cosmo at NoDA | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3010+Festivus+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1504 Mainline Blvd, Charlotte, NC | - | - | Market | Junction 1504 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1504+Mainline+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3035 N Tryon St, Charlotte, NC | - | - | Market | Contour at NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3035+N+Tryon+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3310 N Davidson St, Charlotte, NC | - | - | Market | Mercury Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3310+N+Davidson+St%2C+Charlotte%2C+NC) |
@@ -208,6 +208,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 125 W Park Ave, Charlotte, NC | - | - | Market | Park and Kingston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Park+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 637 Ethridge Pl, Charlotte, NC | - | - | Market | Townes at Five Points | - | [Map](https://www.google.com/maps/dir/?api=1&destination=637+Ethridge+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7407 Dominion Park Ln, Charlotte, NC | - | - | Market | The Palmer | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7407+Dominion+Park+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5816 Westpark Dr, Charlotte, NC | - | - | Market | The Spoke at Tyvola | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5816+Westpark+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Winter Oaks Ln, Charlotte, NC | - | - | Market | Aurea Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Winter+Oaks+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1710 Piedmont Hills Pl, Charlotte, NC | - | - | Market | CityPark View | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1710+Piedmont+Hills+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4612 Gilead St, Charlotte, NC | - | - | Market | Elan LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4612+Gilead+St%2C+Charlotte%2C+NC) |
@@ -215,7 +216,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9415 Lucy Jane Ln, Charlotte, NC | - | - | Market | Greylyn Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9415+Lucy+Jane+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5625 Hollyfield Dr, Charlotte, NC | - | - | Market | Solstice at Eastland Yards | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5625+Hollyfield+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2705 Haverford Pl, Charlotte, NC | - | - | Market | The Edge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2705+Haverford+Pl%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
