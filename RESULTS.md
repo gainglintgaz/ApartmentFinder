@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 17, 2026 at 01:32 PM
+**Last updated:** April 17, 2026 at 07:12 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 163
+**Total listings found:** 164
 
-**By source:** rent.com: 163
+**By source:** rent.com: 164
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (14)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (15)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (14)
+## Midland & East Charlotte (Market Rentals) (15)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -56,6 +56,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7023 Brighton Park Dr, Charlotte, NC | - | - | Market | 7023 Brighton Park Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7023+Brighton+Park+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8427 Meadowcreek Village Dr, Charlotte, NC | - | - | Market | 8427 Meadowcreek Village Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8427+Meadowcreek+Village+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
@@ -86,6 +87,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 4400 John Penn Cir, Charlotte, NC | - | - | Market | Crossing at Reedy Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4400+John+Penn+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1322 Beacon Ridge Rd, Charlotte, NC | - | - | Market | Beacon Hill | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1322+Beacon+Ridge+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 411 Lambeth Dr, Charlotte, NC | - | - | Market | Tryon Forest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=411+Lambeth+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 10425 Wheatside Dr, Charlotte, NC | - | - | Market | Pavilion at UC Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10425+Wheatside+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6940 Hidden Forest Dr, Charlotte, NC | - | - | Market | Crossroads Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6940+Hidden+Forest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5923 Farm Pond Ln, Charlotte, NC | - | - | Market | EDITION Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5923+Farm+Pond+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1100 Falls Creek Ln, Charlotte, NC | - | - | Market | The Marley | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1100+Falls+Creek+Ln%2C+Charlotte%2C+NC) |
@@ -215,7 +217,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 9005 Lenox Pointe Dr, Charlotte, NC | - | - | Market | MAA Ayrsley | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9005+Lenox+Pointe+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5816 Westpark Dr, Charlotte, NC | - | - | Market | The Spoke at Tyvola | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5816+Westpark+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7740 Liberty Row Dr, Charlotte, NC | - | - | Market | Modera Liberty Row | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7740+Liberty+Row+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 637 Ethridge Pl, Charlotte, NC | - | - | Market | Townes at Five Points | - | [Map](https://www.google.com/maps/dir/?api=1&destination=637+Ethridge+Pl%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
