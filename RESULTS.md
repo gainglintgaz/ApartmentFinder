@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 27, 2026 at 03:29 AM
+**Last updated:** April 27, 2026 at 08:37 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 188
+**Total listings found:** 164
 
-**By source:** rent.com: 188
+**By source:** rent.com: 164
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (41)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (41)
+## Midland & East Charlotte (Market Rentals) (17)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -65,30 +65,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1425 Mount Olivet Rd, Charlotte, NC | - | - | Market | South Emerson Hills | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1425+Mount+Olivet+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 500 Summerlake Dr SW, Charlotte, NC | - | - | Market | Summerlin at Concord Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=500+Summerlake+Dr+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 100 Concord Chase Cir, Charlotte, NC | - | - | Market | Concord Chase Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Concord+Chase+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1 Buffalo Ave NW, Charlotte, NC | - | - | Market | Locke Mill Plaza | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1+Buffalo+Ave+NW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 50 Poplar Station Cir NW, Charlotte, NC | - | - | Market | The Station at Poplar Tent | - | [Map](https://www.google.com/maps/dir/?api=1&destination=50+Poplar+Station+Cir+NW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4400 Concord Pointe Ln SW, Charlotte, NC | - | - | Market | Concord Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4400+Concord+Pointe+Ln+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2525 Woodbrook Ln, Charlotte, NC | - | - | Market | Woodbrook Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2525+Woodbrook+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 201 Wilkes Dr, Charlotte, NC | - | - | Market | The Oaks at Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=201+Wilkes+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 517 Stephen Foster Way, Charlotte, NC | - | - | Market | Poplin Meadows | - | [Map](https://www.google.com/maps/dir/?api=1&destination=517+Stephen+Foster+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 857 Tyler Matthew Ln, Charlotte, NC | - | - | Market | Poplin Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=857+Tyler+Matthew+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 129 Tarrymore Ln SW, Charlotte, NC | - | - | Market | Concord View Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=129+Tarrymore+Ln+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 51 Tala Dr SW, Charlotte, NC | - | - | Market | Tower Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=51+Tala+Dr+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3380 Taylor Morrison Way, Charlotte, NC | - | - | Market | Cottages Of Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3380+Taylor+Morrison+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 23 Market St SW, Charlotte, NC | - | - | Market | NOVI at Concord | - | [Map](https://www.google.com/maps/dir/?api=1&destination=23+Market+St+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3702 Signature Ln, Charlotte, NC | - | - | Market | Elevate Rocky River | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3702+Signature+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3409A Redwood Living Ln, Charlotte, NC | - | - | Market | Redwood Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3409A+Redwood+Living+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 14 Union St N, Charlotte, NC | - | - | Market | The View at Hotel Concord | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14+Union+St+N%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 260 Brookwood Ave, Charlotte, NC | - | - | Market | Chesney Woods Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=260+Brookwood+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 209 S Main St, Charlotte, NC | - | - | Market | Manor Ridge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=209+S+Main+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 29 Cabarrus Ave E, Charlotte, NC | - | - | Market | Lofts 29 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=29+Cabarrus+Ave+E%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3938 Black Ct, Charlotte, NC | - | - | Market | 3938 Black Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3938+Black+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4011 Rothwood Ln, Charlotte, NC | - | - | Market | 4011 Rothwood Ln | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4011+Rothwood+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6928 Creft Cir, Charlotte, NC | - | - | Market | 6928 Creft Cir | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6928+Creft+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 320 Hamilton Dr NE, Charlotte, NC | - | - | Market | 320 Hamilton Dr NE | - | [Map](https://www.google.com/maps/dir/?api=1&destination=320+Hamilton+Dr+NE%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 197 N 2nd St, Charlotte, NC | - | - | Market | 197 N 2nd St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=197+N+2nd+St%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
