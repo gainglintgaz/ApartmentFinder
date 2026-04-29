@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** April 28, 2026 at 08:07 PM
+**Last updated:** April 29, 2026 at 03:35 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 164
+**Total listings found:** 176
 
-**By source:** rent.com: 164
+**By source:** rent.com: 176
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (29)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (17)
+## Midland & East Charlotte (Market Rentals) (29)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -65,6 +65,18 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1425 Mount Olivet Rd, Charlotte, NC | - | - | Market | South Emerson Hills | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1425+Mount+Olivet+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1101 Flagstone Ln, Charlotte, NC | - | - | Market | The Kendall | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4418 Oat Grass Cir, Charlotte, NC | - | - | Market | Sablewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4418+Oat+Grass+Cir%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9415 Lucy Jane Ln, Charlotte, NC | - | - | Market | Greylyn Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9415+Lucy+Jane+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1301 Crescent Ln, Charlotte, NC | - | - | Market | MAA Fifty-One | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Crescent+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7326 Wallace Rd, Charlotte, NC | - | - | Market | Wallace Park, An Alexan Community | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7326+Wallace+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2341 Jons Creek Ln, Charlotte, NC | - | - | Market | Newell Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2341+Jons+Creek+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1711 Commonwealth Ave, Charlotte, NC | - | - | Market | The Rowe at Commonwealth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1711+Commonwealth+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2512 Roseview Ln, Charlotte, NC | - | - | Market | Country Club Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2512+Roseview+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6000 Delta Crossing Ln, Charlotte, NC | - | - | Market | Delta Crossing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6000+Delta+Crossing+Ln%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
