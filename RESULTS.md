@@ -1,19 +1,19 @@
 # Apartment Search Results
 
-**Last updated:** April 30, 2026 at 03:51 AM
+**Last updated:** April 30, 2026 at 08:32 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 163
+**Total listings found:** 193
 
-**By source:** rent.com: 163
+**By source:** rent.com: 193
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
 - [Midland & East Charlotte (Market Rentals) (16)](#midland--east-charlotte-market-rentals)
-- [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
+- [Greater Charlotte (Market Rentals) (177)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
 ---
@@ -65,7 +65,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 
-## Greater Charlotte (Market Rentals) (147)
+## Greater Charlotte (Market Rentals) (177)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -216,6 +216,36 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 536 W Tremont Ave, Charlotte, NC | - | - | Market | The Raven | - | [Map](https://www.google.com/maps/dir/?api=1&destination=536+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6006 Intertwine St, Charlotte, NC | - | - | Market | NOVEL River District By Crescent Communities | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6006+Intertwine+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2400 Whitehall Estates Dr, Charlotte, NC | - | - | Market | Whitehall Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2400+Whitehall+Estates+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 410 Starmount Park Blvd, Charlotte, NC | - | - | Market | Afton Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=410+Starmount+Park+Blvd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1701 Oak Crest Dr, Charlotte, NC | - | - | Market | Oak Crest Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Oak+Crest+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 101 Three Mile Loop, Charlotte, NC | - | - | Market | The Bridges Of Cabarrus | - | [Map](https://www.google.com/maps/dir/?api=1&destination=101+Three+Mile+Loop%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 701 Rain Place Ct, Charlotte, NC | - | - | Market | Ashford Place Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=701+Rain+Place+Ct%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1100 Coopers Ridge Dr, Charlotte, NC | - | - | Market | Kannan Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1100+Coopers+Ridge+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4800 Integra Springs Blvd, Charlotte, NC | - | - | Market | The Vive at Kellswater | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4800+Integra+Springs+Blvd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5476 Milestone Ave, Charlotte, NC | - | - | Market | Redwood Kannapolis Parkway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5476+Milestone+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6102 Vermillion Cedar Way, Charlotte, NC | - | - | Market | Redwood Kannapolis Davidson | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6102+Vermillion+Cedar+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1915 Pine Bough Ln, Charlotte, NC | - | - | Market | Northway at Cabarrus | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1915+Pine+Bough+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 300 Sandy Ct, Charlotte, NC | - | - | Market | Villas at Forest Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=300+Sandy+Ct%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2500 Ivy Hollow Pl, Charlotte, NC | - | - | Market | Coddle Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2500+Ivy+Hollow+Pl%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 210 S Main St, Charlotte, NC | - | - | Market | Vida Kannapolis | - | [Map](https://www.google.com/maps/dir/?api=1&destination=210+S+Main+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 200 S Main St, Charlotte, NC | - | - | Market | 200 Main | - | [Map](https://www.google.com/maps/dir/?api=1&destination=200+S+Main+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 11111 Mill Spring Ln, Charlotte, NC | - | - | Market | Creek Mill Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11111+Mill+Spring+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 120 West Ave, Charlotte, NC | - | - | Market | Stadium Lofts | - | [Map](https://www.google.com/maps/dir/?api=1&destination=120+West+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1065 Ridgeway Dr, Charlotte, NC | - | - | Market | Forest Park Crossing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1065+Ridgeway+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1425 Mount Olivet Rd, Charlotte, NC | - | - | Market | South Emerson Hills | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1425+Mount+Olivet+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4301 Forestridge Ln, Charlotte, NC | - | - | Market | The Ridges | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4301+Forestridge+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1700 Inspired Way, Charlotte, NC | - | - | Market | Inspired Way | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Inspired+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 40000 Argento Way, Charlotte, NC | - | - | Market | Argento at Kellswater Bridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=40000+Argento+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 103 S Ridge Ave #5, Charlotte, NC | - | - | Market | 103 S Ridge Ave #5 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=103+S+Ridge+Ave+%235%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 531 Park St, Charlotte, NC | - | - | Market | 531 Park St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=531+Park+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 528 Walter St, Charlotte, NC | - | - | Market | 528 Walter St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=528+Walter+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1302 Meadow Ave, Charlotte, NC | - | - | Market | 1302 Meadow Ave | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1302+Meadow+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1302 Meadow Ave unit G, Charlotte, NC | - | - | Market | 1302 Meadow Ave unit G | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1302+Meadow+Ave+unit+G%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 500 Jackson Park Rd unit 2, Charlotte, NC | - | - | Market | 500 Jackson Park Rd unit 2 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=500+Jackson+Park+Rd+unit+2%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1448 Nottingham Rd, Charlotte, NC | - | - | Market | 1448 Nottingham Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1448+Nottingham+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1450 Nottingham Rd, Charlotte, NC | - | - | Market | 1450 Nottingham Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1450+Nottingham+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 121 Briarcliff Dr, Charlotte, NC | - | - | Market | 121 Briarcliff Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=121+Briarcliff+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3121 Mocking Bird Ln unit LABS 3121 Mocking Bird Lane - 55826697250, Charlotte, NC | - | - | Market | 3121 Mocking Bird Ln unit LABS 3121 Mocking B... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3121+Mocking+Bird+Ln+unit+LABS+3121+Mocking+Bird+Lane+-+55826697250%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
