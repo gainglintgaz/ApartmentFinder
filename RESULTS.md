@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 10, 2026 at 03:41 AM
+**Last updated:** May 10, 2026 at 08:17 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 165
+**Total listings found:** 167
 
-**By source:** rent.com: 165
+**By source:** rent.com: 167
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (19)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (17)
+## Midland & East Charlotte (Market Rentals) (19)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -65,6 +65,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 219 E North St, Charlotte, NC | - | - | Market | Albemarle Central School | - | [Map](https://www.google.com/maps/dir/?api=1&destination=219+E+North+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
 
