@@ -1,19 +1,19 @@
 # Apartment Search Results
 
-**Last updated:** May 13, 2026 at 03:47 AM
+**Last updated:** May 13, 2026 at 08:55 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 262
+**Total listings found:** 90
 
-**By source:** rent.com: 262
+**By source:** rent.com: 90
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (114)](#midland--east-charlotte-market-rentals)
-- [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (2)](#midland--east-charlotte-market-rentals)
+- [Greater Charlotte (Market Rentals) (88)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
 ---
@@ -44,126 +44,14 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (114)
+## Midland & East Charlotte (Market Rentals) (2)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5417 Albemarle Rd, Charlotte, NC | - | - | Market | Sail Boat Bay | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5417+Albemarle+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13917 Clayborn St, Charlotte, NC | - | - | Market | 13917 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13917+Clayborn+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 14145 Clayborn St, Charlotte, NC | - | - | Market | 14145 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14145+Clayborn+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3979 Wagon Wy, Charlotte, NC | - | - | Market | 3979 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3979+Wagon+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7023 Brighton Park Dr, Charlotte, NC | - | - | Market | 7023 Brighton Park Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7023+Brighton+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8427 Meadowcreek Village Dr, Charlotte, NC | - | - | Market | 8427 Meadowcreek Village Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8427+Meadowcreek+Village+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8009 Whitegrove Rd, Charlotte, NC | - | - | Market | 8009 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8009+Whitegrove+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1101 Flagstone Ln, Charlotte, NC | - | - | Market | The Kendall | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1301 Crescent Ln, Charlotte, NC | - | - | Market | MAA Fifty-One | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Crescent+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 336 Chestnut Pkwy, Charlotte, NC | - | - | Market | Elwood Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=336+Chestnut+Pkwy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5230 Firelight Ln, Charlotte, NC | - | - | Market | Westfield Thorngrove, LLC | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5230+Firelight+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 321 E Park Rd, Charlotte, NC | - | - | Market | Ardmore at the Trail | - | [Map](https://www.google.com/maps/dir/?api=1&destination=321+E+Park+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 517 Stephen Foster Way, Charlotte, NC | - | - | Market | Poplin Meadows | - | [Map](https://www.google.com/maps/dir/?api=1&destination=517+Stephen+Foster+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 715 E 36th St, Charlotte, NC | - | - | Market | Centro NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=715+E+36th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 199 Exchange Cir, Charlotte, NC | - | - | Market | Exchange at Indian Trail | - | [Map](https://www.google.com/maps/dir/?api=1&destination=199+Exchange+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6309 Montego Dr, Charlotte, NC | - | - | Market | Vista Villa Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6309+Montego+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4051 Bannockburn Pl, Charlotte, NC | - | - | Market | Strawberry Hill | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4051+Bannockburn+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10315 Monrovia Dr, Charlotte, NC | - | - | Market | The Address Galleria | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10315+Monrovia+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4418 Oat Grass Cir, Charlotte, NC | - | - | Market | Sablewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4418+Oat+Grass+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 914 Grays Mill Rd, Charlotte, NC | - | - | Market | The Stead at Farmington | - | [Map](https://www.google.com/maps/dir/?api=1&destination=914+Grays+Mill+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6000 Delta Crossing Ln, Charlotte, NC | - | - | Market | Delta Crossing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6000+Delta+Crossing+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3210 Open Field Ln, Charlotte, NC | - | - | Market | Bexley at Springs Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3210+Open+Field+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2341 Jons Creek Ln, Charlotte, NC | - | - | Market | Newell Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2341+Jons+Creek+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8242 Runaway Bay Dr, Charlotte, NC | - | - | Market | Stillwater | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8242+Runaway+Bay+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3501 E Independence Blvd, Charlotte, NC | - | - | Market | The Residences at Windsor | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3501+E+Independence+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3110 Doe River Way, Charlotte, NC | - | - | Market | Tessa Matthews Homes, Townhomes and Apartment... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3110+Doe+River+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9415 Lucy Jane Ln, Charlotte, NC | - | - | Market | Greylyn Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9415+Lucy+Jane+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 135 Chestnut Ln, Charlotte, NC | - | - | Market | Indian Trail Senior Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=135+Chestnut+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4101 Raleigh St, Charlotte, NC | - | - | Market | Sorella Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4101+Raleigh+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1616 Galleria Club Ln, Charlotte, NC | - | - | Market | Galleria Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1616+Galleria+Club+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5234 Newton Creek Dr, Charlotte, NC | - | - | Market | The Grove Residences | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5234+Newton+Creek+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2512 Roseview Ln, Charlotte, NC | - | - | Market | Country Club Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2512+Roseview+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4106 Anker Haus Dr, Charlotte, NC | - | - | Market | Anker Haus | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4106+Anker+Haus+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7100 Snow Ln, Charlotte, NC | - | - | Market | Heritage Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7100+Snow+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2205 Kilborne Dr, Charlotte, NC | - | - | Market | Woodland Park Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2205+Kilborne+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1811 Lookout Ln, Charlotte, NC | - | - | Market | Bradford Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1811+Lookout+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6134 Wilora Lake Rd, Charlotte, NC | - | - | Market | Towns at Eastland | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6134+Wilora+Lake+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3702 Signature Ln, Charlotte, NC | - | - | Market | Elevate Rocky River | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3702+Signature+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2410 Allerton Way, Charlotte, NC | - | - | Market | Avana Avebury | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2410+Allerton+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1925 E 7th St, Charlotte, NC | - | - | Market | The Langston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+E+7th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8848 Nolley Ct, Charlotte, NC | - | - | Market | Sardis Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8848+Nolley+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1701 Gander Cove Ln, Charlotte, NC | - | - | Market | Brookside 17 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Gander+Cove+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5025 Wembley Central Ln, Charlotte, NC | - | - | Market | 8 Metro Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5025+Wembley+Central+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4612 Simsbury Rd, Charlotte, NC | - | - | Market | Camden Foxcroft | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4612+Simsbury+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8110 Providence Court Ln, Charlotte, NC | - | - | Market | Providence Court | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8110+Providence+Court+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3600 Eastover Ridge Dr, Charlotte, NC | - | - | Market | Eastover Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3600+Eastover+Ridge+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 305 Prine Pl, Charlotte, NC | - | - | Market | Wellen | - | [Map](https://www.google.com/maps/dir/?api=1&destination=305+Prine+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2426 Vail Ave, Charlotte, NC | - | - | Market | Draper Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2426+Vail+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1729 Echo Forest Dr, Charlotte, NC | - | - | Market | Legacy Arboretum Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1729+Echo+Forest+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1021 Glenn Valley Ln, Charlotte, NC | - | - | Market | The Everlin at Indian Trail | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1021+Glenn+Valley+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1315 Cameron Matthews Dr, Charlotte, NC | - | - | Market | Avana Reserve | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1315+Cameron+Matthews+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3005 Chestnut Grove Ln, Charlotte, NC | - | - | Market | Chestnut Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3005+Chestnut+Grove+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2808 Cross Point Cir, Charlotte, NC | - | - | Market | Avana Matthews | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2808+Cross+Point+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4830 Randolph Rd, Charlotte, NC | - | - | Market | Overture Cotswold 55+ Active Adult Apartment ... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4830+Randolph+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9930 Idlewild Rd, Charlotte, NC | - | - | Market | Album Matthews 55+ Active Adult Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9930+Idlewild+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10624 Parrish St, Charlotte, NC | - | - | Market | Fountains Matthews | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10624+Parrish+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 857 Tyler Matthew Ln, Charlotte, NC | - | - | Market | Poplin Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=857+Tyler+Matthew+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7201 Shannopin Dr, Charlotte, NC | - | - | Market | MAA Beverly Crest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7201+Shannopin+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1308 Lorna St, Charlotte, NC | - | - | Market | The Village at Commonwealth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1308+Lorna+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3720 Wendwood Ln, Charlotte, NC | - | - | Market | Magnolia Heights | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3720+Wendwood+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1748 Marglyn Dr, Charlotte, NC | - | - | Market | Marglyn Matthews | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1748+Marglyn+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5350 Pinehurst Park Dr, Charlotte, NC | - | - | Market | Providence Row | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5350+Pinehurst+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8108 Grace Farms Dr, Charlotte, NC | - | - | Market | The Grace at Tryon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8108+Grace+Farms+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7700 Arboretum Dr, Charlotte, NC | - | - | Market | The Arboretum | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7700+Arboretum+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3214 Central Ave, Charlotte, NC | - | - | Market | Vyne on Central | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3214+Central+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1711 Commonwealth Ave, Charlotte, NC | - | - | Market | The Rowe at Commonwealth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1711+Commonwealth+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4010 Waiting St, Charlotte, NC | - | - | Market | Matthews Square | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4010+Waiting+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7815 Calibre Crossing Dr, Charlotte, NC | - | - | Market | The Madison | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7815+Calibre+Crossing+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1720 Rocky River Rd, Charlotte, NC | - | - | Market | Zora University | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1720+Rocky+River+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8105 Shinkansen Dr, Charlotte, NC | - | - | Market | Towns at Rocky River | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8105+Shinkansen+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3031 Spire View Ln, Charlotte, NC | - | - | Market | Spire Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3031+Spire+View+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7422 Pebblestone Dr, Charlotte, NC | - | - | Market | Crown Point Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7422+Pebblestone+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4101 Glenloch Cir, Charlotte, NC | - | - | Market | Inspire Royal Park - 55+ Active Adult Communi... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4101+Glenloch+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4375 Raleigh St, Charlotte, NC | - | - | Market | Reve NoDa Junction | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4375+Raleigh+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5308 Montague St, Charlotte, NC | - | - | Market | Courtyard Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5308+Montague+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5100 Little Greenleaf Way, Charlotte, NC | - | - | Market | Parkside at Hickory Grove | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5100+Little+Greenleaf+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2019 Aberdale Farm Ln, Charlotte, NC | - | - | Market | Sundale Flats | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2019+Aberdale+Farm+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 720 Billingsley Rd, Charlotte, NC | - | - | Market | The Commons at St. Lloyd's | - | [Map](https://www.google.com/maps/dir/?api=1&destination=720+Billingsley+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5710 Copper Creek Ct, Charlotte, NC | - | - | Market | Copper Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5710+Copper+Creek+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1811 Wexford Meadows Ln, Charlotte, NC | - | - | Market | Wexford Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1811+Wexford+Meadows+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3421 N Sharon Amity Rd, Charlotte, NC | - | - | Market | Ashby Point | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3421+N+Sharon+Amity+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1700 Charleston Place Ln, Charlotte, NC | - | - | Market | The Pines | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Charleston+Place+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7259 Point Lake Dr, Charlotte, NC | - | - | Market | Greenrock Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7259+Point+Lake+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4811 Monroe Rd, Charlotte, NC | - | - | Market | Lake Hill Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4811+Monroe+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5005 Community Cir, Charlotte, NC | - | - | Market | Links at Citiside | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5005+Community+Cir%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6147 Winged Elm Ct, Charlotte, NC | - | - | Market | Woodland Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6147+Winged+Elm+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8215 University Ridge Dr, Charlotte, NC | - | - | Market | MAA Chancellor Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8215+University+Ridge+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1200 Campus Pointe Ct, Charlotte, NC | - | - | Market | The Union | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1200+Campus+Pointe+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2003 Canterwood Dr, Charlotte, NC | - | - | Market | Maple Run | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2003+Canterwood+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6401 Woodbend Dr, Charlotte, NC | - | - | Market | Creekside Canopy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6401+Woodbend+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 17701 Halton Park Dr, Charlotte, NC | - | - | Market | Halton Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=17701+Halton+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2512 Weddington Ave, Charlotte, NC | - | - | Market | Elizabeth Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2512+Weddington+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2300 Village Lake Dr, Charlotte, NC | - | - | Market | Park 2300 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2300+Village+Lake+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1600 Chasewood Dr, Charlotte, NC | - | - | Market | Forest At Chasewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1600+Chasewood+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6060 Reserve Dr, Charlotte, NC | - | - | Market | Reserve at Providence | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6060+Reserve+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1425 Eastcrest Dr, Charlotte, NC | - | - | Market | Aurora | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1425+Eastcrest+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5625 Keyway Blvd, Charlotte, NC | - | - | Market | Hickory Woods | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5625+Keyway+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4908 Endolwood Rd, Charlotte, NC | - | - | Market | Kimmerly Glen | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4908+Endolwood+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2100 Woodway Hills Dr, Charlotte, NC | - | - | Market | Matthews Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+Woodway+Hills+Dr%2C+Charlotte%2C+NC) |
 
-## Greater Charlotte (Market Rentals) (148)
+## Greater Charlotte (Market Rentals) (88)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -255,66 +143,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2104 Cascade Pointe Blvd, Charlotte, NC | - | - | Market | LakePointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2104+Cascade+Pointe+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9235 Senator Royall Dr, Charlotte, NC | - | - | Market | Pointe at Research Park Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9235+Senator+Royall+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1801 Willow Haven Ln, Charlotte, NC | - | - | Market | The Marigold | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1801+Willow+Haven+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 345 Sharon Township Ln, Charlotte, NC | - | - | Market | Inspire | - | [Map](https://www.google.com/maps/dir/?api=1&destination=345+Sharon+Township+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1937 Sharon Rd W, Charlotte, NC | - | - | Market | Sharonridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1937+Sharon+Rd+W%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7700 Cedar Point Ln, Charlotte, NC | - | - | Market | Vetra Quail Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7700+Cedar+Point+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8320 University Executive Park Dr, Charlotte, NC | - | - | Market | Verde at McCullough Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8320+University+Executive+Park+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 511 Queens Rd, Charlotte, NC | - | - | Market | 511 Queens | - | [Map](https://www.google.com/maps/dir/?api=1&destination=511+Queens+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2121 Caldera St, Charlotte, NC | - | - | Market | One West End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2121+Caldera+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 900 N Tryon St, Charlotte, NC | - | - | Market | Triton Uptown | - | [Map](https://www.google.com/maps/dir/?api=1&destination=900+N+Tryon+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3200 Dalecrest Dr, Charlotte, NC | - | - | Market | Tanglewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3200+Dalecrest+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7326 Wallace Rd, Charlotte, NC | - | - | Market | Wallace Park, An Alexan Community | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7326+Wallace+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1841 Prospect Dr, Charlotte, NC | - | - | Market | Hunters Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1841+Prospect+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4720 Nations Crossing Rd, Charlotte, NC | - | - | Market | The Kingsman | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4720+Nations+Crossing+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10320 Grobie Way, Charlotte, NC | - | - | Market | Ashton Reserve at NorthLake | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10320+Grobie+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4701 Arching Oak Ln, Charlotte, NC | - | - | Market | Sharon Oaks Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4701+Arching+Oak+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4612 Gilead St, Charlotte, NC | - | - | Market | Elan LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4612+Gilead+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6205 Dove Tree Ln, Charlotte, NC | - | - | Market | Woodland Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Dove+Tree+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5340 Periwinkle Hill Ave, Charlotte, NC | - | - | Market | Century University City | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5340+Periwinkle+Hill+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10015 Madison Square Pl, Charlotte, NC | - | - | Market | The District | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10015+Madison+Square+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 126 New Bern St, Charlotte, NC | - | - | Market | Fountains Southend Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=126+New+Bern+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1600 Village Brook Dr, Charlotte, NC | - | - | Market | The Villages Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1600+Village+Brook+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1007 S Mint St, Charlotte, NC | - | - | Market | Bond on Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1007+S+Mint+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2201 Yorkhills Dr, Charlotte, NC | - | - | Market | Timberstone | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2201+Yorkhills+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7000 Fernwood Dr, Charlotte, NC | - | - | Market | Stonehaven East | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7000+Fernwood+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 710 Yorkmont Rd, Charlotte, NC | - | - | Market | Vivo Living Arbor View | - | [Map](https://www.google.com/maps/dir/?api=1&destination=710+Yorkmont+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5110 Red Alder Ln, Charlotte, NC | - | - | Market | Redwood Charlotte Harris Houston Road | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5110+Red+Alder+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7601 Holliswood Ct, Charlotte, NC | - | - | Market | Hollis 7601 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7601+Holliswood+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6225 Hackberry Creek Trl, Charlotte, NC | - | - | Market | Windsor Addison Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6225+Hackberry+Creek+Trl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2200 Dunavant St, Charlotte, NC | - | - | Market | Hawkins Press | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2200+Dunavant+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 130 Sharon Township Ln, Charlotte, NC | - | - | Market | Mezzo 1 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=130+Sharon+Township+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1511 Splash Pad Ct, Charlotte, NC | - | - | Market | Yardly City Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1511+Splash+Pad+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5625 Hollyfield Dr, Charlotte, NC | - | - | Market | Solstice at Eastland Yards | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5625+Hollyfield+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2546 Perimeter Pointe Pkwy, Charlotte, NC | - | - | Market | Perimeter Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2546+Perimeter+Pointe+Pkwy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 515 Jordan Pl, Charlotte, NC | - | - | Market | Camden NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=515+Jordan+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4401 Barclay Downs Dr, Charlotte, NC | - | - | Market | Hazel Southpark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4401+Barclay+Downs+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2400 Whitehall Estates Dr, Charlotte, NC | - | - | Market | Whitehall Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2400+Whitehall+Estates+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3145 Prado Ln, Charlotte, NC | - | - | Market | Westgate Landing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3145+Prado+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13212 Winter Hazel Rd, Charlotte, NC | - | - | Market | Avant at Steele Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13212+Winter+Hazel+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8503 N Tryon St, Charlotte, NC | - | - | Market | Vivo Living Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8503+N+Tryon+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 536 W Tremont Ave, Charlotte, NC | - | - | Market | The Raven | - | [Map](https://www.google.com/maps/dir/?api=1&destination=536+W+Tremont+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 735 W 5th St, Charlotte, NC | - | - | Market | MAA Gateway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=735+W+5th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1106 Euclid Ave, Charlotte, NC | - | - | Market | The Lexington Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1106+Euclid+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6101 Ardrey Kell Rd, Charlotte, NC | - | - | Market | Lantower Waverly | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6101+Ardrey+Kell+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2100 South Blvd, Charlotte, NC | - | - | Market | The Atherton | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+South+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6215 Forest Way Dr, Charlotte, NC | - | - | Market | M Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6215+Forest+Way+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 14125 Orchardgate Dr, Charlotte, NC | - | - | Market | Rivergate Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14125+Orchardgate+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 711 E Morehead St, Charlotte, NC | - | - | Market | Hanover Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=711+E+Morehead+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5030 Cardinal Point Rd, Charlotte, NC | - | - | Market | Camden South Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5030+Cardinal+Point+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3010 Cyan Dr, Charlotte, NC | - | - | Market | Cyan Mallard Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3010+Cyan+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6200 Birkdale Valley Dr, Charlotte, NC | - | - | Market | The Fairways at Piper Glen Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6200+Birkdale+Valley+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 346 Freeland Ln, Charlotte, NC | - | - | Market | Loso Walk | - | [Map](https://www.google.com/maps/dir/?api=1&destination=346+Freeland+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 615 E Morehead St, Charlotte, NC | - | - | Market | Overlook at Radius Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=615+E+Morehead+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 625 Eltham Rd, Charlotte, NC | - | - | Market | Willows at the University | - | [Map](https://www.google.com/maps/dir/?api=1&destination=625+Eltham+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6006 Intertwine St, Charlotte, NC | - | - | Market | NOVEL River District By Crescent Communities | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6006+Intertwine+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2220 E 7th St, Charlotte, NC | - | - | Market | Elizabeth Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2220+E+7th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4009 Connection Point Blvd, Charlotte, NC | - | - | Market | Radial at Mora Point | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4009+Connection+Point+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3146 Baroda Ln, Charlotte, NC | - | - | Market | Nevin Place Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3146+Baroda+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3405 S Tryon St, Charlotte, NC | - | - | Market | Modera LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3405+S+Tryon+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 11310 Vandelay Ct, Charlotte, NC | - | - | Market | The Vandy Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11310+Vandelay+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2225 Hawkins St, Charlotte, NC | - | - | Market | Cortland South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2225+Hawkins+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4835 Cameron Valley Pkwy, Charlotte, NC | - | - | Market | MAA South Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4835+Cameron+Valley+Pkwy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5005 Forest Acres Ln, Charlotte, NC | - | - | Market | Springstone Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5005+Forest+Acres+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
