@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 14, 2026 at 02:28 PM
+**Last updated:** May 14, 2026 at 07:56 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 168
+**Total listings found:** 167
 
-**By source:** rent.com: 168
+**By source:** rent.com: 167
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (20)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (19)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (20)
+## Midland & East Charlotte (Market Rentals) (19)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -65,7 +65,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 8009 Whitegrove Rd, Charlotte, NC | - | - | Market | 8009 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8009+Whitegrove+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5737 Camp Ct, Charlotte, NC | - | - | Market | 5737 Camp Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5737+Camp+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Samuel Adams Cir SW, Charlotte, NC | - | - | Market | Parkway Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Samuel+Adams+Cir+SW%2C+Charlotte%2C+NC) |
 
