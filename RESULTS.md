@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 16, 2026 at 01:34 PM
+**Last updated:** May 16, 2026 at 07:14 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 170
+**Total listings found:** 168
 
-**By source:** rent.com: 170
+**By source:** rent.com: 168
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (23)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (21)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (23)
+## Midland & East Charlotte (Market Rentals) (21)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -69,8 +69,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Samuel Adams Cir SW, Charlotte, NC | - | - | Market | Parkway Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Samuel+Adams+Cir+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4800 Integra Springs Blvd, Charlotte, NC | - | - | Market | The Vive at Kellswater | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4800+Integra+Springs+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
@@ -210,6 +208,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2818 Barrow Rd, Charlotte, NC | - | - | Market | Highland Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2818+Barrow+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7326 Wallace Rd, Charlotte, NC | - | - | Market | Wallace Park, An Alexan Community | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7326+Wallace+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6110A Gladiolus Ln, Charlotte, NC | - | - | Market | Redwood Charlotte Ridge Road | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6110A+Gladiolus+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3934 Raleigh St, Charlotte, NC | - | - | Market | Artifact NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3934+Raleigh+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3200 Dalecrest Dr, Charlotte, NC | - | - | Market | Tanglewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3200+Dalecrest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3145 Prado Ln, Charlotte, NC | - | - | Market | Westgate Landing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3145+Prado+Ln%2C+Charlotte%2C+NC) |
@@ -222,7 +221,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3201 Windshire Ln, Charlotte, NC | - | - | Market | Gramercy Square at Ayrsley | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3201+Windshire+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 605 Candler Ln, Charlotte, NC | - | - | Market | Parkside at South Tryon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=605+Candler+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2100 South Blvd, Charlotte, NC | - | - | Market | The Atherton | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+South+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 536 W Tremont Ave, Charlotte, NC | - | - | Market | The Raven | - | [Map](https://www.google.com/maps/dir/?api=1&destination=536+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
