@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 17, 2026 at 03:49 AM
+**Last updated:** May 17, 2026 at 08:30 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 170
+**Total listings found:** 168
 
-**By source:** rent.com: 170
+**By source:** rent.com: 168
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (23)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (21)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (23)
+## Midland & East Charlotte (Market Rentals) (21)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -69,8 +69,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Samuel Adams Cir SW, Charlotte, NC | - | - | Market | Parkway Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Samuel+Adams+Cir+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4800 Integra Springs Blvd, Charlotte, NC | - | - | Market | The Vive at Kellswater | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4800+Integra+Springs+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
