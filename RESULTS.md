@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** May 20, 2026 at 03:35 PM
+**Last updated:** May 20, 2026 at 08:28 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -187,6 +187,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 625 Eltham Rd, Charlotte, NC | - | - | Market | Willows at the University | - | [Map](https://www.google.com/maps/dir/?api=1&destination=625+Eltham+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3934 Raleigh St, Charlotte, NC | - | - | Market | Artifact NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3934+Raleigh+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2546 Perimeter Pointe Pkwy, Charlotte, NC | - | - | Market | Perimeter Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2546+Perimeter+Pointe+Pkwy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8204 Mintworth Links Ln, Charlotte, NC | - | - | Market | Mintworth Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8204+Mintworth+Links+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6530 Free Throw Ln, Charlotte, NC | - | - | Market | Cortland Seventy Seven | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6530+Free+Throw+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8230 Greenway Village Dr, Charlotte, NC | - | - | Market | Greenway at Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8230+Greenway+Village+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 511 Queens Rd, Charlotte, NC | - | - | Market | 511 Queens | - | [Map](https://www.google.com/maps/dir/?api=1&destination=511+Queens+Rd%2C+Charlotte%2C+NC) |
@@ -219,7 +220,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1133 Harding Pl, Charlotte, NC | - | - | Market | Solis Midtown | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1133+Harding+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3145 Prado Ln, Charlotte, NC | - | - | Market | Westgate Landing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3145+Prado+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4612 Gilead St, Charlotte, NC | - | - | Market | Elan LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4612+Gilead+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6110A Gladiolus Ln, Charlotte, NC | - | - | Market | Redwood Charlotte Ridge Road | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6110A+Gladiolus+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
