@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** May 22, 2026 at 04:02 AM
+**Last updated:** May 22, 2026 at 09:39 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -62,12 +62,12 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 8427 Meadowcreek Village Dr, Charlotte, NC | - | - | Market | 8427 Meadowcreek Village Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8427+Meadowcreek+Village+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7828 Nelson Rd, Charlotte, NC | - | - | Market | 7828 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7828+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8009 Whitegrove Rd, Charlotte, NC | - | - | Market | 8009 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8009+Whitegrove+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7718 Nelson Rd, Charlotte, NC | - | - | Market | 7718 Nelson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7718+Nelson+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8625 Cedarbrook Dr, Charlotte, NC | - | - | Market | 8625 Cedarbrook Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8625+Cedarbrook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Samuel Adams Cir SW, Charlotte, NC | - | - | Market | Parkway Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Samuel+Adams+Cir+SW%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
