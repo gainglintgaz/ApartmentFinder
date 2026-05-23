@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 23, 2026 at 01:47 PM
+**Last updated:** May 23, 2026 at 07:21 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 166
+**Total listings found:** 167
 
-**By source:** rent.com: 166
+**By source:** rent.com: 167
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (19)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (20)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,13 +44,14 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (19)
+## Midland & East Charlotte (Market Rentals) (20)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 4811 Monroe Rd, Charlotte, NC | - | - | Market | Lake Hill Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4811+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5417 Albemarle Rd, Charlotte, NC | - | - | Market | Sail Boat Bay | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5417+Albemarle+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13929 Clayborn St, Charlotte, NC | - | - | Market | 13929 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13929+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13917 Clayborn St, Charlotte, NC | - | - | Market | 13917 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13917+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 14145 Clayborn St, Charlotte, NC | - | - | Market | 14145 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14145+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3979 Wagon Wy, Charlotte, NC | - | - | Market | 3979 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3979+Wagon+Wy%2C+Charlotte%2C+NC) |
