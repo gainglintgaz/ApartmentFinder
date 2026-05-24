@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 23, 2026 at 07:21 PM
+**Last updated:** May 24, 2026 at 03:59 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 167
+**Total listings found:** 166
 
-**By source:** rent.com: 167
+**By source:** rent.com: 166
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (20)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (19)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (20)
+## Midland & East Charlotte (Market Rentals) (19)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -54,7 +54,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13929 Clayborn St, Charlotte, NC | - | - | Market | 13929 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13929+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13917 Clayborn St, Charlotte, NC | - | - | Market | 13917 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13917+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 14145 Clayborn St, Charlotte, NC | - | - | Market | 14145 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14145+Clayborn+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3979 Wagon Wy, Charlotte, NC | - | - | Market | 3979 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3979+Wagon+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
