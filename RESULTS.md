@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 27, 2026 at 08:28 PM
+**Last updated:** May 28, 2026 at 03:59 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 166
+**Total listings found:** 165
 
-**By source:** rent.com: 166
+**By source:** rent.com: 165
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (19)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (18)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (19)
+## Midland & East Charlotte (Market Rentals) (18)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -52,7 +52,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5417 Albemarle Rd, Charlotte, NC | - | - | Market | Sail Boat Bay | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5417+Albemarle+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3979 Wagon Wy, Charlotte, NC | - | - | Market | 3979 Wagon Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3979+Wagon+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13929 Clayborn St, Charlotte, NC | - | - | Market | 13929 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13929+Clayborn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
