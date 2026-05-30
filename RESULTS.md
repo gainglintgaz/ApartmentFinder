@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 30, 2026 at 01:51 PM
+**Last updated:** May 30, 2026 at 07:27 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 169
+**Total listings found:** 167
 
-**By source:** rent.com: 169
+**By source:** rent.com: 167
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (22)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (20)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (22)
+## Midland & East Charlotte (Market Rentals) (20)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -68,8 +68,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3110 Doe River Way, Charlotte, NC | - | - | Market | Tessa Matthews Homes, Townhomes and Apartment... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3110+Doe+River+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Waterview Dr NW, Charlotte, NC | - | - | Market | Waters Edge Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Waterview+Dr+NW%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13931 Thompson Rd, Charlotte, NC | - | - | Market | 13931 Thompson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13931+Thompson+Rd%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
@@ -163,6 +161,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3934 Raleigh St, Charlotte, NC | - | - | Market | Artifact NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3934+Raleigh+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9200 Willow Ridge Rd, Charlotte, NC | - | - | Market | Willow Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9200+Willow+Ridge+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4212 Napa Oak Dr, Charlotte, NC | - | - | Market | Proximity Northlake | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4212+Napa+Oak+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2508 April Liu Ln, Charlotte, NC | - | - | Market | Blu at Northline | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2508+April+Liu+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 711 Farmhurst Dr, Charlotte, NC | - | - | Market | Landing on Farmhurst | - | [Map](https://www.google.com/maps/dir/?api=1&destination=711+Farmhurst+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4701 Arching Oak Ln, Charlotte, NC | - | - | Market | Sharon Oaks Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4701+Arching+Oak+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2220 E 7th St, Charlotte, NC | - | - | Market | Elizabeth Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2220+E+7th+St%2C+Charlotte%2C+NC) |
@@ -221,7 +220,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5945 Tuckaseegee Rd, Charlotte, NC | - | - | Market | The Mulberry Senior Living Apartment Communit... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5945+Tuckaseegee+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8030 Sycamore Creek Dr, Charlotte, NC | - | - | Market | River Crossing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8030+Sycamore+Creek+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2025 Cleveland Ave, Charlotte, NC | - | - | Market | The Campbell | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2025+Cleveland+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1227 Pressley Rd, Charlotte, NC | - | - | Market | LOSO Living | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1227+Pressley+Rd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
