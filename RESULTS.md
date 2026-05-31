@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** May 31, 2026 at 01:56 PM
+**Last updated:** May 31, 2026 at 07:27 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -167,6 +167,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 515 Jordan Pl, Charlotte, NC | - | - | Market | Camden NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=515+Jordan+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6320 Woodbend Dr, Charlotte, NC | - | - | Market | Devonwood Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6320+Woodbend+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4701 Arching Oak Ln, Charlotte, NC | - | - | Market | Sharon Oaks Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4701+Arching+Oak+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 312 N Graham St, Charlotte, NC | - | - | Market | 312 North Graham Street | - | [Map](https://www.google.com/maps/dir/?api=1&destination=312+N+Graham+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 710 Yorkmont Rd, Charlotte, NC | - | - | Market | Vivo Living Arbor View | - | [Map](https://www.google.com/maps/dir/?api=1&destination=710+Yorkmont+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7420 N Rea Park Ln, Charlotte, NC | - | - | Market | The Links Rea Farms | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7420+N+Rea+Park+Ln%2C+Charlotte%2C+NC) |
@@ -219,7 +220,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6215 Forest Way Dr, Charlotte, NC | - | - | Market | M Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6215+Forest+Way+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11215 Club Creek Ln, Charlotte, NC | - | - | Market | Bexley Crossing at Providence | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11215+Club+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4008 Fire Creek Rd, Charlotte, NC | - | - | Market | Bolton West Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4008+Fire+Creek+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6205 Dove Tree Ln, Charlotte, NC | - | - | Market | Woodland Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Dove+Tree+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
