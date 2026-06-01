@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** May 31, 2026 at 07:27 PM
+**Last updated:** June 01, 2026 at 04:26 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 167
+**Total listings found:** 169
 
-**By source:** rent.com: 167
+**By source:** rent.com: 169
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (20)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (22)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (20)
+## Midland & East Charlotte (Market Rentals) (22)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -68,6 +68,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3110 Doe River Way, Charlotte, NC | - | - | Market | Tessa Matthews Homes, Townhomes and Apartment... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3110+Doe+River+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Waterview Dr NW, Charlotte, NC | - | - | Market | Waters Edge Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Waterview+Dr+NW%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13931 Thompson Rd, Charlotte, NC | - | - | Market | 13931 Thompson Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13931+Thompson+Rd%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
