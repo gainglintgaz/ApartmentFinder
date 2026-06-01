@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** June 01, 2026 at 11:46 AM
+**Last updated:** June 01, 2026 at 05:52 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -63,8 +63,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8009 Whitegrove Rd, Charlotte, NC | - | - | Market | 8009 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8009+Whitegrove+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10009 Hemingway Pl, Charlotte, NC | - | - | Market | 10009 Hemingway Pl | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10009+Hemingway+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 10009 Hemingway Pl, Charlotte, NC | - | - | Market | 10009 Hemingway Pl | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10009+Hemingway+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3110 Doe River Way, Charlotte, NC | - | - | Market | Tessa Matthews Homes, Townhomes and Apartment... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3110+Doe+River+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Waterview Dr NW, Charlotte, NC | - | - | Market | Waters Edge Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Waterview+Dr+NW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Concord Chase Cir, Charlotte, NC | - | - | Market | Concord Chase Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Concord+Chase+Cir%2C+Charlotte%2C+NC) |
