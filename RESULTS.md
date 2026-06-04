@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** June 03, 2026 at 09:04 PM
+**Last updated:** June 04, 2026 at 04:24 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 166
+**Total listings found:** 165
 
-**By source:** rent.com: 166
+**By source:** rent.com: 165
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (18)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (17)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (18)
+## Midland & East Charlotte (Market Rentals) (17)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -57,15 +57,14 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9859 Spring Ridge Ln, Charlotte, NC | - | - | Market | Meadowbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9859+Spring+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7023 Brighton Park Dr, Charlotte, NC | - | - | Market | 7023 Brighton Park Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7023+Brighton+Park+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8427 Meadowcreek Village Dr, Charlotte, NC | - | - | Market | 8427 Meadowcreek Village Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8427+Meadowcreek+Village+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 112 NC-218 unit 218, Charlotte, NC | - | - | Market | 112 NC-218 unit 218 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=112+NC-218+unit+218%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8009 Whitegrove Rd, Charlotte, NC | - | - | Market | 8009 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8009+Whitegrove+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10009 Hemingway Pl, Charlotte, NC | - | - | Market | 10009 Hemingway Pl | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10009+Hemingway+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Concord Chase Cir, Charlotte, NC | - | - | Market | Concord Chase Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Concord+Chase+Cir%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1701 Oak Crest Dr, Charlotte, NC | - | - | Market | Oak Crest Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1701+Oak+Crest+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
 
