@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** June 05, 2026 at 08:04 PM
+**Last updated:** June 06, 2026 at 03:49 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 176
+**Total listings found:** 180
 
-**By source:** rent.com: 176
+**By source:** rent.com: 180
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (28)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (32)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (28)
+## Midland & East Charlotte (Market Rentals) (32)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -76,6 +76,10 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-203, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-203 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-203%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5416 Kinsbridge Dr, Charlotte, NC | - | - | Market | 5416 Kinsbridge Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5416+Kinsbridge+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3110 Doe River Way, Charlotte, NC | - | - | Market | Tessa Matthews Homes, Townhomes and Apartment... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3110+Doe+River+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4616 Stoney Trace Dr, Charlotte, NC | - | - | Market | Stoney Trace | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4616+Stoney+Trace+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1700 Chambers Dr, Charlotte, NC | - | - | Market | Rise Matthews Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Chambers+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1101 Flagstone Ln, Charlotte, NC | - | - | Market | The Kendall | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1101+Flagstone+Ln%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
 
@@ -147,7 +151,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 903 Lynn St, Charlotte, NC | - | - | Market | Ravenwood Hills | - | [Map](https://www.google.com/maps/dir/?api=1&destination=903+Lynn+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Ventura Way Dr, Charlotte, NC | - | - | Market | Somerset Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Ventura+Way+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2352 Township Rd, Charlotte, NC | - | - | Market | Ayrsley Landing | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2352+Township+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1018 Riverbend Station Trl, Charlotte, NC | - | - | Market | Bell Riverbend Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1018+Riverbend+Station+Trl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1600 Village Brook Dr, Charlotte, NC | - | - | Market | The Villages Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1600+Village+Brook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 225 Rhyne Rd, Charlotte, NC | - | - | Market | Prose Rhyne | - | [Map](https://www.google.com/maps/dir/?api=1&destination=225+Rhyne+Rd%2C+Charlotte%2C+NC) |
@@ -229,6 +232,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 110 E 36th St, Charlotte, NC | - | - | Market | One Noda Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=110+E+36th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1816 N Brevard St, Charlotte, NC | - | - | Market | Joinery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1816+N+Brevard+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5945 Tuckaseegee Rd, Charlotte, NC | - | - | Market | The Mulberry Senior Living Apartment Communit... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5945+Tuckaseegee+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3720 Wendwood Ln, Charlotte, NC | - | - | Market | Magnolia Heights | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3720+Wendwood+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
