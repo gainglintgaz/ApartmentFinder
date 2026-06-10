@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** June 10, 2026 at 03:46 PM
+**Last updated:** June 10, 2026 at 08:39 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -84,6 +84,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1937 Sharon Rd W, Charlotte, NC | - | - | Market | Sharonridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1937+Sharon+Rd+W%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6017 Williams Rd, Charlotte, NC | - | - | Market | The Slate Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6017+Williams+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6000 Regal Estate Ln, Charlotte, NC | - | - | Market | Rise Avalon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6000+Regal+Estate+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3130 Madrona Ave, Charlotte, NC | - | - | Market | Linden Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3130+Madrona+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5600 Paces Glen Ave, Charlotte, NC | - | - | Market | The Jade Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5600+Paces+Glen+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 10510 Waterford Creek Ln, Charlotte, NC | - | - | Market | Waterford Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10510+Waterford+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7900 Krefeld Dr, Charlotte, NC | - | - | Market | Safire at Matthews | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7900+Krefeld+Dr%2C+Charlotte%2C+NC) |
@@ -227,7 +228,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 704 W Tremont Ave, Charlotte, NC | - | - | Market | 704 at the Quarter | - | [Map](https://www.google.com/maps/dir/?api=1&destination=704+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1816 N Brevard St, Charlotte, NC | - | - | Market | Joinery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1816+N+Brevard+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1711 Commonwealth Ave, Charlotte, NC | - | - | Market | The Rowe at Commonwealth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1711+Commonwealth+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6008 Lewis St, Charlotte, NC | - | - | Market | Cortland Belgate | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6008+Lewis+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
