@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** June 12, 2026 at 08:20 PM
+**Last updated:** June 13, 2026 at 04:07 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
