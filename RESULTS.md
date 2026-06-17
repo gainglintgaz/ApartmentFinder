@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** June 16, 2026 at 09:00 PM
+**Last updated:** June 17, 2026 at 04:27 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 150
+**Total listings found:** 174
 
-**By source:** rent.com: 150
+**By source:** rent.com: 174
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (3)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (27)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (147)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,18 +44,43 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (3)
+## Midland & East Charlotte (Market Rentals) (27)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 4811 Monroe Rd, Charlotte, NC | - | - | Market | Lake Hill Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4811+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5417 Albemarle Rd, Charlotte, NC | - | - | Market | Sail Boat Bay | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5417+Albemarle+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13951 Clayborn St #97, Charlotte, NC | - | - | Market | 13951 Clayborn St #97 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13951+Clayborn+St+%2397%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 14121 Clayborn St, Charlotte, NC | - | - | Market | 14121 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14121+Clayborn+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13823 Clayborn St, Charlotte, NC | - | - | Market | 13823 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13823+Clayborn+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7631 Griffins Gate Dr SW, Charlotte, NC | - | - | Market | 7631 Griffins Gate Dr SW | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7631+Griffins+Gate+Dr+SW%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 150 Ray Kennedy Dr, Charlotte, NC | - | - | Market | 150 Ray Kennedy Dr | - | [Map](https://www.google.com/maps/dir/?api=1&destination=150+Ray+Kennedy+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 11059 Lawyers Rd unit 11059_LAWYERS, Charlotte, NC | - | - | Market | 11059 Lawyers Rd unit 11059_LAWYERS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11059+Lawyers+Rd+unit+11059_LAWYERS%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 8010-104, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 8010-104 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+8010-104%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 4020-305, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 4020-305 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+4020-305%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 6335-307, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 6335-307 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+6335-307%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 8005-103, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 8005-103 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+8005-103%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 8005-303, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 8005-303 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+8005-303%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-203, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-203 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-203%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 8010-205, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 8010-205 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+8010-205%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 9025-301, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 9025-301 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+9025-301%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7011-205, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7011-205 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7011-205%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 4020-308, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 4020-308 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+4020-308%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 6335-306, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 6335-306 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+6335-306%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 4020-301, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 4020-301 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+4020-301%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 500 Summerlake Dr SW, Charlotte, NC | - | - | Market | Summerlin at Concord Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=500+Summerlake+Dr+SW%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (147)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
+| Call | ?bd | Charlotte | 601 Key St, Charlotte, NC | - | - | Market | Key Street Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=601+Key+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6701 English Hills Dr, Charlotte, NC | - | - | Market | Oasis at Regal Oaks | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6701+English+Hills+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6000 Regal Estate Ln, Charlotte, NC | - | - | Market | Rise Avalon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6000+Regal+Estate+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3016 Kenhill Dr, Charlotte, NC | - | - | Market | Ponderosa Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3016+Kenhill+Dr%2C+Charlotte%2C+NC) |
@@ -80,6 +105,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1022 Forest Oak Dr, Charlotte, NC | - | - | Market | Wildwood Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1022+Forest+Oak+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6147 Winged Elm Ct, Charlotte, NC | - | - | Market | Woodland Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6147+Winged+Elm+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1312 S College St, Charlotte, NC | - | - | Market | Mosaic South End Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1312+S+College+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8061 Woodscape Dr, Charlotte, NC | - | - | Market | Park at Ferentino | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8061+Woodscape+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4333 Cinderella Rd, Charlotte, NC | - | - | Market | Sage Pointe Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4333+Cinderella+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4520 Charlotte Park Dr, Charlotte, NC | - | - | Market | The Leo LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4520+Charlotte+Park+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2728 Commonwealth Ave, Charlotte, NC | - | - | Market | Vista Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2728+Commonwealth+Ave%2C+Charlotte%2C+NC) |
@@ -169,7 +195,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 203 Monarch Creek Ln, Charlotte, NC | - | - | Market | Crossings At Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=203+Monarch+Creek+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6320 Woodbend Dr, Charlotte, NC | - | - | Market | Devonwood Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6320+Woodbend+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2027 Swan Dr, Charlotte, NC | - | - | Market | Kelly Ridge Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2027+Swan+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1133 Harding Pl, Charlotte, NC | - | - | Market | Solis Midtown | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1133+Harding+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2121 Caldera St, Charlotte, NC | - | - | Market | One West End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2121+Caldera+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2220 E 7th St, Charlotte, NC | - | - | Market | Elizabeth Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2220+E+7th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1226 Bexton St, Charlotte, NC | - | - | Market | Marlowe Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1226+Bexton+St%2C+Charlotte%2C+NC) |
@@ -202,7 +227,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 710 7th St, Charlotte, NC | - | - | Market | MAA Enclave | - | [Map](https://www.google.com/maps/dir/?api=1&destination=710+7th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8204 Mintworth Links Ln, Charlotte, NC | - | - | Market | Mintworth Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8204+Mintworth+Links+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1504 Mainline Blvd, Charlotte, NC | - | - | Market | Junction 1504 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1504+Mainline+Blvd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
