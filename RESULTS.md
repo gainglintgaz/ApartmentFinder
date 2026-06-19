@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** June 19, 2026 at 03:30 PM
+**Last updated:** June 19, 2026 at 07:57 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -202,7 +202,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7420 N Rea Park Ln, Charlotte, NC | - | - | Market | The Links Rea Farms | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7420+N+Rea+Park+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1000 Central Ave, Charlotte, NC | - | - | Market | The Gibson | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1000+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 125 W Tremont Ave, Charlotte, NC | - | - | Market | Ashton South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Tremont+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 225 N Cedar St, Charlotte, NC | - | - | Market | Cedar Flats | - | [Map](https://www.google.com/maps/dir/?api=1&destination=225+N+Cedar+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3310 N Davidson St, Charlotte, NC | - | - | Market | Mercury Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3310+N+Davidson+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
