@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** June 20, 2026 at 04:02 AM
+**Last updated:** June 20, 2026 at 09:25 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -91,6 +91,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2930 Tacoma St, Charlotte, NC | - | - | Market | Charlotte 360 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2930+Tacoma+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2728 Commonwealth Ave, Charlotte, NC | - | - | Market | Vista Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2728+Commonwealth+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7600 Antlers Ln, Charlotte, NC | - | - | Market | Winslow Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7600+Antlers+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6000 Regal Estate Ln, Charlotte, NC | - | - | Market | Rise Avalon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6000+Regal+Estate+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2109 Arrowcreek Dr, Charlotte, NC | - | - | Market | Rise Sunridge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2109+Arrowcreek+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9920 Brickleberry Ln, Charlotte, NC | - | - | Market | Thornberry Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9920+Brickleberry+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2208 Yager Creek Dr, Charlotte, NC | - | - | Market | Coffey Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2208+Yager+Creek+Dr%2C+Charlotte%2C+NC) |
@@ -225,7 +226,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7420 N Rea Park Ln, Charlotte, NC | - | - | Market | The Links Rea Farms | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7420+N+Rea+Park+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1000 Central Ave, Charlotte, NC | - | - | Market | The Gibson | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1000+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 125 W Tremont Ave, Charlotte, NC | - | - | Market | Ashton South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Tremont+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3310 N Davidson St, Charlotte, NC | - | - | Market | Mercury Noda | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3310+N+Davidson+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
