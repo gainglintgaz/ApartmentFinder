@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** July 10, 2026 at 02:38 PM
+**Last updated:** July 10, 2026 at 07:43 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -144,7 +144,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3115 Southwest Blvd, Charlotte, NC | - | - | Market | Birch Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3115+Southwest+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5945 Tuckaseegee Rd, Charlotte, NC | - | - | Market | The Mulberry Senior Living Apartment Communit... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5945+Tuckaseegee+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8301 Harris Pond Dr, Charlotte, NC | - | - | Market | Harris Pond | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8301+Harris+Pond+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 1015 Deep Rock Cir, Charlotte, NC | - | - | Market | GRANITE POINTE | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1015+Deep+Rock+Cir%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1015 Deep Rock Cir, Charlotte, NC | - | - | Market | Granite Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1015+Deep+Rock+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1025 W 6th St, Charlotte, NC | - | - | Market | Crest Gateway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1025+W+6th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12015 Accent Berkeley Ct, Charlotte, NC | - | - | Market | Accent Berkeley Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12015+Accent+Berkeley+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1601 Dewberry Ter, Charlotte, NC | - | - | Market | 1601 West Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1601+Dewberry+Ter%2C+Charlotte%2C+NC) |
