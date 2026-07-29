@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** July 29, 2026 at 02:19 PM
+**Last updated:** July 29, 2026 at 07:25 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -184,7 +184,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 124 E Kingston Ave, Charlotte, NC | - | - | Market | Kingston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=124+E+Kingston+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1007 S Mint St, Charlotte, NC | - | - | Market | Bond on Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1007+S+Mint+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 620 Seigle Ave, Charlotte, NC | - | - | Market | MAA Plaza Midwood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=620+Seigle+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6015 Mar Dhea Ln, Charlotte, NC | - | - | Market | Easton at Mountain Island | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6015+Mar+Dhea+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2025 Cleveland Ave, Charlotte, NC | - | - | Market | The Campbell | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2025+Cleveland+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2508 April Liu Ln, Charlotte, NC | - | - | Market | Blu at Northline | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2508+April+Liu+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 710 7th St, Charlotte, NC | - | - | Market | MAA Enclave | - | [Map](https://www.google.com/maps/dir/?api=1&destination=710+7th+St%2C+Charlotte%2C+NC) |
@@ -203,6 +202,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2630 South Blvd, Charlotte, NC | - | - | Market | Maddox South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2630+South+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13531 Rigsby Rd, Charlotte, NC | - | - | Market | Bask Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13531+Rigsby+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2121 Caldera St, Charlotte, NC | - | - | Market | One West End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2121+Caldera+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
