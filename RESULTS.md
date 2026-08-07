@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** August 07, 2026 at 01:14 PM
+**Last updated:** August 07, 2026 at 07:05 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -63,7 +63,9 @@ _No listings found in this category._
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
+| Call | ?bd | Charlotte | 7113 Village Green Dr, Charlotte, NC | - | - | Market | Modern Apartments Minutes from Plaza Midwood ... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7113+Village+Green+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5340 Periwinkle Hill Ave, Charlotte, NC | - | - | Market | Century University City | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5340+Periwinkle+Hill+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 1951 Milton Rd, Charlotte, NC | - | - | Market | Well-Appointed Apartments in a Vibrant East C... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1951+Milton+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5600 Paces Glen Ave, Charlotte, NC | - | - | Market | The Jade Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5600+Paces+Glen+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1600 Village Brook Dr, Charlotte, NC | - | - | Market | The Villages Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1600+Village+Brook+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6940 Hidden Forest Dr, Charlotte, NC | - | - | Market | Crossroads Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6940+Hidden+Forest+Dr%2C+Charlotte%2C+NC) |
@@ -71,6 +73,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 839 Shadow Elm Dr, Charlotte, NC | - | - | Market | Arbor Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=839+Shadow+Elm+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1719 Eastcrest Dr, Charlotte, NC | - | - | Market | Ashby Gardens | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1719+Eastcrest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 411 Lambeth Dr, Charlotte, NC | - | - | Market | Tryon Forest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=411+Lambeth+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7000 Barrington Dr, Charlotte, NC | - | - | Market | Inviting Garden Apartments & Townhome Communi... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7000+Barrington+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 229 Hilo Dr, Charlotte, NC | - | - | Market | Edge @ NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=229+Hilo+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3209 Westbury Lake Dr, Charlotte, NC | - | - | Market | Radbourne Lake Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3209+Westbury+Lake+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 230 Barton Creek Dr, Charlotte, NC | - | - | Market | Ashford Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=230+Barton+Creek+Dr%2C+Charlotte%2C+NC) |
@@ -82,6 +85,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 639 Archdale Dr, Charlotte, NC | - | - | Market | The Highlands Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=639+Archdale+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6205 Dove Tree Ln, Charlotte, NC | - | - | Market | Woodland Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Dove+Tree+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2208 Yager Creek Dr, Charlotte, NC | - | - | Market | Coffey Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2208+Yager+Creek+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5821 Reddman Rd, Charlotte, NC | - | - | Market | Comfortable Apartments in Desirable East Char... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5821+Reddman+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1357 Sharon Rd W, Charlotte, NC | - | - | Market | Sharon West | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1357+Sharon+Rd+W%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1700 Charleston Place Ln, Charlotte, NC | - | - | Market | The Pines | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Charleston+Place+Ln%2C+Charlotte%2C+NC) |
@@ -208,10 +212,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 225 Rhyne Rd, Charlotte, NC | - | - | Market | Prose Rhyne | - | [Map](https://www.google.com/maps/dir/?api=1&destination=225+Rhyne+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11505 Masterton Rd, Charlotte, NC | - | - | Market | Arwen Vista | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11505+Masterton+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1010 Kenilworth Ave, Charlotte, NC | - | - | Market | 1010 Dilworth Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1010+Kenilworth+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7116 Finn Hall Ave, Charlotte, NC | - | - | Market | Highland Park at Northlake | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7116+Finn+Hall+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2220 E 7th St, Charlotte, NC | - | - | Market | Elizabeth Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2220+E+7th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 125 W Tremont Ave, Charlotte, NC | - | - | Market | Ashton South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Tremont+Ave%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 715 E 36th St, Charlotte, NC | - | - | Market | Centro NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=715+E+36th+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
