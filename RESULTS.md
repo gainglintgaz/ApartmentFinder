@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** August 14, 2026 at 02:12 AM
+**Last updated:** August 14, 2026 at 07:32 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 159
+**Total listings found:** 150
 
-**By source:** rent.com: 159
+**By source:** rent.com: 150
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (10)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (1)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,20 +44,11 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (10)
+## Midland & East Charlotte (Market Rentals) (1)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 14129 Clayborn St, Charlotte, NC | - | - | Market | 14129 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14129+Clayborn+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 15013 Camus Ct, Charlotte, NC | - | - | Market | 15013 Camus Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=15013+Camus+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 129 Tarrymore Ln SW, Charlotte, NC | - | - | Market | Concord View Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=129+Tarrymore+Ln+SW%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
@@ -99,6 +90,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1357 Sharon Rd W, Charlotte, NC | - | - | Market | Sharon West | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1357+Sharon+Rd+W%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1801 Willow Haven Ln, Charlotte, NC | - | - | Market | The Marigold | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1801+Willow+Haven+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9401 Grove Hill Dr, Charlotte, NC | - | - | Market | MAA University Lake | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9401+Grove+Hill+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5626 Sharon Pointe Rd, Charlotte, NC | - | - | Market | Sharon Pointe Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5626+Sharon+Pointe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7139 Winding Cedar Trl, Charlotte, NC | - | - | Market | Somerstone Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7139+Winding+Cedar+Trl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6310 Ansley Falls Dr, Charlotte, NC | - | - | Market | Ansley Falls Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6310+Ansley+Falls+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
@@ -211,7 +203,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6006 Intertwine St, Charlotte, NC | - | - | Market | NOVEL River District By Crescent Communities | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6006+Intertwine+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6320 Woodbend Dr, Charlotte, NC | - | - | Market | Devonwood Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6320+Woodbend+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6309 Montego Dr, Charlotte, NC | - | - | Market | Vista Villa Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6309+Montego+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7815 Chelsea Jade Ln, Charlotte, NC | - | - | Market | The Lodge at Mallard Creek Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7815+Chelsea+Jade+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
