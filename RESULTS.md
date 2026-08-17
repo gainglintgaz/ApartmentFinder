@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** August 17, 2026 at 12:53 PM
+**Last updated:** August 17, 2026 at 06:47 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 150
+**Total listings found:** 159
 
-**By source:** rent.com: 150
+**By source:** rent.com: 159
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (1)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (10)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (149)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,11 +44,20 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (1)
+## Midland & East Charlotte (Market Rentals) (10)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 14119 Clayborn St, Charlotte, NC | - | - | Market | 14119 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14119+Clayborn+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5150 Avening Ct, Charlotte, NC | - | - | Market | 5150 Avening Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5150+Avening+Ct%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 15013 Camus Ct, Charlotte, NC | - | - | Market | 15013 Camus Ct | - | [Map](https://www.google.com/maps/dir/?api=1&destination=15013+Camus+Ct%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
@@ -159,7 +168,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13001 Yorkridge Dr, Charlotte, NC | - | - | Market | Avenues at Steele Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13001+Yorkridge+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2300 South Blvd, Charlotte, NC | - | - | Market | Camden Southline | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2300+South+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2705 Haverford Pl, Charlotte, NC | - | - | Market | The Edge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2705+Haverford+Pl%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 4817 Water Oak Rd, Charlotte, NC | - | - | Market | Cortland Cotswold | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4817+Water+Oak+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6800 Fishers Farm Ln, Charlotte, NC | - | - | Market | Retreat at McAlpine Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6800+Fishers+Farm+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2201 Yorkhills Dr, Charlotte, NC | - | - | Market | Timberstone | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2201+Yorkhills+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 615 E Morehead St, Charlotte, NC | - | - | Market | Overlook at Radius Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=615+E+Morehead+St%2C+Charlotte%2C+NC) |
@@ -203,6 +211,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5025 Taggart Springs Way, Charlotte, NC | - | - | Market | Springbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5025+Taggart+Springs+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2100 South Blvd, Charlotte, NC | - | - | Market | The Atherton | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+South+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8710 Research Dr, Charlotte, NC | - | - | Market | Flats at 87Ten | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8710+Research+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5725 Carnegie Blvd, Charlotte, NC | - | - | Market | LaVie SouthPark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5725+Carnegie+Blvd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
