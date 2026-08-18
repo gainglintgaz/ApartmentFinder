@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** August 18, 2026 at 12:56 PM
+**Last updated:** August 18, 2026 at 06:51 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -162,10 +162,12 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1816 N Brevard St, Charlotte, NC | - | - | Market | Joinery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1816+N+Brevard+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1720 Rocky River Rd, Charlotte, NC | - | - | Market | Zora University | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1720+Rocky+River+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8110 Providence Court Ln, Charlotte, NC | - | - | Market | Providence Court | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8110+Providence+Court+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6530 Free Throw Ln, Charlotte, NC | - | - | Market | Cortland Seventy Seven | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6530+Free+Throw+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6800 Fishers Farm Ln, Charlotte, NC | - | - | Market | Retreat at McAlpine Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6800+Fishers+Farm+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5945 Tuckaseegee Rd, Charlotte, NC | - | - | Market | The Mulberry Senior Living Apartment Communit... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5945+Tuckaseegee+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2300 South Blvd, Charlotte, NC | - | - | Market | Camden Southline | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2300+South+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2705 Haverford Pl, Charlotte, NC | - | - | Market | The Edge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2705+Haverford+Pl%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 4817 Water Oak Rd, Charlotte, NC | - | - | Market | Cortland Cotswold | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4817+Water+Oak+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1905 Eastway Dr, Charlotte, NC | - | - | Market | Townhomes of Ashbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1905+Eastway+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3501 E Independence Blvd, Charlotte, NC | - | - | Market | The Residences at Windsor | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3501+E+Independence+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7740 Liberty Row Dr, Charlotte, NC | - | - | Market | Modera Liberty Row | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7740+Liberty+Row+Dr%2C+Charlotte%2C+NC) |
@@ -210,8 +212,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 4076 Enderly Towns Ln, Charlotte, NC | - | - | Market | Enderly Towns | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4076+Enderly+Towns+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4401 Barclay Downs Dr, Charlotte, NC | - | - | Market | Hazel Southpark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4401+Barclay+Downs+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1925 E 7th St, Charlotte, NC | - | - | Market | The Langston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+E+7th+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5725 Carnegie Blvd, Charlotte, NC | - | - | Market | LaVie SouthPark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5725+Carnegie+Blvd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2220 E 7th St, Charlotte, NC | - | - | Market | Elizabeth Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2220+E+7th+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
