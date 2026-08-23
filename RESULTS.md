@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** August 23, 2026 at 12:48 PM
+**Last updated:** August 23, 2026 at 06:38 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -54,8 +54,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
 
@@ -145,7 +145,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 4312 Yancey Rd, Charlotte, NC | - | - | Market | The Yancey | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4312+Yancey+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7561 Quail Meadow Ln, Charlotte, NC | - | - | Market | Bridges At Quail Hollow | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7561+Quail+Meadow+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11936 N Community House Rd, Charlotte, NC | - | - | Market | Beverley | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11936+N+Community+House+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 215 Poindexter Dr, Charlotte, NC | - | - | Market | Elmhurst | - | [Map](https://www.google.com/maps/dir/?api=1&destination=215+Poindexter+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5025 Taggart Springs Way, Charlotte, NC | - | - | Market | Springbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5025+Taggart+Springs+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1710 Piedmont Hills Pl, Charlotte, NC | - | - | Market | CityPark View | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1710+Piedmont+Hills+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 601 Key St, Charlotte, NC | - | - | Market | Key Street Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=601+Key+St%2C+Charlotte%2C+NC) |
@@ -210,6 +209,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6110A Gladiolus Ln, Charlotte, NC | - | - | Market | Redwood Charlotte Ridge Road | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6110A+Gladiolus+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2300 South Blvd, Charlotte, NC | - | - | Market | Camden Southline | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2300+South+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2100 South Blvd, Charlotte, NC | - | - | Market | The Atherton | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+South+Blvd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 11505 Masterton Rd, Charlotte, NC | - | - | Market | Arwen Vista | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11505+Masterton+Rd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
