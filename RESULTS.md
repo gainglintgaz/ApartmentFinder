@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** August 26, 2026 at 07:55 PM
+**Last updated:** August 27, 2026 at 08:15 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -54,8 +54,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (149)
@@ -128,6 +128,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5600 Paces Glen Ave, Charlotte, NC | - | - | Market | The Jade Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5600+Paces+Glen+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8812 Ikea Blvd, Charlotte, NC | - | - | Market | Finley on the Green | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8812+Ikea+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1025 W 6th St, Charlotte, NC | - | - | Market | Crest Gateway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1025+W+6th+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3810 Marvin Rd, Charlotte, NC | - | - | Market | Wallace Terrace Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3810+Marvin+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4076 Enderly Towns Ln, Charlotte, NC | - | - | Market | Enderly Towns | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4076+Enderly+Towns+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4540 Tantilla Cir, Charlotte, NC | - | - | Market | The Grove Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4540+Tantilla+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3501 E Independence Blvd, Charlotte, NC | - | - | Market | The Residences at Windsor | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3501+E+Independence+Blvd%2C+Charlotte%2C+NC) |
@@ -210,7 +211,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3146 Baroda Ln, Charlotte, NC | - | - | Market | Nevin Place Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3146+Baroda+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4520 Charlotte Park Dr, Charlotte, NC | - | - | Market | The Leo LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4520+Charlotte+Park+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3010 Festivus Ct, Charlotte, NC | - | - | Market | The Cosmo at NoDA | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3010+Festivus+Ct%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2100 South Blvd, Charlotte, NC | - | - | Market | The Atherton | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+South+Blvd%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
