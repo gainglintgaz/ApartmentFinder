@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 04, 2026 at 04:04 PM
+**Last updated:** September 04, 2026 at 08:33 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -83,7 +83,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5826 Reddman Rd, Charlotte, NC | - | - | Market | Inviting Apartments in a Central Location nea... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5826+Reddman+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5025 Taggart Springs Way, Charlotte, NC | - | - | Market | Springbrook | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5025+Taggart+Springs+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8117 Hub Way, Charlotte, NC | - | - | Market | HUB ON HARRIS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8117+Hub+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2818 Barrow Rd, Charlotte, NC | - | - | Market | Highland Ridge Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2818+Barrow+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4333 Cinderella Rd, Charlotte, NC | - | - | Market | Sage Pointe Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4333+Cinderella+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 711 Farmhurst Dr, Charlotte, NC | - | - | Market | Landing on Farmhurst | - | [Map](https://www.google.com/maps/dir/?api=1&destination=711+Farmhurst+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5821 Reddman Rd, Charlotte, NC | - | - | Market | Parkhaven Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5821+Reddman+Rd%2C+Charlotte%2C+NC) |
@@ -209,9 +208,10 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 4401 Barclay Downs Dr, Charlotte, NC | - | - | Market | Hazel Southpark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4401+Barclay+Downs+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4312 Yancey Rd, Charlotte, NC | - | - | Market | The Yancey | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4312+Yancey+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 10615 Steele Creek Rd, Charlotte, NC | - | - | Market | Exchange at Steele Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10615+Steele+Creek+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4536 Randolph Rd, Charlotte, NC | - | - | Market | Randolph Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4536+Randolph+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 125 W Park Ave, Charlotte, NC | - | - | Market | Park and Kingston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Park+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 606 N Carolina Music Factory Blvd, Charlotte, NC | - | - | Market | Cadence Music Factory | - | [Map](https://www.google.com/maps/dir/?api=1&destination=606+N+Carolina+Music+Factory+Blvd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3200 Dalecrest Dr, Charlotte, NC | - | - | Market | Tanglewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3200+Dalecrest+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
