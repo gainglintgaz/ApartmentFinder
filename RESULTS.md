@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 04, 2026 at 03:36 AM
+**Last updated:** September 04, 2026 at 10:57 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -55,8 +55,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1425 Mount Olivet Rd, Charlotte, NC | - | - | Market | South Emerson Hills | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1425+Mount+Olivet+Rd%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
@@ -131,7 +131,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 508 N Tryon St, Charlotte, NC | - | - | Market | Elevate Tryon | - | [Map](https://www.google.com/maps/dir/?api=1&destination=508+N+Tryon+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2123 El Verano Cir, Charlotte, NC | - | - | Market | Sharon Crossing Preservation | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2123+El+Verano+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 839 Shadow Elm Dr, Charlotte, NC | - | - | Market | Arbor Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=839+Shadow+Elm+Dr%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 7916 Harris Hill Ln, Charlotte, NC | - | - | Market | Bridges at Mallard Creek Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7916+Harris+Hill+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8301 Parkland Cir, Charlotte, NC | - | - | Market | Camara Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8301+Parkland+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4400 John Penn Cir, Charlotte, NC | - | - | Market | Crossing at Reedy Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4400+John+Penn+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 7600 Antlers Ln, Charlotte, NC | - | - | Market | Winslow Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7600+Antlers+Ln%2C+Charlotte%2C+NC) |
@@ -211,6 +210,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1301 Ivy Meadow Dr, Charlotte, NC | - | - | Market | The Piedmont | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1301+Ivy+Meadow+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4312 Yancey Rd, Charlotte, NC | - | - | Market | The Yancey | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4312+Yancey+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1750 Camden Rd, Charlotte, NC | - | - | Market | Camden Gallery | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1750+Camden+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2312 Ben Craig Dr, Charlotte, NC | - | - | Market | Groves | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2312+Ben+Craig+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
