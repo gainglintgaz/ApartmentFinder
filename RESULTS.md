@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 10, 2026 at 04:18 PM
+**Last updated:** September 10, 2026 at 08:39 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -57,8 +57,8 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9610 Stoney Glen Dr, Charlotte, NC | - | - | Market | Residences at West Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9610+Stoney+Glen+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 100 Samuel Adams Cir SW, Charlotte, NC | - | - | Market | Parkway Station Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=100+Samuel+Adams+Cir+SW%2C+Charlotte%2C+NC) |
 
@@ -74,7 +74,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 7900 Krefeld Dr, Charlotte, NC | - | - | Market | Safire at Matthews | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7900+Krefeld+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6147 Winged Elm Ct, Charlotte, NC | - | - | Market | Woodland Estates | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6147+Winged+Elm+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4605 Colony Rd, Charlotte, NC | - | - | Market | Madison Southpark Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4605+Colony+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2320 Ginger Ln, Charlotte, NC | - | - | Market | Meadowbrook Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2320+Ginger+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 229 Hilo Dr, Charlotte, NC | - | - | Market | Edge @ NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=229+Hilo+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2347 Eastway Dr, Charlotte, NC | - | - | Market | Wendover Gardens | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2347+Eastway+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3517 Burner Dr, Charlotte, NC | - | - | Market | East Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3517+Burner+Dr%2C+Charlotte%2C+NC) |
@@ -213,6 +212,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2225 Hawkins St, Charlotte, NC | - | - | Market | Cortland South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2225+Hawkins+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3146 Baroda Ln, Charlotte, NC | - | - | Market | Nevin Place Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3146+Baroda+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4835 Cameron Valley Pkwy, Charlotte, NC | - | - | Market | MAA South Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4835+Cameron+Valley+Pkwy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 9821 Research Dr, Charlotte, NC | - | - | Market | Alexan Research Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9821+Research+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
