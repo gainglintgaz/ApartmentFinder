@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 12, 2026 at 03:48 AM
+**Last updated:** September 12, 2026 at 10:25 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -67,6 +67,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 5767 Cedars East Ct, Charlotte, NC | - | - | Market | Arcadian Village Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5767+Cedars+East+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 411 Lambeth Dr, Charlotte, NC | - | - | Market | Tryon Forest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=411+Lambeth+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4908 Endolwood Rd, Charlotte, NC | - | - | Market | Kimmerly Glen | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4908+Endolwood+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7200 Wallace Rd, Charlotte, NC | - | - | Market | Rise Blue Ridge | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7200+Wallace+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6017 Williams Rd, Charlotte, NC | - | - | Market | The Slate Charlotte | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6017+Williams+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1951 Milton Rd, Charlotte, NC | - | - | Market | Well-Appointed Apartments in a Vibrant East C... | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1951+Milton+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1400 Ventura Way Dr, Charlotte, NC | - | - | Market | Somerset Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1400+Ventura+Way+Dr%2C+Charlotte%2C+NC) |
@@ -210,7 +211,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6205 Carnegie Blvd, Charlotte, NC | - | - | Market | The Encore SouthPark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Carnegie+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4009 Connection Point Blvd, Charlotte, NC | - | - | Market | Radial at Mora Point | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4009+Connection+Point+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2225 Hawkins St, Charlotte, NC | - | - | Market | Cortland South End | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2225+Hawkins+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 510 W Tremont Ave, Charlotte, NC | - | - | Market | The Artisan | - | [Map](https://www.google.com/maps/dir/?api=1&destination=510+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
