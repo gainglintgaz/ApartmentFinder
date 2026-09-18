@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** September 18, 2026 at 04:21 PM
+**Last updated:** September 18, 2026 at 08:41 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 150
+**Total listings found:** 158
 
-**By source:** rent.com: 150
+**By source:** rent.com: 158
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (2)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (10)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,12 +44,20 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (2)
+## Midland & East Charlotte (Market Rentals) (10)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5920 Monroe Rd, Charlotte, NC | - | - | Market | 59Twenty @ Monroe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5920+Monroe+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4811 Monroe Rd, Charlotte, NC | - | - | Market | Lake Hill Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4811+Monroe+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 14119 Clayborn St, Charlotte, NC | - | - | Market | 14119 Clayborn St | - | [Map](https://www.google.com/maps/dir/?api=1&destination=14119+Clayborn+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8012 Whitegrove Rd, Charlotte, NC | - | - | Market | 8012 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8012+Whitegrove+Rd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
 
@@ -147,7 +155,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 2546 Perimeter Pointe Pkwy, Charlotte, NC | - | - | Market | Perimeter Pointe | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2546+Perimeter+Pointe+Pkwy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4540 Tantilla Cir, Charlotte, NC | - | - | Market | The Grove Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4540+Tantilla+Cir%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3570 Toringdon Way, Charlotte, NC | - | - | Market | Berkshire Ballantyne | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3570+Toringdon+Way%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 125 W Park Ave, Charlotte, NC | - | - | Market | Park and Kingston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=125+W+Park+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4312 Yancey Rd, Charlotte, NC | - | - | Market | The Yancey | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4312+Yancey+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1227 Pressley Rd, Charlotte, NC | - | - | Market | LOSO Living | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1227+Pressley+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8301 Harris Pond Dr, Charlotte, NC | - | - | Market | Harris Pond | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8301+Harris+Pond+Dr%2C+Charlotte%2C+NC) |
@@ -203,6 +210,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 3750 Philemon Ave, Charlotte, NC | - | - | Market | Amaze at NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3750+Philemon+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 721 Governor Morrison St, Charlotte, NC | - | - | Market | SouthPark Morrison | - | [Map](https://www.google.com/maps/dir/?api=1&destination=721+Governor+Morrison+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4051 Bannockburn Pl, Charlotte, NC | - | - | Market | Strawberry Hill | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4051+Bannockburn+Pl%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2635 W Trade St, Charlotte, NC | - | - | Market | Abode at Greenway | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2635+W+Trade+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
