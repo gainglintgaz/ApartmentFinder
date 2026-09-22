@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 21, 2026 at 09:53 PM
+**Last updated:** September 22, 2026 at 04:00 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -184,6 +184,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1811 Lookout Ln, Charlotte, NC | - | - | Market | Bradford Commons | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1811+Lookout+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 200 E Cama St, Charlotte, NC | - | - | Market | Artizia at LoSo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=200+E+Cama+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6205 Carnegie Blvd, Charlotte, NC | - | - | Market | The Encore SouthPark | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6205+Carnegie+Blvd%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 3500 Philemon Ave, Charlotte, NC | - | - | Market | Link Apartments NoDa 36th | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3500+Philemon+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3143 Central Ave, Charlotte, NC | - | - | Market | Summit on Central | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3143+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 715 E 36th St, Charlotte, NC | - | - | Market | Centro NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=715+E+36th+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12015 Accent Berkeley Ct, Charlotte, NC | - | - | Market | Accent Berkeley Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12015+Accent+Berkeley+Ct%2C+Charlotte%2C+NC) |
@@ -210,7 +211,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 721 Governor Morrison St, Charlotte, NC | - | - | Market | SouthPark Morrison | - | [Map](https://www.google.com/maps/dir/?api=1&destination=721+Governor+Morrison+St%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1315 Harding Pl, Charlotte, NC | - | - | Market | Greenside | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1315+Harding+Pl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1115 S Mint St, Charlotte, NC | - | - | Market | The Prospect | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1115+S+Mint+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 6309 Montego Dr, Charlotte, NC | - | - | Market | Vista Villa Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6309+Montego+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
