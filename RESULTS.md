@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 23, 2026 at 04:28 PM
+**Last updated:** September 23, 2026 at 09:21 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -207,10 +207,10 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 9414 Mallard Creek Rd, Charlotte, NC | - | - | Market | Frazier at Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9414+Mallard+Creek+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9200 Westbury Woods Dr, Charlotte, NC | - | - | Market | Camden Touchstone | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9200+Westbury+Woods+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 601 Key St, Charlotte, NC | - | - | Market | Key Street Townhomes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=601+Key+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 6134 Wilora Lake Rd, Charlotte, NC | - | - | Market | Towns at Eastland | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6134+Wilora+Lake+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8620 Bella Reese Rd, Charlotte, NC | - | - | Market | Camden Stonecrest | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8620+Bella+Reese+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 704 W Tremont Ave, Charlotte, NC | - | - | Market | 704 at the Quarter | - | [Map](https://www.google.com/maps/dir/?api=1&destination=704+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 711 E Morehead St, Charlotte, NC | - | - | Market | Hanover Dilworth | - | [Map](https://www.google.com/maps/dir/?api=1&destination=711+E+Morehead+St%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2735 N Davidson St, Charlotte, NC | - | - | Market | The Collection at North Davidson | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2735+N+Davidson+St%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
