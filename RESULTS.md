@@ -1,18 +1,18 @@
 # Apartment Search Results
 
-**Last updated:** September 24, 2026 at 11:25 AM
+**Last updated:** September 24, 2026 at 04:50 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
-**Total listings found:** 158
+**Total listings found:** 159
 
-**By source:** rent.com: 158
+**By source:** rent.com: 159
 
 ---
 
 **Jump to:**
 - [Government / Subsidized / Senior Housing (0)](#government--subsidized--senior-housing)
-- [Midland & East Charlotte (Market Rentals) (10)](#midland--east-charlotte-market-rentals)
+- [Midland & East Charlotte (Market Rentals) (11)](#midland--east-charlotte-market-rentals)
 - [Greater Charlotte (Market Rentals) (148)](#greater-charlotte-market-rentals)
 - [Other Areas (Market Rentals) (0)](#other-areas-market-rentals)
 
@@ -44,7 +44,7 @@
 
 _No listings found in this category._
 
-## Midland & East Charlotte (Market Rentals) (10)
+## Midland & East Charlotte (Market Rentals) (11)
 
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
@@ -54,10 +54,11 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 12009 Lemmond Farm Dr, Charlotte, NC | - | - | Market | Lemmond Farm | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12009+Lemmond+Farm+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13625 Haven Ridge Ln, Charlotte, NC | - | - | Market | Hawthorne at the Greene | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13625+Haven+Ridge+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 13330 Maize Ln, Charlotte, NC | - | - | Market | East Mint | - | [Map](https://www.google.com/maps/dir/?api=1&destination=13330+Maize+Ln%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 11051 Lawyers Rd, Charlotte, NC | - | - | Market | 11051 Lawyers Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11051+Lawyers+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 8012 Whitegrove Rd, Charlotte, NC | - | - | Market | 8012 Whitegrove Rd | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8012+Whitegrove+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-101, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-101 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-101%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 5020 James Bradley Lee Wy unit 7010-207, Charlotte, NC | - | - | Market | 5020 James Bradley Lee Wy unit 7010-207 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5020+James+Bradley+Lee+Wy+unit+7010-207%2C+Charlotte%2C+NC) |
 
 ## Greater Charlotte (Market Rentals) (148)
 
@@ -171,6 +172,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 10500 Midway Park Dr, Charlotte, NC | - | - | Market | Laurent | - | [Map](https://www.google.com/maps/dir/?api=1&destination=10500+Midway+Park+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6225 Hackberry Creek Trl, Charlotte, NC | - | - | Market | Windsor Addison Park | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6225+Hackberry+Creek+Trl%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4212 Napa Oak Dr, Charlotte, NC | - | - | Market | Proximity Northlake | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4212+Napa+Oak+Dr%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 11110 Trevi Village Blvd, Charlotte, NC | - | - | Market | The Villas at Trevi Village | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11110+Trevi+Village+Blvd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3031 Spire View Ln, Charlotte, NC | - | - | Market | Spire Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3031+Spire+View+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3570 Toringdon Way, Charlotte, NC | - | - | Market | Berkshire Ballantyne | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3570+Toringdon+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 511 Queens Rd, Charlotte, NC | - | - | Market | 511 Queens | - | [Map](https://www.google.com/maps/dir/?api=1&destination=511+Queens+Rd%2C+Charlotte%2C+NC) |
@@ -210,7 +212,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 6800 Fishers Farm Ln, Charlotte, NC | - | - | Market | Retreat at McAlpine Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6800+Fishers+Farm+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9414 Mallard Creek Rd, Charlotte, NC | - | - | Market | Frazier at Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9414+Mallard+Creek+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2512 Roseview Ln, Charlotte, NC | - | - | Market | Country Club Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2512+Roseview+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 3143 Central Ave, Charlotte, NC | - | - | Market | Summit on Central | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3143+Central+Ave%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
