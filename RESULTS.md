@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 24, 2026 at 04:50 PM
+**Last updated:** September 24, 2026 at 09:29 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -132,6 +132,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 4612 Simsbury Rd, Charlotte, NC | - | - | Market | Camden Foxcroft | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4612+Simsbury+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4943 Park Rd, Charlotte, NC | - | - | Market | Cielo | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4943+Park+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2300 N Davidson St, Charlotte, NC | - | - | Market | The Collective NoDa | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2300+N+Davidson+St%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 7413 Windansea Wy, Charlotte, NC | - | - | Market | Hubbard Townes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=7413+Windansea+Wy%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2212 Nexus Dr, Charlotte, NC | - | - | Market | Nexus 485 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2212+Nexus+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 2201 Yorkhills Dr, Charlotte, NC | - | - | Market | Timberstone | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2201+Yorkhills+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4312 Yancey Rd, Charlotte, NC | - | - | Market | The Yancey | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4312+Yancey+Rd%2C+Charlotte%2C+NC) |
@@ -211,7 +212,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 1720 Rocky River Rd, Charlotte, NC | - | - | Market | Zora University | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1720+Rocky+River+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6800 Fishers Farm Ln, Charlotte, NC | - | - | Market | Retreat at McAlpine Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6800+Fishers+Farm+Ln%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 9414 Mallard Creek Rd, Charlotte, NC | - | - | Market | Frazier at Mallard Creek | - | [Map](https://www.google.com/maps/dir/?api=1&destination=9414+Mallard+Creek+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 2512 Roseview Ln, Charlotte, NC | - | - | Market | Country Club Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2512+Roseview+Ln%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
