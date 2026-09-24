@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** September 23, 2026 at 09:21 PM
+**Last updated:** September 24, 2026 at 03:50 AM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -64,7 +64,7 @@ _No listings found in this category._
 | Price | Beds/Baths | City | Address | Phone | Listed | Type | Title | Source | Directions |
 |-------|-----------|------|---------|-------|--------|------|-------|--------|------------|
 | Call | ?bd | Charlotte | 5923 Farm Pond Ln, Charlotte, NC | - | - | Market | EDITION Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=5923+Farm+Pond+Ln%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 8117 Hub Way, Charlotte, NC | - | - | Market | HUB ON HARRIS | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8117+Hub+Way%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 8117 Hub Way, Charlotte, NC | - | - | Market | The Hub on Harris | - | [Map](https://www.google.com/maps/dir/?api=1&destination=8117+Hub+Way%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 4605 Colony Rd, Charlotte, NC | - | - | Market | Madison Southpark Apartment Homes | - | [Map](https://www.google.com/maps/dir/?api=1&destination=4605+Colony+Rd%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 6940 Hidden Forest Dr, Charlotte, NC | - | - | Market | Crossroads Station | - | [Map](https://www.google.com/maps/dir/?api=1&destination=6940+Hidden+Forest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1700 Charleston Place Ln, Charlotte, NC | - | - | Market | The Pines | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1700+Charleston+Place+Ln%2C+Charlotte%2C+NC) |
