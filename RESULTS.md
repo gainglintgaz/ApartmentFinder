@@ -1,6 +1,6 @@
 # Apartment Search Results
 
-**Last updated:** October 01, 2026 at 04:54 AM
+**Last updated:** October 01, 2026 at 12:48 PM
 
 **Search:** $0-$900/mo | studio, 1, 2 bedroom(s) | NC
 
@@ -204,7 +204,6 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 11110 Hyde Pointe Ct, Charlotte, NC | - | - | Market | Hyde Glen Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=11110+Hyde+Pointe+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 704 W Tremont Ave, Charlotte, NC | - | - | Market | 704 at the Quarter | - | [Map](https://www.google.com/maps/dir/?api=1&destination=704+W+Tremont+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3030 Barrow Rd, Charlotte, NC | - | - | Market | Alta Croft | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3030+Barrow+Rd%2C+Charlotte%2C+NC) |
-| Call | ?bd | Charlotte | 523 Ridgeway Ave, Charlotte, NC | - | - | Market | Ridgeway 32 | - | [Map](https://www.google.com/maps/dir/?api=1&destination=523+Ridgeway+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 1925 Central Ave, Charlotte, NC | - | - | Market | Marvel Apartments | - | [Map](https://www.google.com/maps/dir/?api=1&destination=1925+Central+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 12015 Accent Berkeley Ct, Charlotte, NC | - | - | Market | Accent Berkeley Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=12015+Accent+Berkeley+Ct%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3017 Parkway Ave, Charlotte, NC | - | - | Market | Nu Wesley East | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3017+Parkway+Ave%2C+Charlotte%2C+NC) |
@@ -212,6 +211,7 @@ _No listings found in this category._
 | Call | ?bd | Charlotte | 124 E Kingston Ave, Charlotte, NC | - | - | Market | Kingston | - | [Map](https://www.google.com/maps/dir/?api=1&destination=124+E+Kingston+Ave%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3200 Dalecrest Dr, Charlotte, NC | - | - | Market | Tanglewood | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3200+Dalecrest+Dr%2C+Charlotte%2C+NC) |
 | Call | ?bd | Charlotte | 3214 Central Ave, Charlotte, NC | - | - | Market | Vyne on Central | - | [Map](https://www.google.com/maps/dir/?api=1&destination=3214+Central+Ave%2C+Charlotte%2C+NC) |
+| Call | ?bd | Charlotte | 2100 Woodway Hills Dr, Charlotte, NC | - | - | Market | Matthews Place | - | [Map](https://www.google.com/maps/dir/?api=1&destination=2100+Woodway+Hills+Dr%2C+Charlotte%2C+NC) |
 
 ## Other Areas (Market Rentals) (0)
 
