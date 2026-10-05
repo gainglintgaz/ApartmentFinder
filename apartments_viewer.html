@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartment Finder - Charlotte NC</title>
+<style>
+  :root {
+    --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --border: #30363d;
+    --text: #e6edf3; --text2: #8b949e; --accent: #58a6ff; --accent2: #1f6feb;
+    --green: #3fb950; --orange: #d29922; --red: #f85149; --purple: #bc8cff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); }
+
+  .header { background: var(--bg2); border-bottom: 1px solid var(--border); padding: 16px; }
+  .header h1 { font-size: 20px; color: var(--accent); }
+  .header .sub { font-size: 12px; color: var(--text2); margin-top: 4px; }
+
+  .stats { display: flex; gap: 8px; padding: 12px 16px; overflow-x: auto; }
+  .stat { background: var(--bg2); border: 1px solid var(--border); border-radius: 8px; padding: 8px 14px; text-align: center; min-width: 80px; flex-shrink: 0; }
+  .stat .n { font-size: 20px; font-weight: 700; color: var(--accent); }
+  .stat .l { font-size: 10px; color: var(--text2); text-transform: uppercase; }
+
+  .filters { padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
+  .filter-row { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-row input, .filter-row select { background: var(--bg2); color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 14px; flex: 1; min-width: 0; }
+  .filter-row input:focus, .filter-row select:focus { outline: none; border-color: var(--accent); }
+  .filter-row select { min-width: 100px; }
+  #search { flex: 2; min-width: 150px; }
+  .reset { background: var(--bg3); color: var(--text2); border: 1px solid var(--border); border-radius: 6px; padding: 8px 14px; cursor: pointer; font-size: 13px; }
+
+  .count { padding: 8px 16px; font-size: 12px; color: var(--text2); border-bottom: 1px solid var(--border); }
+
+  .fb { background: #1a2332; border-bottom: 1px solid var(--border); padding: 10px 16px; font-size: 13px; }
+  .fb a { color: var(--accent); }
+
+  /* Card layout (mobile-first) */
+  .cards { padding: 8px; }
+  .card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 8px; }
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+  .card-price { font-size: 22px; font-weight: 700; color: var(--green); white-space: nowrap; }
+  .card-price.na { color: var(--text2); font-size: 16px; }
+  .card-title { font-size: 15px; font-weight: 600; color: var(--text); }
+  .card-title a { color: var(--accent); text-decoration: none; }
+  .card-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .chip { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .chip-beds { background: #1a2a3a; color: var(--accent); }
+  .chip-city { background: #1a2a1a; color: var(--green); }
+  .chip-source { background: #2a1a2a; color: var(--purple); }
+  .chip-sub { background: #1a2a1a; color: var(--green); }
+  .chip-senior { background: #2a2a1a; color: var(--orange); }
+  .chip-s8 { background: #1a1a2a; color: var(--accent); }
+  .chip-new { background: #2a1a1a; color: var(--red); }
+  .card-addr { font-size: 12px; color: var(--text2); margin-top: 6px; }
+  .card-actions { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 4px; padding: 8px 14px; border-radius: 6px; font-size: 13px; font-weight: 600; text-decoration: none; }
+  .btn-view { background: var(--accent2); color: white; }
+  .btn-call { background: #238636; color: white; }
+  .btn-map { background: var(--bg3); color: var(--text); border: 1px solid var(--border); }
+  .btn:active { opacity: 0.8; }
+
+  /* Table layout (desktop) */
+  .table-wrap { display: none; overflow-x: auto; padding: 0 16px 16px; }
+  table { width: 100%; border-collapse: collapse; background: var(--bg2); border-radius: 8px; overflow: hidden; }
+  thead { background: var(--bg3); }
+  th { padding: 8px 10px; text-align: left; font-size: 11px; color: var(--text2); text-transform: uppercase; cursor: pointer; white-space: nowrap; border-bottom: 1px solid var(--border); user-select: none; }
+  th:hover { color: var(--accent); }
+  th.asc::after { content: ' \25B2'; font-size: 9px; }
+  th.desc::after { content: ' \25BC'; font-size: 9px; }
+  td { padding: 8px 10px; font-size: 13px; border-bottom: 1px solid var(--border); }
+  tr:hover { background: var(--bg3); }
+  .p-cell { font-weight: 700; color: var(--green); }
+  .p-na { color: var(--text2); }
+  a.tl { color: var(--accent); text-decoration: none; }
+  a.ml { color: var(--green); text-decoration: none; font-size: 12px; }
+
+  .empty { text-align: center; padding: 40px; color: var(--text2); }
+
+  @media (min-width: 900px) {
+    .cards { display: none; }
+    .table-wrap { display: block; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Apartment Finder</h1>
+  <div class="sub">Last updated: March 02, 2026 at 03:37 AM | $0-$900/mo | studio, 1, 2 bedrooms | NC</div>
+</div>
+
+<div class="fb">
+  Also check: <a href="https://www.facebook.com/marketplace/Midland-NC/propertyrentals?minPrice=0&maxPrice=900&exact=false" target="_blank">Facebook Marketplace</a>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="filters">
+  <div class="filter-row">
+    <input type="text" id="search" placeholder="Search name, city, address...">
+    <button class="reset" onclick="resetF()">Reset</button>
+  </div>
+  <div class="filter-row">
+    <select id="fSrc"><option value="">Source</option></select>
+    <select id="fType"><option value="">Type</option><option value="subsidized">Subsidized</option><option value="senior">Senior</option><option value="section8">Section 8</option><option value="market">Market</option></select>
+    <select id="fCity"><option value="">City</option></select>
+    <select id="fBeds"><option value="">Beds</option><option value="Studio">Studio</option><option value="1">1 BR</option><option value="2">2 BR</option></select>
+    <input type="number" id="fMax" placeholder="Max $" style="max-width:90px">
+  </div>
+</div>
+
+<div class="count" id="count"></div>
+
+<!-- Mobile: card layout -->
+<div class="cards" id="cards"></div>
+
+<!-- Desktop: table layout -->
+<div class="table-wrap">
+  <table>
+    <thead><tr>
+      <th data-c="price" data-t="n">Price</th>
+      <th data-c="bedrooms">Beds</th>
+      <th data-c="city">City</th>
+      <th data-c="title">Name</th>
+      <th data-c="housing_type">Type</th>
+      <th data-c="address">Address</th>
+      <th data-c="phone">Phone</th>
+      <th data-c="source">Source</th>
+      <th data-c="date_posted">Listed</th>
+      <th>Links</th>
+    </tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<div class="empty" id="empty" style="display:none">No listings match your filters.</div>
+
+<script>
+const D=[{"title": "Test Apt", "price": 750, "bedrooms": "2", "bathrooms": null, "sqft": null, "address": "123 Main St", "full_address": "123 Main St, Charlotte, NC", "city": "Charlotte", "state": "NC", "zip_code": "", "neighborhood": "", "directions_url": "https://www.google.com/maps/dir/?api=1&destination=123+Main+St%2C+Charlotte%2C+NC", "url": "", "source": "zillow", "date_posted": "", "date_scraped": "2026-03-02 03:37", "phone": "", "contact_name": "", "amenities": "", "pet_policy": "", "housing_type": "market", "location_tier": "other", "is_recent": false, "price_display": "$750"}, {"title": "Senior Living", "price": 0, "bedrooms": "1", "bathrooms": null, "sqft": null, "address": "", "full_address": "Midland, NC", "city": "Midland", "state": "NC", "zip_code": "", "neighborhood": "", "directions_url": "https://www.google.com/maps/dir/?api=1&destination=Midland%2C+NC", "url": "", "source": "rent.com", "date_posted": "", "date_scraped": "2026-03-02 03:37", "phone": "", "contact_name": "", "amenities": "", "pet_policy": "", "housing_type": "senior", "location_tier": "other", "is_recent": false, "price_display": "Income-Based"}];
+let sc='price',sa=true,F=[...D];
+
+document.addEventListener('DOMContentLoaded',()=>{
+  const srcs=[...new Set(D.map(l=>l.source).filter(Boolean))].sort();
+  const cities=[...new Set(D.map(l=>l.city).filter(Boolean))].sort();
+  srcs.forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;document.getElementById('fSrc').appendChild(o);});
+  cities.forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;document.getElementById('fCity').appendChild(o);});
+  af();
+  ['search','fSrc','fType','fCity','fBeds','fMax'].forEach(id=>{
+    document.getElementById(id).addEventListener(id==='search'||id==='fMax'?'input':'change',af);
+  });
+  document.querySelectorAll('th[data-c]').forEach(th=>{
+    th.addEventListener('click',()=>{
+      if(sc===th.dataset.c){sa=!sa;}else{sc=th.dataset.c;sa=true;}
+      document.querySelectorAll('th').forEach(t=>t.classList.remove('asc','desc'));
+      th.classList.add(sa?'asc':'desc');
+      ds();render();
+    });
+  });
+});
+
+function af(){
+  const q=document.getElementById('search').value.toLowerCase();
+  const src=document.getElementById('fSrc').value;
+  const typ=document.getElementById('fType').value;
+  const cty=document.getElementById('fCity').value;
+  const bed=document.getElementById('fBeds').value;
+  const mx=parseInt(document.getElementById('fMax').value)||null;
+  F=D.filter(l=>{
+    if(q&&!(l.title||'').toLowerCase().includes(q)&&!(l.address||'').toLowerCase().includes(q)&&!(l.city||'').toLowerCase().includes(q)&&!(l.full_address||'').toLowerCase().includes(q)&&!(l.neighborhood||'').toLowerCase().includes(q))return false;
+    if(src&&l.source!==src)return false;
+    if(typ&&l.housing_type!==typ)return false;
+    if(cty&&l.city!==cty)return false;
+    if(bed){const b=(l.bedrooms||'').toLowerCase();if(bed==='Studio'&&b!=='studio'&&b!=='0')return false;if(bed!=='Studio'&&b!==bed)return false;}
+    if(mx&&l.price!==null&&l.price>mx)return false;
+    return true;
+  });
+  ds();render();
+}
+
+function ds(){
+  F.sort((a,b)=>{
+    let va=a[sc],vb=b[sc];
+    if(sc==='price'){va=va===null?99999:va;vb=vb===null?99999:vb;return sa?va-vb:vb-va;}
+    va=(va||'').toString().toLowerCase();vb=(vb||'').toString().toLowerCase();
+    return sa?va.localeCompare(vb):vb.localeCompare(va);
+  });
+}
+
+function e(s){const d=document.createElement('div');d.textContent=s||'';return d.innerHTML;}
+function fp(l){if(l.price===null||l.price===undefined)return null;if(l.price===0&&['subsidized','senior','section8'].includes(l.housing_type))return'Income-Based';return'$'+l.price.toLocaleString();}
+function tt(t){return{subsidized:'Subsidized',senior:'Senior',section8:'Section 8',market:'Market'}[t]||'Market';}
+
+function render(){
+  const tot=F.length,wp=F.filter(l=>l.price!==null).length;
+  const sub=F.filter(l=>['subsidized','senior','section8'].includes(l.housing_type)).length;
+  const nsrc=new Set(F.map(l=>l.source)).size;
+  const ncty=new Set(F.map(l=>l.city).filter(Boolean)).size;
+  document.getElementById('stats').innerHTML=`
+    <div class="stat"><div class="n">${tot}</div><div class="l">Total</div></div>
+    <div class="stat"><div class="n">${wp}</div><div class="l">Priced</div></div>
+    <div class="stat"><div class="n">${sub}</div><div class="l">Subsidized</div></div>
+    <div class="stat"><div class="n">${nsrc}</div><div class="l">Sources</div></div>
+    <div class="stat"><div class="n">${ncty}</div><div class="l">Cities</div></div>`;
+  document.getElementById('count').textContent=`Showing ${tot} of ${D.length} listings`;
+  document.getElementById('empty').style.display=tot?'none':'block';
+
+  // Cards (mobile)
+  document.getElementById('cards').innerHTML=F.map(l=>{
+    const p=fp(l);const pclass=p?'':'na';const ptext=p||'N/A - Check Listing';
+    const beds=l.bedrooms||'?';const baths=l.bathrooms?`/${l.bathrooms}ba`:'';
+    const tChip=l.housing_type!=='market'?`<span class="chip chip-${l.housing_type==='section8'?'s8':l.housing_type}">${tt(l.housing_type)}</span>`:'';
+    const newChip=l.is_recent?'<span class="chip chip-new">NEW</span>':'';
+    const actions=[];
+    if(l.url)actions.push(`<a class="btn btn-view" href="${e(l.url)}" target="_blank">View Listing</a>`);
+    if(l.phone){const digits=l.phone.replace(/[^0-9]/g,'');actions.push(`<a class="btn btn-call" href="tel:${digits}">Call ${e(l.phone)}</a>`);}
+    if(l.directions_url)actions.push(`<a class="btn btn-map" href="${e(l.directions_url)}" target="_blank">Directions</a>`);
+    return`<div class="card">
+      <div class="card-top"><div class="card-title">${l.url?`<a href="${e(l.url)}" target="_blank">${e(l.title)}</a>`:e(l.title)}</div><div class="card-price ${pclass}">${ptext}</div></div>
+      <div class="card-meta"><span class="chip chip-beds">${e(beds)}bd${baths}</span><span class="chip chip-city">${e(l.city||'?')}</span><span class="chip chip-source">${e(l.source)}</span>${tChip}${newChip}</div>
+      ${l.address||l.full_address?`<div class="card-addr">${e(l.address||l.full_address)}</div>`:''}
+      ${l.date_posted?`<div class="card-addr">Listed: ${e(l.date_posted)}</div>`:''}
+      <div class="card-actions">${actions.join('')}</div>
+    </div>`;
+  }).join('');
+
+  // Table (desktop)
+  document.getElementById('tbody').innerHTML=F.map(l=>{
+    const p=fp(l);
+    const beds=l.bedrooms||'?';const baths=l.bathrooms?`/${l.bathrooms}ba`:'';
+    const newT=l.is_recent?' <span class="chip chip-new">NEW</span>':'';
+    const phone=l.phone?`<a style="color:var(--text)" href="tel:${l.phone.replace(/[^0-9]/g,'')}">${e(l.phone)}</a>`:'-';
+    const links=[];
+    if(l.url)links.push(`<a class="tl" href="${e(l.url)}" target="_blank">View</a>`);
+    if(l.directions_url)links.push(`<a class="ml" href="${e(l.directions_url)}" target="_blank">Map</a>`);
+    return`<tr>
+      <td class="${p?'p-cell':'p-na'}">${p||'N/A'}${newT}</td>
+      <td>${e(beds)}${baths}</td><td>${e(l.city)}</td>
+      <td>${l.url?`<a class="tl" href="${e(l.url)}" target="_blank">${e(l.title)}</a>`:e(l.title)}</td>
+      <td>${tt(l.housing_type)}</td><td>${e(l.address||l.full_address||'')}</td>
+      <td>${phone}</td><td>${e(l.source)}</td><td>${e(l.date_posted||'-')}</td>
+      <td>${links.join(' ')}</td></tr>`;
+  }).join('');
+}
+
+function resetF(){
+  ['search','fSrc','fType','fCity','fBeds','fMax'].forEach(id=>document.getElementById(id).value='');
+  af();
+}
+</script>
+</body>
+</html>

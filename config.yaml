@@ -1,0 +1,171 @@
+# ============================================================
+# ApartmentFinder — Senior & Affordable Housing Search
+# ============================================================
+# Configured for: 64-year-old woman, $1,300/mo pension
+# Location: Charlotte NC / Midland / East Charlotte area
+# ============================================================
+
+resident:
+  name: "Mom"
+  age: 64
+  monthly_income: 1300
+  is_senior: true            # 62+ qualifies for most senior housing programs
+  notes: "Lives on pension only. Needs room for sleeper sofa in living room."
+
+search:
+  # Budget
+  min_rent: 0
+  max_rent: 900
+
+  # Bedrooms — studio through 2BR (must have living room space for sleeper sofa)
+  bedrooms:
+    - studio
+    - 1
+    - 2
+
+  # Primary search city — scrapers search this city + 30 mile radius
+  # (covers Midland, Mint Hill, Indian Trail, Matthews, Monroe, etc.)
+  city: "Charlotte"
+
+  # State restriction
+  state: "NC"
+  restrict_to_state: true
+
+  # Listing age limits (days)
+  max_age_subsidized_days: 90    # Government/subsidized: keep much longer
+  max_age_market_days: 7         # Regular rentals: up to 1 week
+  highlight_recent_hours: 48     # Flag listings posted in last 48 hours
+
+# ============================================================
+# LOCATION TIERS — searched in priority order
+# ============================================================
+# Tier 1 (preferred): Midland and East Charlotte
+# Tier 2 (expanded):  Rest of Charlotte + 30-min radius
+# ============================================================
+locations:
+  preferred:
+    label: "Midland & East Charlotte"
+    areas:
+      - "Midland"
+      - "Mint Hill"
+      - "Harrisburg"
+      - "Concord"
+      - "Albemarle"
+      - "Locust"
+      - "Stanfield"
+      - "Oakboro"
+      - "Indian Trail"
+      - "Stallings"
+      - "Matthews"
+      - "Monroe"
+    zip_codes:
+      - "28107"   # Midland
+      - "28227"   # East Charlotte / Mint Hill area
+      - "28105"   # Matthews
+      - "28079"   # Indian Trail
+      - "28075"   # Harrisburg
+      - "28104"   # Stallings / Matthews
+      - "28110"   # Monroe
+      - "28112"   # Monroe
+      - "28025"   # Concord
+      - "28027"   # Concord
+      - "28213"   # East Charlotte (University area)
+      - "28212"   # East Charlotte
+      - "28215"   # East Charlotte
+
+  expanded:
+    label: "Greater Charlotte (30 min)"
+    areas:
+      - "Charlotte"
+      - "Huntersville"
+      - "Cornelius"
+      - "Davidson"
+      - "Pineville"
+      - "Gastonia"
+      - "Kannapolis"
+      - "Mooresville"
+      - "Waxhaw"
+      - "Belmont"
+      - "Mount Holly"
+
+# ============================================================
+# SOURCES — Priority 1 runs first, then Priority 2
+# ============================================================
+sources:
+  # --- PRIORITY 1: Government / Subsidized / Senior Housing ---
+  socialserve:
+    enabled: true
+    priority: 1
+    description: "NC Housing Search (SocialServe) — official affordable housing locator"
+
+  hud:
+    enabled: true
+    priority: 1
+    description: "HUD affordable apartment directory"
+
+  affordablehousing:
+    enabled: true
+    priority: 1
+    description: "AffordableHousing.com — subsidized & income-based listings"
+
+  gosection8:
+    enabled: true
+    priority: 1
+    description: "GoSection8.com — Section 8 / voucher-accepted listings"
+
+  # --- PRIORITY 2: Regular Market Rentals ---
+  apartments_com:
+    enabled: true
+    priority: 2
+    description: "Apartments.com"
+
+  craigslist:
+    enabled: true
+    priority: 2
+    description: "Craigslist Charlotte"
+
+  zillow:
+    enabled: true
+    priority: 2
+    description: "Zillow Rentals"
+
+  rent_com:
+    enabled: true
+    priority: 2
+    description: "Rent.com"
+
+# Output settings
+output:
+  directory: "output"
+  csv: true
+  json: true
+  timestamp_filenames: true
+
+# ============================================================
+# MONITOR — check for new listings and alert you
+# ============================================================
+monitor:
+  enabled: true
+  check_interval_minutes: 60
+  # File that tracks listings already seen (prevents repeat alerts)
+  seen_db: "output/seen_listings.json"
+  # "console" prints to terminal, "email" sends email, "both" does both
+  notify_method: "console"
+  # Fill in to enable email alerts
+  email:
+    smtp_server: ""
+    smtp_port: 587
+    sender: ""
+    password: ""
+    recipient: ""
+
+# Scraping behavior
+scraping:
+  rate_limit_seconds: 2
+  request_timeout: 30
+  max_pages_per_source: 5
+  user_agents:
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
